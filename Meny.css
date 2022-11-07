@@ -27,3 +27,18 @@ nav li ul{
         text-decoration: underline;
     }
 /*---------------------------------------*/
+
+body{
+    background: url("/Bilder/hovedbilde1.jpeg");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-blend-mode: multiply;
+}
+
+.menyen{
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+}
