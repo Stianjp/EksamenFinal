@@ -41,8 +41,7 @@ nav li ul{
     align-items:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.8fr 0.8fr;   
+    grid-template-columns: 1fr 1fr;  
 }
 .reserver{
     display: flex;

@@ -26,8 +26,11 @@ nav li ul{
         padding: 5px;
         font-size: 25px;
     }
-    #navbar{
+    #navbar1{
     background: rgba(0, 0, 0, 0.571);
+    padding: 5%;
+    text-align: center;
+    
     }
     .aktiv{
         text-decoration: underline;
@@ -35,13 +38,16 @@ nav li ul{
 /*---------------------------------------*/
 
 body{
-    background: url("/Bilder/hovedbilde1.jpeg");
+    background:  url("/Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
 }
 
 .Tekstboks1{
+    position: absolute;
+    top: 8 px;
+    left: 16px;
     color: white;
     font-style:normal;
     border-style:solid;
@@ -49,21 +55,21 @@ body{
     font-size: 20px;
     padding: 10px;
     max-width: 300px;
-    display: block;
     background-color: rgba(0, 0, 0, 0.504);
 }
 
 .Tekstboks2{
-    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
     max-width: 300px;
+    color: white;
     font-style:normal;
     border-style:solid;
     line-height: 25px;
     font-size: 20px;
     padding: 10px; 
-    display: block;
     background-color: rgba(0, 0, 0, 0.516);
-    
 }
 
 u{
@@ -73,21 +79,49 @@ u{
 
 .Tekstboks3{
     position: absolute;
-    top: 200px;
-    right: 10px;
+    top: 8 px;
+    right: 16px;
     color: white;
-    text-align: right;
     font-style:normal;
     border-style:solid;
+    text-align: right;
     line-height: 30px;
     font-size: 20px;
+    padding: 10px;
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+.Tekstboks4{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    max-width: 300px;
+    color: white;
+    font-style:normal;
+    border-style:solid;
+    line-height: 25px;
+    font-size: 20px;
     padding: 10px; 
-    display: block;
-    float: right;
-    background-color: rgba(0, 0, 0, 0.559);
+    background-color: rgba(0, 0, 0, 0.516);
 }
 
 .kursiv{
     font-style: italic;
     font-size: 15px;
+}
+
+.LogoMidten{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: black(0, 0, 0, 0.516);
+    position: absolute;
+    bottom: 0px;
 }
