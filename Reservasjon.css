@@ -4,7 +4,7 @@
     text-decoration: none; 
 }
 
-/*NAVBAR start*/
+/*NAVBAREN*/
 nav li ul{
     display: inline;
     float: left;
@@ -12,13 +12,19 @@ nav li ul{
     }
     a{
         display: block;
-        color: black;
+        color: white;
     }
     
     li{
         display: inline-block;
         padding: 5px;
-        font-size: 20px;
+        font-size: 25px;
+    }
+    #navbar{
+    background: rgba(0, 0, 0, 0.571);
+    }
+    .aktiv{
+        text-decoration: underline;
     }
 /*NAVBAR slutt*/
 
