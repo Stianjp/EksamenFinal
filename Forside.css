@@ -1,7 +1,7 @@
 *{
     padding: 0;
-    margin: 0;
-    text-decoration: none;    
+    margin: 0; 
+    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
@@ -12,21 +12,27 @@ nav li ul{
     display: inline;
     float: left;
     text-decoration: none;
+    background: none;
     }
     a{
         display: block;
-        color: black;
+        color: white;
     }
     
     li{
         display: inline-block;
         padding: 5px;
-        font-size: 20px;
+        font-size: 25px;
     }
 /*---------------------------------------*/
 
-.body{
-    background: url("/Bilder/Bakgrunnsbilde1.jpeg");
+body{
+    background: url("/Bilder/Hovedbilde.webp");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-blend-mode: multiply;
 }
 
-
+.test{
+    padding: 500px;
+}
