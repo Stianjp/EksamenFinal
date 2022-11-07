@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0; 
+    text-decoration: none;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*NAVBAREN*/
+nav li ul{
+    display: inline;
+    float: left;
+    text-decoration: none;
+    }
+    a{
+        display: block;
+        color: white;
+    }
+    
+    li{
+        display: inline-block;
+        padding: 5px;
+        font-size: 25px;
+    }
+    #navbar{
+    background: rgba(0, 0, 0, 0.571);
+    }
+    .aktiv{
+        text-decoration: underline;
+    }
+/*---------------------------------------*/
+
+body{
+    background: url("/Bilder/hovedbilde1.jpeg");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-blend-mode: multiply;
+}
+
+.Tekstboks1{
+    color: white;
+    font-style:normal;
+    border-style:solid;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    max-width: 300px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+.Tekstboks2{
+    color: white;
+    max-width: 300px;
+    font-style:normal;
+    border-style:solid;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px; 
+    display: block;
+    background-color: rgba(0, 0, 0, 0.516);
+    
+}
+
+u{
+    text-decoration: underline;
+    color: white;
+}
+
+.Tekstboks3{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    color: white;
+    text-align: right;
+    font-style:normal;
+    border-style:solid;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px; 
+    display: block;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.559);
+}
+
+.kursiv{
+    font-style: italic;
+    font-size: 15px;
+}

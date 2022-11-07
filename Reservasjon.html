@@ -7,7 +7,96 @@
     <link rel="stylesheet" href="Reservasjon.css">
     <title>Reservasjon</title>
 </head>
+<!--Navbar START -->
+<header>
+    <nav>
+        <ul class="navbar" id="navbar">
+            <li class="LogoToppen"> <a href="./Forside.html" class="logo"> <img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle"></a></li>
+            <li class="nav-menyen">
+                <ul>
+                    <li><a href="./Forside.html">HJEM</a></li>
+                    <li><a href="./Meny.html">MENY</a></li>
+                    <li><a class="aktiv"  href="./Reservasjon.html">RESERVASJON</a></li>
+                    <li><a href="./Tilgjengelighetsside.html">TILGJENGELIGHET</a></li>
+                    <li><a href="./DATA1100.html">DATA1100</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+<!--Navbar SLUTT -->
 <body>
+    <div class="booking">
+        <p>
+            <strong>Velkommen til Mon Oncle!</strong> 
+            <br>
+            I april 2022 kunne vi endelig ønske velkommen til mesterkokk Esben Holmboe Bang`s nyeste påfunn 
+            her i Oslo. 
+            Vi er stolte av å kunne ta dere med på en tradisjonell 
+            fransk og klassisk kulinarisk reise med nye spennede twister.
+            For grupper større enn 8 personer, ber vi at du tar kontakt med oss på booking@mononcle.no.
+            <br>
+            <br>
+            <i>"Landets beste franske restaurant" - Godt, 2022</i>
+            <br>
+            <i>"Fantastisk mye god mat i stilfullt lokale" - Aftenposten, 2022</i>
+            <br>
+            <i>"Mon Oncle er så klassisk at det føles helt nytt" - DN, 2022</i>
+            <br>
+        </p>
+
+        <div class="reserver">
+        <h2>Booking</h2>
+        <form>
+            <div class="form"> 
+                <input type="text" placeholder="Fullt navn">
+                <input type="number" placeholder="Telefonnummer">
+                <input type="text" placeholder="Mailadresse - eksempel@mail.com">
+                <input type="date" id= "dato" name= "dato" min="2022-11-01">
+                <select name="tid"> <option value="velgTid">Tidspunkt</option>
+                    <option value="17">17:00</option>
+                    <option value="1730">17:30</option>
+                    <option value="18">18:00</option>
+                    <option value="1830">18:30</option>
+                    <option value="19">19:00</option>
+                    <option value="1930">19:30</option>
+                    <option value="20">20:00</option>
+                    <option value="2030">20:30</option>
+                    <option value="21">21:00</option>
+                </select> 
+                <input type="number" placeholder="Antall personer">
+                <input id="" type="kommentar" placeholder="Kommentar:" >
+                <input id="submit" type="submit" value="RESERVER BORD!">
+            </div>   
+        </form>
+    </div>
+</div>
+
+    <div id="nede">
+    <iframe id="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9092301371957!2d10.
+    736714951086052!3d59.91705377071345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f77878ea417%3A0x5059590bb73b777f!2sMon%
+    20Oncle!5e0!3m2!1sno!2sno!4v1667210784847!5m2!1sno!2sno"width="400" height="300" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
+    <p><strong>Adresse:</strong>
+        <br>
+        Universitetsgata 9
+        <br>
+        0164, Oslo
+        <br>
+        booking@mononcle.no
+        <br>
+        +47 238 98 631
+        <br>
+        Åpent:
+        <br>
+        Tirsdag-Lørdag
+        <br>
+        17-23
+    </p>
+    </div>
+
+</section>
+</body>
+</html>
 </body>
 </html>
