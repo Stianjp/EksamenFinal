@@ -4,7 +4,7 @@
     text-decoration: none; 
 }
 
-/*NAVBAREN*/
+/*NAVBAR start*/
 nav li ul{
     display: inline;
     float: left;
@@ -20,4 +20,45 @@ nav li ul{
         padding: 5px;
         font-size: 20px;
     }
-/*---------------------------------------*/
+/*NAVBAR slutt*/
+
+.booking {
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    align-items:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.8fr;   
+}
+.reserver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+
+form select, form input{
+    width: 70%;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#submit{
+    color: black;
+}
+
+#kart{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 70%;
+    justify-items: center;
+    align-items: center;
+}
