@@ -4,21 +4,19 @@
     text-decoration: none;
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+    box-sizing: border-box; 
+    
 }
 html{
     scroll-behavior: smooth;
 }
 
 /*NAVBAREN*/
-nav li ul{
+.navbar nav li ul{
     display: inline;
     float: left;
     text-decoration: none;
-    }
-    a{
-        display: block;
-        color: white;
+    color: white;
     }
     
     li{
@@ -26,12 +24,40 @@ nav li ul{
         padding: 5px;
         font-size: 25px;
     }
-    #navbar1{
-    background: rgba(0, 0, 0, 0.571);
-    padding: 5%;
-    text-align: center;
-    
+
+    a{
+        color: white;
     }
+
+    .navbar .language{
+    color: white;
+    white-space: nowrap; /* Prevents linebreak */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    list-style: none;
+    align-self: flex-start; /* Aligns language switch higher than the other flex items */ 
+    margin-top: 35px;
+    right:  15px;
+    text-decoration: none;
+    }
+
+    ul{
+        padding: 20px;
+        text-align: center;
+    }
+
+.language{
+   float: right;
+   margin-top: 10px;
+    
+}
+    #navbar .language{
+    background: rgba(0, 0, 0, 0.571);
+    
+    color: white;
+    }
+
     .aktiv{
         text-decoration: underline;
     }
@@ -116,12 +142,10 @@ u{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;  
 }
 
-.footer{
-    padding: 20px;
-    color: white;
-    background-color: black(0, 0, 0, 0.516);
-    position: absolute;
-    bottom: 0px;
-}
+
+
+
