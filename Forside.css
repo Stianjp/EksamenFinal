@@ -33,6 +33,17 @@ body{
     background-blend-mode: multiply;
 }
 
-.test{
-    padding: 500px;
+.Tekstboks1{
+    color: white;
+    display: inline;
+    font-style: italic;
+    border-style:solid;
+    float: left;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+}
+u{
+    text-decoration: underline;
+    color: white;
 }
