@@ -3,10 +3,6 @@
     padding: 0;
     margin: 0; 
     text-decoration: none;
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box; 
-    
 }
 html{
     scroll-behavior: smooth;
@@ -24,7 +20,6 @@ NAVBAREN START*/
 li{
     display: inline-block;
     padding: 5px;
-    font-size: 25px;
     }
 
 a{
@@ -32,30 +27,26 @@ a{
     }
 
 .navbar .language{
-    color: white;
     white-space: nowrap; /* forhindrer linebrake */
     padding-right: 1rem;
     padding-left: 1rem;
-    font-size: 20px;
     list-style: none;
     align-self: flex-start; /* Aligns language switch higher than the other flex items */ 
-    margin-top: 35px;
     right:  15px;
     text-decoration: none;
+    margin-top: 5px;
     }
 
 ul{
     padding: 20px;
     text-align: center;
+    font-size: 20px;
     }
 
 .language{
-   float: right;
-   margin-top: 10px;
-    
+float: right;
 }
 #navbar .language{
-    background: rgba(0, 0, 0, 0.571);
     color: white;
     }
 /*For å få underline på den aktive siden*/
@@ -71,97 +62,87 @@ NAVBAR SLUTT
 ---------------------------------------*/
 /*Bakgrunnsbilde*/
 body{
-    background:  url("Bilder/hovedbilde1.jpeg");
+    background:  url("Bilder/Bakgrunn\ velkomstsside.jpg");
     background-repeat: no-repeat; 
     background-size: 100%;
-    background-blend-mode: multiply;
+  
 }
 /*Alle tekstboksene for å få plassert de i hvert hjørne*/
-.Tekstboks1{
-    position: absolute;
-    top: 8 px;
-    left: 16px;
-    color: white;
-    font-style:normal;
-    border-style:solid;
-    line-height: 25px;
-    font-size: 20px;
-    padding: 10px;
-    max-width: 300px;
-    background-color: rgba(0, 0, 0, 0.504);
-}
-
-.Tekstboks2{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    max-width: 300px;
-    color: white;
-    font-style:normal;
-    border-style:solid;
-    line-height: 25px;
-    font-size: 20px;
-    padding: 10px; 
-    background-color: rgba(0, 0, 0, 0.516);
-}
 
 u{
     text-decoration: underline;
     color: white;
 }
 
-.Tekstboks3{
-    position: absolute;
-    top: 8 px;
-    right: 16px;
-    color: white;
-    font-style:normal;
-    border-style:solid;
-    text-align: right;
-    line-height: 30px;
-    font-size: 20px;
-    padding: 10px;
-    max-width: 300px;
-    background-color: rgba(0, 0, 0, 0.504);
-}
-
-.Tekstboks4{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    max-width: 300px;
-    color: white;
-    font-style:normal;
-    border-style:solid;
-    line-height: 25px;
-    font-size: 20px;
-    padding: 10px; 
-    background-color: rgba(0, 0, 0, 0.516);
-}
 
 .kursiv{
     font-style: italic;
     font-size: 15px;
 }
 
-.LogoMidten{
+/*.LogoMidt1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
     height: auto;  
+}*/
+
+.Tekstbokser{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-rows: 6fr 2fr;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.559);
+    font-size: 25px;
 }
 
 /*For responsiv nettside*/
 
-@media screen and (max-width: 915px) {
+@media only screen and (max-width: 1005px) {
     .nav-menu{
     padding: 0%;
-    font-size: 20px;
+    font-size: 15px;
     }
-    .Tekstboks1 .Tekstboks2 .Tekstboks3 .Tekstboks4{
-        position: relative;
-        left: 5px;
+    .Tekstboks1, .Tekstboks2, .Tekstboks3, .Tekstboks4{
+        position: absolute;
+        line-height: 20px;
+        font-size: 15px;
     }
+    .navbar, .language, ul{
+        font-size: 15px;
+    }
+    #navbar{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .Tekstboks1, .Tekstboks2, .Tekstboks3, .Tekstboks4{
+        position: absolute;
+        line-height: 20px;
+        font-size: 10px;
+        padding: 1px;
+    }
+
+}
+/*Fjerner Mon Oncle Logo fra midt på siden til å komme tilbak til navbaren*/
+@media only screen and (max-width: 750px){
+.logoHovedside{
+    display: none;
+    visibility: hidden;
+    }  
+}
+
+@media only screen and (max-width:640px) {
+.Tekstboks1, .Tekstboks2, .Tekstboks3, .Tekstboks4 {
+  
+   display: block;
+   text-transform: uppercase;
+   text-align: center;
+   align-items: center;
+
+}
 }
