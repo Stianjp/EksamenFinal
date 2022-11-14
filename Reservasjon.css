@@ -33,6 +33,9 @@ nav li ul{
     .aktiv{
         text-decoration: underline;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 /*NAVBAR slutt*/
 
 .booking {

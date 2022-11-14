@@ -26,10 +26,13 @@ nav li ul{
     .aktiv{
         text-decoration: underline;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 /*---------------------------------------*/
 
 body{
-    background: url("/Bilder/hovedbilde1.jpeg");
+    background: url("Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
