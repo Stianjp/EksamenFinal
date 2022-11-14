@@ -25,7 +25,6 @@ nav li ul{
     .aktiv{
         text-decoration: underline;
     }
-<<<<<<< HEAD
 /*---------------------------------------*/
 
 
@@ -57,12 +56,6 @@ body{
 #videostr{
 
     height: 300px;
-    width: 100%
+    width: 100%;
 }
 
-=======
-    a:hover{
-        text-decoration: underline;
-    }
-/*---------------------------------------*/
->>>>>>> 0b5cf8f399598f9b05e9a3fac07e807a67ca8a2e
