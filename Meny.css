@@ -20,9 +20,8 @@ nav li ul{
         padding: 5px;
         font-size: 25px;
     }
-    #navbar{
-    background: rgba(0, 0, 0, 0.571);
-    }
+    #navbar
+    
     .aktiv{
         text-decoration: underline;
     }
@@ -31,7 +30,13 @@ nav li ul{
     }
 /*---------------------------------------*/
 
-HEAD
+
+body{
+    background:  url("Bilder/hovedbilde1.jpeg");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-blend-mode: multiply;
+}
 
 
 .wrapper{
@@ -40,8 +45,9 @@ HEAD
     flex-flow:row wrap;
     text-align: center;
     color: white;
-    background-color: pink;
+
 }
+
     
 
 
@@ -50,31 +56,38 @@ HEAD
     margin:10px;
     flex: 1 100%;
     border-radius: 10px;
+   
 }
 
 .header{
-    background: black;
+    
     height: 120px;
 }
 
 .footer{
-    background: black ;
+   
     height: 80px;
 }
 
 .main{
     text-align: left;
-    background: black;
     height: 500px;
     font-size: 24px;
 }
 
 .aside1{
-background: black;
+background-image: url(Bilder/pexels-photo-2403391.jpg);
+background-size: 100%;
+
+
+
+
 }
 
 .aside2{
-    background:black;
+background-image: url(Bilder/Bakgrunn1.jpg);
+background-size: 100%;
+
 }
 
 @media all and (min-width:800px){
@@ -85,10 +98,12 @@ background: black;
 
 .aside1{
     order: 1;
+   
 }
 
 .aside2{
-    order: 2;
+    order: 2.5;
+    
 }
 
 .main{

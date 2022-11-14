@@ -32,7 +32,6 @@ a{
     }
 
 .navbar .language{
-    color: white;
     white-space: nowrap; /* forhindrer linebrake */
     padding-right: 1rem;
     padding-left: 1rem;
@@ -43,6 +42,9 @@ a{
     right:  15px;
     text-decoration: none;
     }
+.LogoToppen{
+    padding: 0%;
+}
 
 ul{
     padding: 20px;
