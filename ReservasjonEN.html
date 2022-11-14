@@ -19,11 +19,12 @@
                     <li><a class="aktiv"  href="./Reservasjon.html">RESERVATION</a></li>
                     <li><a href="./Tilgjengelighetsside.html">ACCESSIBILITY</a></li>
                     <li><a href="./DATA1100.html">DATA1100</a></li>
+                     <!-- Links: for changing the languge to English or Norwegian -->
+                    <div class="language"><p> 
+                        <a href="./ReservasjonEN.html">EN</a> | <a href="./Reservasjon.html">NO</a></p>
+                    </div>
                 </ul>
             </li>
-         <!-- Links: for changing the languge to English or Norwegian -->
-         <div class="language"><p> <a href="./ReservasjonEN.html">EN</a> | <a href="./Reservasjon.html">NO</a></p></div>    
-        </ul>
     </nav>
 </header>
 <!--Navbar SLUTT -->
@@ -82,7 +83,6 @@
         <input type="radio" name="sirkel-knapp" id="sirkel2">
         <input type="radio" name="sirkel-knapp" id="sirkel3">
         <input type="radio" name="sirkel-knapp" id="sirkel4">
-        <input type="radio" name="sirkel-knapp" id="sirkel5">
         <!--Knapper for å endre bilde SLUTT-->
         <!--Bildeslides START-->
         <div class="slide forst">
@@ -97,19 +97,8 @@
         <div class="slide">
             <img src="Bilder/bilde5.jpeg" alt="Hva er på bilde?">
         </div>
-        <div class="slide">
-            <img src="bilder/fjell5.jpeg" alt="Hva er på bilde?">
-        </div>
         <!--Bildeslides SLUTT-->
-        <!--automatisk navigasjon START-->
-        <div class="navigasjon-auto">
-            <div class="auto-knapp1"></div>
-            <div class="auto-knapp2"></div>
-            <div class="auto-knapp3"></div>
-            <div class="auto-knapp4"></div>
-            <div class="auto-knapp5"></div>
-        </div>
-        <!--automatisk navigasjon SLUTT-->
+    
     </div>
     <!--Manuell navigasjon START-->
     <div class="navigasjon-manuell">
@@ -122,18 +111,6 @@
     <!--Manuell navigasjon SLUTT-->
 </div>
 </section>
-<!--javascript START-->
-<script type="text/javascript">
-    var counter=1;
-    setInterval(function(){
-        document.getElementById('sirkel'+counter).checked = true;
-        counter ++;
-        if (counter >5){
-            counter = 1; 
-        }
-    },5000);
-</script>
-<!--javascript SLUTT-->
 <!--BILDE-SLIDESHOW SLUTT-->
 
     <div id="nede">
