@@ -28,57 +28,73 @@ nav li ul{
     }
 /*---------------------------------------*/
 
-body{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background-image:url(Bilder/MenyBakgrunn.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    
 
 
-
-   
+.wrapper{
+    display: flex;
+    flex-flow:row wrap;
+    text-align: center;
+    color: white;
+    background-color: pink;
 }
 
-.menyen{
-    text-align: justify;
-    width: 30%;
-    margin: 55%;
-    margin-top: 40px;
-    color: white;
-    border: 5px solid white;
-    padding: 3%;
- 
-    
-}
-.menyen2{
-    text-align: justify;
-    width: 30%;
-    margin: 55%;
-
-    color: white;
-    border: 5px solid white;
-    padding: 3%;
-
- 
-    
+.wrapper>*{
+    padding: 10px;
+    margin:10px;
+    flex: 1 100%;
+    border-radius: 10px;
 }
 
-.menyen3{
-    text-align:justify;
-    width: 30%;
-    margin: 55%;
+.header{
+    background: black;
+    height: 120px;
+}
 
-    color: white;
-    border: 5px solid white;
-    padding: 3%;
+.footer{
+    background: black ;
+    height: 80px;
+}
 
- 
-    
+.main{
+    text-align: left;
+    background: black;
+    height: 500px;
+    font-size: 24px;
+}
+
+.aside1{
+background: black;
+background-image: ;
+}
+
+.aside2{
+    background:black;
+}
+
+@media all and (min-width:800px){
+    .main{
+        flex: 3;
+    }
+}
+
+.aside1{
+    order: 1;
+}
+
+.aside2{
+    order: 2;
+}
+
+.main{
+    order: 2;
+}
+
+.footer{
+order: 4;
+}
+
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
 }

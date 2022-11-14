@@ -1,3 +1,4 @@
+/*Universal for alt*/
 *{
     padding: 0;
     margin: 0; 
@@ -11,7 +12,8 @@ html{
     scroll-behavior: smooth;
 }
 
-/*NAVBAREN*/
+/*----------------------------------
+NAVBAREN START*/
 .navbar nav li ul{
     display: inline;
     float: left;
@@ -19,19 +21,19 @@ html{
     color: white;
     }
     
-    li{
-        display: inline-block;
-        padding: 5px;
-        font-size: 25px;
+li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
     }
 
-    a{
-        color: white;
-    }
-
-    .navbar .language{
+a{
     color: white;
-    white-space: nowrap; /* Prevents linebreak */
+    }
+
+.navbar .language{
+    color: white;
+    white-space: nowrap; /* forhindrer linebrake */
     padding-right: 1rem;
     padding-left: 1rem;
     font-size: 20px;
@@ -42,9 +44,9 @@ html{
     text-decoration: none;
     }
 
-    ul{
-        padding: 20px;
-        text-align: center;
+ul{
+    padding: 20px;
+    text-align: center;
     }
 
 .language{
@@ -52,24 +54,29 @@ html{
    margin-top: 10px;
     
 }
-    #navbar .language{
+#navbar .language{
     background: rgba(0, 0, 0, 0.571);
-    
     color: white;
     }
-
+/*For å få underline på den aktive siden*/
     .aktiv{
         text-decoration: underline;
     }
-/*---------------------------------------*/
-
+/*For å få underline når man hovrer over*/
+    a:hover{
+        text-decoration: underline; 
+    }
+/*
+NAVBAR SLUTT
+---------------------------------------*/
+/*Bakgrunnsbilde*/
 body{
     background:  url("/Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
 }
-
+/*Alle tekstboksene for å få plassert de i hvert hjørne*/
 .Tekstboks1{
     position: absolute;
     top: 8 px;
