@@ -153,6 +153,18 @@ u{
     height: auto;  
 }
 
+/*For responsiv nettside*/
 
+@media screen(max-width: 915px){
+    .nav-menu li{
+    padding: 0%;
+    font-size: 20px;
+    }
+    .Tekstboks1 .Tekstboks2 .Tekstboks3 .Tekstboks4{
+        position: relative;
+        left: 5px;
+    }
+}
+@media
 
 
