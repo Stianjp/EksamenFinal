@@ -29,16 +29,56 @@ nav li ul{
 /*---------------------------------------*/
 
 body{
-    background: url("/Bilder/hovedbilde1.jpeg");
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    background-blend-mode: multiply;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image:url(Bilder/MenyBakgrunn.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+
+
+
+   
 }
 
 .menyen{
-    text-align: center;
-    background-color: white;
-    width: 25%;
-    margin: auto;
+    text-align: justify;
+    width: 30%;
+    margin: 55%;
     margin-top: 40px;
+    color: white;
+    border: 5px solid white;
+    padding: 3%;
+ 
+    
+}
+.menyen2{
+    text-align: justify;
+    width: 30%;
+    margin: 55%;
+
+    color: white;
+    border: 5px solid white;
+    padding: 3%;
+
+ 
+    
+}
+
+.menyen3{
+    text-align:justify;
+    width: 30%;
+    margin: 55%;
+
+    color: white;
+    border: 5px solid white;
+    padding: 3%;
+
+ 
+    
 }
