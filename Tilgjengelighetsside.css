@@ -5,28 +5,69 @@
 }
 
 /*NAVBAREN*/
-nav li ul{
+.navbar nav li ul{
     display: inline;
     float: left;
     text-decoration: none;
-    }
-    a{
-        display: block;
-        color: white;
+    color: white;
     }
     
-    li{
-        display: inline-block;
-        padding: 5px;
-        font-size: 25px;
+li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
     }
-    #navbar{
-    background: rgba(0, 0, 0, 0.571);
+
+a{
+    color: white;
     }
+
+.navbar .language{
+    white-space: nowrap; /* forhindrer linebrake */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    list-style: none;
+    align-self: flex-start; /* Aligns language switch higher than the other flex items */ 
+    margin-top: 35px;
+    right:  15px;
+    text-decoration: none;
+    }
+.LogoToppen{
+    padding: 0%;
+}
+
+ul{
+    padding: 20px;
+    text-align: center;
+    }
+
+.language{
+   float: right;
+   margin-top: 10px;
+    
+}
+#navbar .language{
+    color: white;
+    }
+/*For å få underline på den aktive siden*/
     .aktiv{
         text-decoration: underline;
     }
+/*For å få underline når man hovrer over*/
     a:hover{
-        text-decoration: underline;
+        text-decoration: underline; 
     }
-/*---------------------------------------*/
+/*
+NAVBAR SLUTT
+-------------------------------------------*/
+
+body{
+    background:  url("Bilder/hehehe.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}

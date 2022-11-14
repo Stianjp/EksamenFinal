@@ -5,45 +5,71 @@
 }
 
 /*NAVBAREN*/
-nav li ul{
+.navbar nav li ul{
     display: inline;
     float: left;
     text-decoration: none;
-    }
-    a{
-        display: block;
-        color: white;
-        
+    color: white;
     }
     
-    li{
-        display: inline-block;
-        padding: 5px;
-        font-size: 25px;
+li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
     }
-    #navbar
+
+a{
+    color: white;
+    }
+
+.navbar .language{
+    white-space: nowrap; /* forhindrer linebrake */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    list-style: none;
+    align-self: flex-start; /* Aligns language switch higher than the other flex items */ 
+    margin-top: 35px;
+    right:  15px;
+    text-decoration: none;
+    }
+.LogoToppen{
+    padding: 0%;
+}
+
+ul{
+    padding: 20px;
+    text-align: center;
+    }
+
+.language{
+   float: right;
+   margin-top: 10px;
     
+}
+#navbar .language{
+    color: white;
+    }
+/*For å få underline på den aktive siden*/
     .aktiv{
         text-decoration: underline;
     }
+/*For å få underline når man hovrer over*/
     a:hover{
-        text-decoration: underline;
+        text-decoration: underline; 
     }
-/*---------------------------------------*/
+/*
+NAVBAR SLUTT
+-------------------------------------------*/
 
 
 body{
+    background:  url("Bilder/bakgrunnDATA1100-2.png");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
-    background: black;
-    
-    
+    background-position: center;
 }
-
-
-
-
 
 .wrapper{
 
@@ -52,13 +78,10 @@ body{
     text-align: center;
     color: white;
     font-size: larger;
-    background: black;
-
+    font-style:inherit;
 }
 
     
-
-
 .wrapper>*{
     padding: 10px;
     margin:10px;
@@ -73,10 +96,7 @@ body{
 
 }
 
-.footer{
-   
-    height: 80px;
-}
+
 
 .main{
     text-align: center;
@@ -92,59 +112,53 @@ body{
     margin-top: 12.5%;
     border: 5px solid white;
     padding: 5%;
+    box-shadow:  20px 20px 10px grey;;
 
-}
-
-.bordero{
-    border: solid 5px;
 }
 
 
 .aside1{
 background-image: url(Bilder/Bakgrunn1.jpg);
 background-size: 127%;
-
+order: 4;
 
 }
 
 .aside2{
 background-image: url(Bilder/pexels-photo-2403391.jpg);
 background-size: 127%;
+order: 4;
 
 }
 
 .aside3{
 background-image: url(Bilder/chef1.jpg);
 background-size: 140%;
+order: 4;
 
 }
+
+.footer{
+    height: 800px;
+    order: 50;
+    background-color: white;
+    color: rgb(234, 144, 17);
+    
+}
+
+.footer h1{
+    padding: 7%;
+}
+
+.main{
+    order: 8;
+}
+
 
 @media all and (min-width:800px){
     .main{
         flex: 2;
     }
-}
-
-.aside1{
-    order: 4;
-   
-}
-
-.aside2{
-    order: 4;   
-}
-
-.aside3{
-    order: 4;
-    
-}
-.main{
-    order: 8;
-}
-
-.footer{
-order: 50;
-background-color: black;
 }
 
 @media all and (min-width: 600px){
