@@ -13,6 +13,7 @@ nav li ul{
     a{
         display: block;
         color: white;
+        
     }
     
     li{
@@ -32,11 +33,16 @@ nav li ul{
 
 
 body{
-    background:  url("Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
+    background: black;
+    
+    
 }
+
+
+
 
 
 .wrapper{
@@ -45,6 +51,8 @@ body{
     flex-flow:row wrap;
     text-align: center;
     color: white;
+    font-size: larger;
+    background: black;
 
 }
 
@@ -56,12 +64,13 @@ body{
     margin:10px;
     flex: 1 100%;
     border-radius: 10px;
+
    
 }
 
 .header{
-    
     height: 120px;
+
 }
 
 .footer{
@@ -70,48 +79,72 @@ body{
 }
 
 .main{
-    text-align: left;
+    text-align: center;
     height: 500px;
-    font-size: 24px;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+   
+
 }
 
+.main p{
+    margin-top: 12.5%;
+    border: 5px solid white;
+    padding: 5%;
+
+}
+
+.bordero{
+    border: solid 5px;
+}
+
+
 .aside1{
-background-image: url(Bilder/pexels-photo-2403391.jpg);
-background-size: 100%;
-
-
+background-image: url(Bilder/Bakgrunn1.jpg);
+background-size: 127%;
 
 
 }
 
 .aside2{
-background-image: url(Bilder/Bakgrunn1.jpg);
-background-size: 100%;
+background-image: url(Bilder/pexels-photo-2403391.jpg);
+background-size: 127%;
+
+}
+
+.aside3{
+background-image: url(Bilder/chef1.jpg);
+background-size: 140%;
 
 }
 
 @media all and (min-width:800px){
     .main{
-        flex: 3;
+        flex: 2;
     }
 }
 
 .aside1{
-    order: 1;
+    order: 4;
    
 }
 
 .aside2{
-    order: 2.5;
-    
+    order: 4;   
 }
 
+.aside3{
+    order: 4;
+    
+}
 .main{
-    order: 2;
+    order: 8;
 }
 
 .footer{
-order: 4;
+order: 50;
+background-color: black;
 }
 
 @media all and (min-width: 600px){
