@@ -26,19 +26,81 @@ nav li ul{
     .aktiv{
         text-decoration: underline;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 /*---------------------------------------*/
 
-body{
-    background: url("/Bilder/hovedbilde1.jpeg");
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    background-blend-mode: multiply;
+HEAD
+
+
+.wrapper{
+
+    display: flex;
+    flex-flow:row wrap;
+    text-align: center;
+    color: white;
+    background-color: pink;
+}
+    
+
+
+.wrapper>*{
+    padding: 10px;
+    margin:10px;
+    flex: 1 100%;
+    border-radius: 10px;
 }
 
-.menyen{
-    text-align: center;
-    background-color: white;
-    width: 25%;
-    margin: auto;
-    margin-top: 40px;
+.header{
+    background: black;
+    height: 120px;
+}
+
+.footer{
+    background: black ;
+    height: 80px;
+}
+
+.main{
+    text-align: left;
+    background: black;
+    height: 500px;
+    font-size: 24px;
+}
+
+.aside1{
+background: black;
+}
+
+.aside2{
+    background:black;
+}
+
+@media all and (min-width:800px){
+    .main{
+        flex: 3;
+    }
+}
+
+.aside1{
+    order: 1;
+}
+
+.aside2{
+    order: 2;
+}
+
+.main{
+    order: 2;
+}
+
+.footer{
+order: 4;
+}
+
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
 }

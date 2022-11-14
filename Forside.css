@@ -1,3 +1,4 @@
+/*Universal for alt*/
 *{
     padding: 0;
     margin: 0; 
@@ -11,7 +12,8 @@ html{
     scroll-behavior: smooth;
 }
 
-/*NAVBAREN*/
+/*----------------------------------
+NAVBAREN START*/
 .navbar nav li ul{
     display: inline;
     float: left;
@@ -31,7 +33,7 @@ a{
 
 .navbar .language{
     color: white;
-    white-space: nowrap; /* Prevents linebreak */
+    white-space: nowrap; /* forhindrer linebrake */
     padding-right: 1rem;
     padding-left: 1rem;
     font-size: 20px;
@@ -64,10 +66,12 @@ ul{
     a:hover{
         text-decoration: underline; 
     }
-/*---------------------------------------*/
+/*
+NAVBAR SLUTT
+---------------------------------------*/
 /*Bakgrunnsbilde*/
 body{
-    background:  url("/Bilder/hovedbilde1.jpeg");
+    background:  url("Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
@@ -149,6 +153,15 @@ u{
     height: auto;  
 }
 
+/*For responsiv nettside*/
 
-
-
+@media screen and (max-width: 915px) {
+    .nav-menu{
+    padding: 0%;
+    font-size: 20px;
+    }
+    .Tekstboks1 .Tekstboks2 .Tekstboks3 .Tekstboks4{
+        position: relative;
+        left: 5px;
+    }
+}
