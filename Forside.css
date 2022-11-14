@@ -3,10 +3,6 @@
     padding: 0;
     margin: 0; 
     text-decoration: none;
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box; 
-    
 }
 html{
     scroll-behavior: smooth;
@@ -66,13 +62,12 @@ NAVBAR SLUTT
 ---------------------------------------*/
 /*Bakgrunnsbilde*/
 body{
-    background:  url("Bilder/hovedbilde1.jpeg");
+    background:  url("Bilder/Bakgrunn\ velkomstsside.jpg");
     background-repeat: no-repeat; 
     background-size: 100%;
-    background-blend-mode: multiply;
+  
 }
 /*Alle tekstboksene for å få plassert de i hvert hjørne*/
-
 
 u{
     text-decoration: underline;
@@ -95,11 +90,13 @@ u{
 }*/
 
 .Tekstbokser{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     display: grid;
-    grid-template-rows: 2fr 6fr 2fr;
+    grid-template-rows: 6fr 2fr;
     color: white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.559);
+    font-size: 25px;
 }
 
 /*For responsiv nettside*/
