@@ -156,7 +156,7 @@ u{
 /*For responsiv nettside*/
 
 @media screen(max-width: 915px){
-    .nav-menu li{
+    .nav-menu{
     padding: 0%;
     font-size: 20px;
     }
@@ -165,6 +165,3 @@ u{
         left: 5px;
     }
 }
-@media
-
-
