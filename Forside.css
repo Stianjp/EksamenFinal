@@ -192,3 +192,13 @@ u{
     visibility: visible;
     }
 }
+
+@media only screen and (max-width:640px) {
+.Tekstboks1, .Tekstboks2, .Tekstboks3, .Tekstboks4 {
+   float: left;
+   display: block;
+   position: block;
+   text-transform: uppercase;
+
+}
+}
