@@ -97,5 +97,14 @@ body{
     max-width: 600px;
 }
 
+.link{
+    color:aqua;
+    font-style:italic;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
 
 
