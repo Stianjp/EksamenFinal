@@ -26,17 +26,24 @@ nav li ul{
     .aktiv{
         text-decoration: underline;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 /*---------------------------------------*/
 
+HEAD
 
 
 .wrapper{
+
     display: flex;
     flex-flow:row wrap;
     text-align: center;
     color: white;
     background-color: pink;
 }
+    
+
 
 .wrapper>*{
     padding: 10px;
@@ -64,7 +71,6 @@ nav li ul{
 
 .aside1{
 background: black;
-background-image: ;
 }
 
 .aside2{
