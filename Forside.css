@@ -19,17 +19,17 @@ html{
     color: white;
     }
     
-    li{
-        display: inline-block;
-        padding: 5px;
-        font-size: 25px;
+li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
     }
 
-    a{
-        color: white;
+a{
+    color: white;
     }
 
-    .navbar .language{
+.navbar .language{
     color: white;
     white-space: nowrap; /* Prevents linebreak */
     padding-right: 1rem;
@@ -42,9 +42,9 @@ html{
     text-decoration: none;
     }
 
-    ul{
-        padding: 20px;
-        text-align: center;
+ul{
+    padding: 20px;
+    text-align: center;
     }
 
 .language{
@@ -52,24 +52,27 @@ html{
    margin-top: 10px;
     
 }
-    #navbar .language{
+#navbar .language{
     background: rgba(0, 0, 0, 0.571);
-    
     color: white;
     }
-
+/*For å få underline på den aktive siden*/
     .aktiv{
         text-decoration: underline;
     }
+/*For å få underline når man hovrer over*/
+    a:hover{
+        text-decoration: underline; 
+    }
 /*---------------------------------------*/
-
+/*Bakgrunnsbilde*/
 body{
     background:  url("/Bilder/hovedbilde1.jpeg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
 }
-
+/*Alle tekstboksene for å få plassert de i hvert hjørne*/
 .Tekstboks1{
     position: absolute;
     top: 8 px;
