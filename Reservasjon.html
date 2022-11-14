@@ -19,17 +19,18 @@
                     <li><a class="aktiv"  href="./Reservasjon.html">RESERVASJON</a></li>
                     <li><a href="./Tilgjengelighetsside.html">TILGJENGELIGHET</a></li>
                     <li><a href="./DATA1100.html">DATA1100</a></li>
+                    <!-- Links: for changing the languge to English or Norwegian -->
+                    <div class="language"> 
+                        <a href="./ReservasjonEN.html">EN</a> | <a href="./Reservasjon.html">NO</a>
+                    </div>  
                 </ul>
             </li>
-         <!-- Links: for changing the languge to English or Norwegian -->
-         <div class="language"><p> <a href="./ReservasjonEN.html">EN</a> | <a href="./Reservasjon.html">NO</a></p></div>    
-        </ul>
     </nav>
 </header>
 <!--Navbar SLUTT -->
 <body>
     <div class="booking">
-        <p>
+        <p id="pitch">
             <strong>Velkommen til Mon Oncle!</strong> 
             <br>
             I april 2022 kunne vi endelig ønske velkommen til mesterkokk Esben Holmboe Bang`s nyeste påfunn 
@@ -73,6 +74,7 @@
         </form>
         </div>
     </div>
+
     <!--BILDE-SLIDESHOW START-->
 <section id="section2">
  <div class="slider">
@@ -82,11 +84,14 @@
         <input type="radio" name="sirkel-knapp" id="sirkel2">
         <input type="radio" name="sirkel-knapp" id="sirkel3">
         <input type="radio" name="sirkel-knapp" id="sirkel4">
-        <input type="radio" name="sirkel-knapp" id="sirkel5">
+      
         <!--Knapper for å endre bilde SLUTT-->
         <!--Bildeslides START-->
         <div class="slide forst">
             <img src="Bilder/Brylllup 640 427.jpg" alt="Dekorasjonsbilde tema bryllup">
+        </div>
+        <div class="slide">
+            <img src="Bilder/bilde5.jpeg" alt="Fornøyde kunder">
         </div>
         <div class="slide">
             <img src="Bilder/Bryllup 640x400.jpg" alt="Dekorasjonsbilde tema bryllup">
@@ -94,46 +99,21 @@
         <div class="slide">
             <img src="Bilder/bilde dekorasjon.jpg" alt="Bilde av lokalet">
         </div>
-        <div class="slide">
-            <img src="Bilder/bilde5.jpeg" alt="Hva er på bilde?">
-        </div>
-        <div class="slide">
-            <img src="bilder/fjell5.jpeg" alt="Hva er på bilde?">
-        </div>
         <!--Bildeslides SLUTT-->
-        <!--automatisk navigasjon START-->
-        <div class="navigasjon-auto">
-            <div class="auto-knapp1"></div>
-            <div class="auto-knapp2"></div>
-            <div class="auto-knapp3"></div>
-            <div class="auto-knapp4"></div>
-            <div class="auto-knapp5"></div>
-        </div>
-        <!--automatisk navigasjon SLUTT-->
+
     </div>
     <!--Manuell navigasjon START-->
+   /*
     <div class="navigasjon-manuell">
         <label for="sirkel1" class="manuell-knapp"></label>
         <label for="sirkel2" class="manuell-knapp"></label>
         <label for="sirkel3" class="manuell-knapp"></label>
         <label for="sirkel4" class="manuell-knapp"></label>
-        <label for="sirkel5" class="manuell-knapp"></label>
     </div>
+    */
     <!--Manuell navigasjon SLUTT-->
 </div>
 </section>
-<!--javascript START-->
-<script type="text/javascript">
-    var counter=1;
-    setInterval(function(){
-        document.getElementById('sirkel'+counter).checked = true;
-        counter ++;
-        if (counter >5){
-            counter = 1; 
-        }
-    },5000);
-</script>
-<!--javascript SLUTT-->
 <!--BILDE-SLIDESHOW SLUTT-->
 
     <div id="nede">
@@ -159,6 +139,5 @@
         17-23
     </p>
     </div>
-</section>
 </body>
 </html>
