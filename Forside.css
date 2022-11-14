@@ -40,6 +40,9 @@ a{
     text-decoration: none;
     margin-top: 5px;
     }
+.logo{
+    display: none;
+}
 
 ul{
     padding: 20px;
@@ -139,7 +142,7 @@ u{
     font-size: 15px;
 }
 
-.LogoMidten{
+.LogoMidt1{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -166,23 +169,26 @@ u{
     #navbar{
         font-size: 15px;
     }
-   
-
-    
-    
 }
 
-@media only screen and (max-width: 835px){
+@media only screen and (max-width: 890px){
     .Tekstboks1, .Tekstboks2, .Tekstboks3, .Tekstboks4{
         position: absolute;
         line-height: 20px;
         font-size: 10px;
         padding: 1px;
     }
-    .LogoMidten{
-    
-    }
-    .logo{
+
+}
+/*Fjerner Mon Oncle Logo fra midt på siden til å komme tilbak til navbaren*/
+@media only screen and (max-width: 750px){
+.logoHovedside{
     display: none;
+    visibility: hidden;
+    }  
+
+.logo{
+    display: inline;
+    visibility: visible;
     }
 }
