@@ -66,7 +66,7 @@ NAVBAR SLUTT
 body{
     background:  url("Bilder/bakgrunnDATA1100-2.png");
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
 }
@@ -122,12 +122,14 @@ background-image: url(Bilder/Bakgrunn1.jpg);
 background-size: 127%;
 order: 4;
 
+
 }
 
 .aside2{
 background-image: url(Bilder/pexels-photo-2403391.jpg);
 background-size: 127%;
 order: 4;
+
 
 }
 
@@ -139,20 +141,22 @@ order: 4;
 }
 
 .footer{
-    height: 800px;
+    height: 900px;
     order: 50;
-    background-color: white;
-    color: rgb(234, 144, 17);
+    background-color: beige;
+    color: rgb(6, 5, 5);
     
 }
 
 .footer h1{
-    padding: 7%;
+    padding: 5%;
 }
 
 .main{
     order: 8;
 }
+
+
 
 
 @media all and (min-width:800px){
@@ -166,3 +170,4 @@ order: 4;
         flex: 1;
     }
 }
+
