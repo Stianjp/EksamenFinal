@@ -4,7 +4,8 @@
     text-decoration: none; 
 }
 
-/*NAVBAREN*/
+/*----------------------------------
+NAVBAREN START*/
 .navbar nav li ul{
     display: inline;
     float: left;
@@ -15,7 +16,6 @@
 li{
     display: inline-block;
     padding: 5px;
-    font-size: 25px;
     }
 
 a{
@@ -26,26 +26,21 @@ a{
     white-space: nowrap; /* forhindrer linebrake */
     padding-right: 1rem;
     padding-left: 1rem;
-    font-size: 20px;
     list-style: none;
     align-self: flex-start; /* Aligns language switch higher than the other flex items */ 
-    margin-top: 35px;
     right:  15px;
     text-decoration: none;
+    margin-top: 5px;
     }
-.LogoToppen{
-    padding: 0%;
-}
 
 ul{
     padding: 20px;
     text-align: center;
+    font-size: 20px;
     }
 
 .language{
-   float: right;
-   margin-top: 10px;
-    
+float: right;
 }
 #navbar .language{
     color: white;
@@ -60,7 +55,7 @@ ul{
     }
 /*
 NAVBAR SLUTT
--------------------------------------------*/
+---------------------------------------*/
 
 body{
     background:  url("Bilder/hehehe.jpg");
