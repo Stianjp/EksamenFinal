@@ -54,6 +54,32 @@ a{
 }
 /*NAVBAR SLUTT*/
 
+/*Velkomsttekst på velkomstssiden START*/
+.velkomstsidesection{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.550);
+    color: white;
+    margin-top: 50px;
+}
+
+.pitchen{
+    padding: 40px;
+    display: grid;
+    text-align: center;
+    align-items:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    grid-template-columns:1fr;
+    color: white;
+}
+#terning{
+padding-left: 10px;
+height:auto;
+width:25px;
+}
+
+/*Velkomsttekst på velkomstssiden SLUTT*/
 /*Media innstillinger*/
 @media (max-width:1150px){
     nav ul li a{
