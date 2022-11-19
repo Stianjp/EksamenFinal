@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Script brukt for å få fa-bars-->
+      <script src="https://kit.fontawesome.com/c2ee6942a9.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="DATA1100.css">
     <title>DATA1100</title>
 </head>
-<!--Navbar START -->
-<header>
-    
-    <nav>
-        <ul class="navbar" id="navbar">
-            <li class="LogoToppen"> <a href="./Forside.html" class="logo"> <img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle" width="250px" height="97px"></a></li>
-            <li class="nav-menyen">
-                <ul>
-                    <li><a href="./Forside.html">HJEM</a></li>
-                    <li><a href="./Meny.html">MENY</a></li>
-                    <li><a href="./Reservasjon.html">RESERVASJON</a></li>
-                    <li><a href="./Tilgjengelighetsside.html">TILGJENGELIGHET</a></li>
-                    <li><a class="aktiv" href="./DATA1100.html">DATA1100</a></li>
-                     <!-- Links: for changing the languge to English or Norwegian -->
-                     <div class="language"><p> <a href="./DATA1100EN.html">EN</a> | <a href="./DATA1100.html">NO</a></p></div>
-                </ul>
-            </li>
+<!---NAVBAR START -->
+<section class="navbarr">
+    <nav class="navbar">
+        <li id="LogoMonOncle"><a href="./VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+            <div class="språk1"><p><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></p></div></li>
+        </label>
+        <ul class="nav-meny">
+            <li class="LogoToppen"><a href="VelkomstsideFinalTest.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
+            <li><a  href="VelkomstsideFinalTest.html">Velkomstside</a></li>
+            <li><a href="Meny.html">Meny</a></li>
+            <li><a href="Reservasjon.html">Reservasjon</a></li>
+            <li><a href="Tilgjengelighetsside.html">Tilgjengelighetsside</a></li>
+            <li><a class="aktiv" href="DATA1100.html">DATA1100</a></li>
+            <!--For å endre fra Norsk til Engelsk på hver side-->
+            <li><div class="spraak"><p><a href="./VelkomstsideFinalEN.html">EN</a> | <a href="./VelkomstsideFinalEN.html">NO</a></p></div></li>
         </ul>
     </nav>
-<!--Navbar SLUTT -->
+</section>
+</header>
+<!-- NAVBAR SLUTT -->
 <body>
 
     <h1 class="overskrift">Fake News</h1>

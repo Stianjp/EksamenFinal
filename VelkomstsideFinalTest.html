@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="cssTilVelkomst.css">
     <!--Script brukt for å få fa-bars-->
     <script src="https://kit.fontawesome.com/c2ee6942a9.js" crossorigin="anonymous"></script> 
+    <!-- Legger til ikonbiblotek-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Velkomstside</title>
 </head>
 <body>
@@ -21,7 +23,7 @@
             <div class="språk1"><p><a href="./VelkomstsideFinalTest.html">EN</a> | <a href="./VelkomstsideFinalTest.html">NO</a></p></div></li>
         </label>
         <ul class="nav-meny">
-            <li class="LogoToppen"><a href="./Forside.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
+            <li class="LogoToppen"><a href="VelkomstsideFinalTest.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
             <li><a class="aktiv" href="Velkomstside.html">Velkomstside</a></li>
             <li><a href="Meny.html">Meny</a></li>
             <li><a href="Reservasjon.html">Reservasjon</a></li>
@@ -35,16 +37,55 @@
 </header>
 <!-- NAVBAR SLUTT -->
 <section class="velkomstsidesection">
-    <h1>Velkommen til Mon Oncle!</h1>
     <div class="pitchen">
+        <h1>Velkommen til Mon Oncle!</h1>
         <p>I april 2022 kunne vi endelig ønske velkommen til mesterkokk Esben Holmboe Bang`s nyeste påfunn her i Oslo. Vi er stolte av å kunne ta dere med på en tradisjonell fransk og klassisk kulinarisk reise med nye spennede twister. For grupper større enn 8 personer, ber vi at du tar kontakt med oss på booking@mononcle.no.</p>
         <br>
         <p>"Landets beste franske restaurant" - <a href="https://www.godt.no/anmeldelser/restaurant/i/Jxeje7/restaurantanmeldelse-av-mon-oncle-landets-beste-franske-restaurant">Godt, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"> </p> <!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
         <p>"Fantastisk mye god mat i stilfullt lokale" - <a href="https://www.aftenposten.no/oslo/sulten/i/lVRqqk/restaurantanmeldelse-fantastisk-mye-god-mat-i-stilfullt-lokale">Aftenposten, 2022</a><img id="terning" src="Bilder/Terningkast5.png" alt="Bilde av terningkast 5"> </p> <!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning5.svg -->
-        <p>"Mon Oncle er så klassisk at det føles helt nytt" - <a href="https://www.dn.no/smak/restaurantguiden/restaurantguiden/restauranter/restaurantanmeldelse/restaurant-mon-oncle-forsteklasses-klassisk/2-1-1221416">DN, 2022</a></p><!--Link til Resturantanmeldelsen-->
+        <p>"Mon Oncle er så klassisk at det føles helt nytt" - <a href="https://www.dn.no/smak/restaurantguiden/restaurantguiden/restauranter/restaurantanmeldelse/restaurant-mon-oncle-forsteklasses-klassisk/2-1-1221416">DN, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"> </p><!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
     </div>
 </section>
 
-
+<img id="BildeAvKokk1" src="Bilder/Bilde av kokk.jpg" alt="Bilde av kokk som skal fremstilles som Esben Holmboe Bang" width="600px" height="auto">
+<div class="BildeAvKokk">
+    <p>Esben Holmboe Bang er en dansk kokk, medeier og kjøkkensjef for en rekke resturanter i Oslo som for eksempel <a href="https://maaemo.no/">Maaemo</a>, <a href="https://kafeteriaaugust.no/">Kafeteria August</a>, <a href="https://thevandelay.no/">the Vandelay</a> med mer.</p>
+    <br>
+    <p>Bang og hans mannskap utmerket seg tidlig, og mottok sin første <a href="https://no.wikipedia.org/wiki/Michelinguiden">Michelinstjerne</a> allerede i 2012.</p>
+    <p>Bare fire år senere i 2016 mottok Bang og Maeemo tre Michelinstjerner!</p>
+    <br>
+    <p><cite>"Jeg vil åpne et sted der man ikke er tvangsinnlagt til 16-20 retter"</cite> - Esben Holmboe Bang</p> <!--Link: hentet fra (19.11.2022)https://www.dn.no/smak/restauranter/esben-holmboe-bang/restauranter/fransk/esben-holmboe-bang-jeg-vil-apne-et-sted-der-man-ikke-er-tvangsinnlagt-til-1620-retter/2-1-1190246 -->
+</div>
 </body>
+<!--FOOTER-->
+<footer>
+    <div class="åpningstider">
+        <!--For å få kart i Footer-->
+        <p><iframe id="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9092301371957!2d10.
+        736714951086052!3d59.91705377071345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f77878ea417%3A0x5059590bb73b777f!2sMon%
+        20Oncle!5e0!3m2!1sno!2sno!4v1667210784847!5m2!1sno!2sno"width="400" height="300" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> 
+        <!--Bruker fa fa for å få Instagram logo-->
+        <p class="IkonerMidten">
+        <a id="Ikoner" class="fa fa-instagram" href="https://www.instagram.com/mononcle.oslo/"><!--Instagram-link // OBS må logge inn på Instagram for å kunne se--></a> INSTAGRAM
+        </p>
+   
+        <p><strong>Adresse:</strong> <!--Brukes kun 1 <p> for å få dette på tre rader-->
+        <br>
+        Universitetsgata 9
+        <br>
+        0164, Oslo
+        <br>
+        <a href="mailto:booking@mononcle.no">booking@mononcle.no</a> 
+        <br>
+        +47 238 98 631
+        <br>
+        Åpent:
+        <br>
+        Tirsdag-Lørdag
+        <br>
+        17-23
+        </p>
+    </div>
+</footer>
 </html>

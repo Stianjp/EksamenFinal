@@ -7,6 +7,7 @@ body{
     background-image: url(Bilder/Bakgrunn\ velkomstsside.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black;
 
 }
 /*NAVBAR START*/
@@ -56,7 +57,7 @@ a{
 
 /*Velkomsttekst på velkomstssiden START*/
 .velkomstsidesection{
-    padding-top: 20px;
+    margin-top: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.550);
     color: white;
@@ -72,18 +73,112 @@ a{
     line-height: 2;
     grid-template-columns:1fr;
     color: white;
+    border-style: solid;
+    border-color: black;
 }
 #terning{
 padding-left: 10px;
 height:auto;
 width:25px;
 }
+.BildeAvKokk{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.550);
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 100px;
+    margin-right: 50%;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#BildeAvKokk1{
+    position:flex;
+    float: right;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+/*CSS TIL FOOTER START*/
+footer{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: auto;    
+}
+
+.IkonerMidten{
+   font-size: 20px;
+}
+#Ikoner{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.åpningstider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    color: white;
+    margin-top: 100px;
+}
+/*CSS TIL FOOTER SLUTT*/
 
 /*Velkomsttekst på velkomstssiden SLUTT*/
 /*Media innstillinger*/
+@media (max-width: 1350px){
+    #BildeAvKokk1{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    }
+}
+
+@media (max-width: 1125px){
+    #BildeAvKokk1{
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+    }
+    .BildeAvKokk{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
 @media (max-width:1150px){
     nav ul li a{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    #BildeAvKokk1{
+    width: 350px;
+    height: auto;
+    margin-top: 100px;
+    }
+    .BildeAvKokk{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #kart{
+    width: 80%;
+    height: 50%;
+    }
+    .åpningstider{
+        font-size: 12px;
+    }
+    .velkomstsidesection{
+        font-size: 12px;
     }
 }
 
@@ -94,6 +189,15 @@ width:25px;
         color: white;
     }
 }
+
+@media (max-width: 800px){
+    #BildeAvKokk1{
+    width: 250px;
+    height: auto;
+    margin-top: 100px;
+    }
+}
+
 
 @media (max-width:710px){
     .checkbtn{
@@ -153,6 +257,25 @@ width:25px;
     .navbarr{
         background-color: rgba(0, 0, 0, 0.514);
         padding: 50px;
+    }
+}
+@media (max-width: 600px){
+    #BildeAvKokk1{
+    position: flex;
+    display: block;
+    margin: auto;
+    align-items: center;
+    margin-right:25%;
+    margin-top: 10px;
+    }
+    .BildeAvKokk{
+        position: flex;
+        display: block;
+        margin: auto;
+        margin-top: 200px;
+    }
+    .IkonerMidten{
+        font-size: 10px;
     }
 }
 
