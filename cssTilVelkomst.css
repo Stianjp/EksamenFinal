@@ -4,10 +4,11 @@
     text-decoration: none;
 }
 body{
-    background-image: url(Bilder/Bakgrunn\ velkomstsside.jpg);
+    background-image: url(Bilder/EiffelltårnSTOR.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: black;
+    font-family:'Times New Roman', Times, serif;
 
 }
 /*NAVBAR START*/
@@ -16,6 +17,8 @@ nav{
     color: white;
     font-size: 30px;
     margin-top: -3px;
+    text-align: center;
+   
 }
 .nav-meny{
     background-color: rgba(0, 0, 0, 0.514);
@@ -36,10 +39,11 @@ a{
     color: white
 }
 .checkbtn{
-    font-size: 20px;
+    font-size: 40px;
     float: right;
     display: none;
     cursor: pointer;
+    color: white;
 }
 #check{
     display: none;
@@ -66,7 +70,7 @@ a{
     display: grid;
     text-align: center;
     align-items:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 2;
     grid-template-columns:1fr 1fr;
     color: white;
@@ -92,11 +96,8 @@ text-decoration: underline;
     margin-top: 15px;
     border-style: solid;
     border-color: black;
-    width: 400px;
+    width: 250px;
     height: auto;
-}
-#Eiffeltårn a:hover{
-
 }
 #terning{
 padding-left: 10px;
@@ -115,37 +116,62 @@ footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
     height: auto;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .IkonerMidten{
-   font-size: 20px;
+   font-size: 15px;
+   align-items: center;
+   text-align: left;
+   grid-template-columns: 1fr 1fr;
 }
 #Ikoner{
     padding: 20px;
     font-size: 30px;
-    width: 50px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
+    align-items: right;
+}
+#IkonLogo{
+    width:200px;
+    height: auto;
+    align-items: center;
+    text-align: center;
 }
 
 .åpningstider{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     line-height: 2;
     color: white;
     margin-top: 100px;
+    padding: 20px;
+    
+}
+.Rad1{
+    margin: auto;
+}
+.Rad2{
+    text-align: center;
+    align-items: center;
+    display: table-column;
+    columns: 1fr 1fr;
+    margin: auto;
+    line-height:300%;
+}
+.Rad3{
+    margin: auto
 }
 /*CSS TIL FOOTER SLUTT*/
-
 /*Velkomsttekst på velkomstssiden SLUTT*/
+
 /*Media innstillinger*/
 @media (max-width: 1350px){
     #BildeAvKokk1{
     width: 500px;
     height: auto;
-    margin-top: 100px;
     }
 }
 
@@ -153,7 +179,6 @@ footer{
     #BildeAvKokk1{
     width: 400px;
     height: auto;
-    margin-top: 100px;
     }
     .BildeAvKokk{
         font-size: 15px;
@@ -169,9 +194,8 @@ footer{
 
 @media (max-width: 900px){
     #BildeAvKokk1{
-    width: 350px;
-    height: auto;
-    margin-top: 100px;
+        width: 350px;
+        height: auto;
     }
     .BildeAvKokk{
         font-size: 12px;
@@ -201,7 +225,6 @@ footer{
     #BildeAvKokk1{
     width: 250px;
     height: auto;
-    margin-top: 100px;
     }
 }
 
@@ -213,13 +236,11 @@ footer{
         margin-top: -80px;
         font-size: 25px;    
     }
-    .checkbtn:hover{
-        color: black;
-    }
     #LogoMonOncle{
         list-style: none;
         visibility:visible;
         align-items: center;
+        scroll-margin-block-end:unset;
     }
     ul{
         position: fixed;
@@ -227,9 +248,10 @@ footer{
         height: 100vh;
         text-align: center;
         transition: all .5s;
-        background-color: rgba(0, 0, 0, 0.678);
-        top: 220px;
+        background-color:black;
+        top: 172px;
         left: -100%;
+
     }
     nav ul li{
         display: block;
@@ -247,8 +269,15 @@ footer{
         display: none;
     }
     .nav-meny{
-        margin-top: -60px;
         width: 100%;
+    }
+    .navbar{
+        position: fixed;
+        background-color: rgba(0, 0, 0);
+        margin: 0;
+        left: 0;
+        top: 0;
+        padding: 5px;
     }
     /*Fjerner mulighet for å få bytte språk i listen, men får mulighet til å
      forandre språk ved siden av fa-bars*/
@@ -288,7 +317,10 @@ footer{
 
 @media (max-width:450px){
     .navbarr{
-        padding: 10px
+        padding: 10px;
+    }
+    .checkbtn{
+        margin-right: 40px;
     }
     ul{
         top: 140px;  
@@ -298,5 +330,13 @@ footer{
     }
     .språk1{
         font-size: 15px;
+    }
+    .pitchen{
+        margin-top: 80px;
+        grid-template-columns: 2fr;
+    }
+    .Anmeldelser{
+        grid-template-columns: 2fr;
+        font-size: 12px;
     }
 }
