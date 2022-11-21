@@ -79,6 +79,7 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     margin: 30px;
+    background-color: #8c8c923a;
 }
 
 form select, form input{
@@ -90,13 +91,82 @@ form select, form input{
     font-weight: 300;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#submit{
+  
+  .box {
+    width: 100%;
+    border: 2px;
+    background-clip: padding-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover {
+    background: rgb(61, 171, 149);
+    text-decoration: none;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2, p {
+    margin-top: 0;
     color: black;
-}
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position:absolute;
+    top:-30px;
+    right: 2px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  
 
 /*Slideshow bilde på velkomstssiden START*/
 #section2{
-    height: 400px;
+    height: 350px;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -131,7 +201,7 @@ form select, form input{
 .navigasjon-manuell{
     display: flex;
     position: absolute;
-    align-items: baseline;
+    align-self:flex-end;
     width: 530px;
     justify-content: space-evenly;
     background: none;
