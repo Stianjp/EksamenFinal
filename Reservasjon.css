@@ -5,7 +5,7 @@
     color: white;
 }
 body{
-    background:  url("Bilder/kloster2.jpg");
+    background:  url("Bilder/EiffelltårnSTOR.jpg");
     background-repeat: no-repeat; 
     background-size: 100%;
     background-blend-mode: multiply;
@@ -63,7 +63,7 @@ a{
     text-align: center;
     align-items:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 2;
+    line-height: 2.5;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -94,51 +94,31 @@ form select, form input{
     color: black;
 }
 
-#nede{
-    background-color: black;
-    height: 350px;
-    width: 100%;    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    align-items: center;
-    line-height: 2;
-}
-
-#kart{
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 70%;
-    justify-items: center;
-    align-items: center;
-}
-
 /*Slideshow bilde på velkomstssiden START*/
 #section2{
-    height: 60vh;
+    height: 400px;
     display:flex ;
     justify-content: center;
     align-items: center;
+    background-color: #8c8c923a;
     }
     
 .slider{
     width: 530px;
     height: 330px;
-    border-radius: 30px;
+    border-radius: 40px;
     border-style: solid;
     overflow: hidden;
-    background-color:#000000;
     border-color: black;
     }
 
-.slides{
+.knapp{
     width: 500%;
-    height: 60vh;
+    height: 100%;
     display: flex;
     }
 
-.slides input{
+.knapp input{
     display: none;
     }
 
@@ -149,27 +129,23 @@ form select, form input{
 /*CSS for slide navigasjon*/
     
 .navigasjon-manuell{
-    position: absolute;
-    width: 530px;
     display: flex;
-    justify-content: center;
+    position: absolute;
+    align-items: baseline;
+    width: 530px;
+    justify-content: space-evenly;
     background: none;
     background-color: none;
     }
     
 .manuell-knapp{
-    border: 2px solid white;
+    border: solid;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;    
+    transition: 1s;   
     }
-    
-.manuell-knapp:not(:last-child){
-    margin-right: 40px;
-    background-color: none;
-    }
-    
+
 .manuell-knapp:hover{
     background: white;
     background-color: none;
@@ -224,10 +200,6 @@ footer{
 @media only screen and (max-width: 750px){
     .booking{
         grid-template-columns: 1fr;
-    }
-    .slider{
-        width: 350px;
-        height: 50vh;
     }
 }
 /*Slideshow bilde på velkomstssiden SLUTT*/
