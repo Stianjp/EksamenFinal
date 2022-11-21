@@ -57,7 +57,7 @@ NAVBAR SLUTT
 ---------------------------------------*/
 
 
-body{
+.body1100{
     background-color: black;
     background-image: url(bilder/bakgrunnDATA1100.png);
     background-repeat: repete;
@@ -65,7 +65,7 @@ body{
     background-position-y: 30%;
 }
 
-.flex{
+.main1100{
     margin-top: 50px;
     display:flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@ body{
     
 }
 
-.overskrift{
+.heading1100{
     margin-top:40px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -82,7 +82,7 @@ body{
     padding: 20px;
 }
 
-.text{
+.main1100text{
     flex: 40%;
     font-size: 125%;
     background-color: rgba(0, 0, 0, 0.645);
@@ -92,11 +92,11 @@ body{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 3%;
+    max-height: fit-content;
     margin-top: 5%;
-    max-height: 180px;
 }
 
-.video{
+.main1100video{
     flex: 50%;
     padding: 20px;
     text-align: center;
@@ -108,36 +108,36 @@ body{
     max-width: 600px;
 }
 
-.link{
+.link1100{
     color:rgb(229, 255, 0);
     font-style:italic;
 }
 
-.link:hover{
+.link1100:hover{
     text-decoration: underline;
     color: aquamarine;
 }
 
-.flexportrett{
+.crew1100{
 display: flex;
 flex-wrap: wrap;
 
 }
 
-.portrett{
+.portrett1100{
     height: 165px;
     width: 160px;
     border-radius: 50%;
     
 }
 
-.reporter{
+.reporter1100{
     flex: 15%;
     text-align: center;
     padding: 20px;
 }
 
-h2{
+.heading21100{
     margin-top: 100px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -146,7 +146,7 @@ h2{
     padding: 20px;
 }
 
-.navn{
+.navn1100{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
