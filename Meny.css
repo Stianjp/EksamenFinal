@@ -10,6 +10,8 @@ nav{
     color: white;
     font-size: 30px;
     margin-top: -3px;
+    text-align: center;
+   
 }
 .nav-meny{
     background-color: rgba(0, 0, 0, 0.514);
@@ -30,10 +32,11 @@ a{
     color: white
 }
 .checkbtn{
-    font-size: 20px;
+    font-size: 40px;
     float: right;
     display: none;
     cursor: pointer;
+    color: white;
 }
 #check{
     display: none;
@@ -50,7 +53,7 @@ a{
 /*NAVBAR SLUTT*/
 
 body{
-    background:  url("Bilder/bakgrunnDATA1100-2.png");
+    background:url(Bilder/MenyBakgrunn.png);
     background-repeat: no-repeat; 
     background-size: cover;
     background-blend-mode: multiply;
@@ -65,22 +68,24 @@ body{
     color: white;
     font-size: larger;
     font-style:inherit;
+    padding: 5%;
+    margin: 3px;
 }
 
     
 .wrapper>*{
     padding: 10px;
-    margin:10px;
+    margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
-
-   
 }
 
 .header{
     height: 120px;
+   
 
 }
+
 
 
 
@@ -90,8 +95,7 @@ body{
     font-size: 20px;
     font-style: italic;
     line-height: 30px;
-   
-
+    order: 8;
 }
 
 .main p{
@@ -105,7 +109,7 @@ body{
 
 .aside1{
 background-image: url(Bilder/Bakgrunn1.jpg);
-background-size: 127%;
+background-size: 143%;
 order: 4;
 
 
@@ -113,7 +117,7 @@ order: 4;
 
 .aside2{
 background-image: url(Bilder/pexels-photo-2403391.jpg);
-background-size: 127%;
+background-size: 143%;
 order: 4;
 
 
@@ -121,33 +125,30 @@ order: 4;
 
 .aside3{
 background-image: url(Bilder/chef1.jpg);
-background-size: 140%;
+background-size: 143%;
 order: 4;
 
 }
 
-.footer{
+.menymain{
     height: 900px;
     order: 50;
-    background-color: beige;
+    background-color:beige;
     color: rgb(6, 5, 5);
+    padding: 5%;
+    margin: 5%;
+}
+
+.menymain h1{
+    padding: 5%;
     
 }
-
-.footer h1{
-    padding: 5%;
-}
-
-.main{
-    order: 8;
-}
-
 
 /*CSS TIL FOOTER START*/
 footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
-    height: auto;    
+     
 }
 
 .IkonerMidten{
@@ -183,4 +184,10 @@ footer{
         flex: 1;
     }
 }
+
+.info{
+
+}
+
+
 
