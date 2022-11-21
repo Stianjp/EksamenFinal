@@ -67,46 +67,54 @@
                 </select> 
                 <input type="number" placeholder="Number of people">
                 <input id="" type="kommentar" placeholder="Comments:" >
-                <input id="submit" type="submit" value="RESERVE TABLE">
+
+                <div class="box">
+                    <a class="button" href="#popup1">RESRVE TABLE</a>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Thank you for reserving a table with us!</h2>
+                            <p>Your table will be reserved for 2 hours from starting time.</p>
+                            <a class="close" href="#">&times;</a>
+                        </div>
+                    </div>
+                </div>
             </div>   
         </form>
         </div>
     </div>
     <!--BILDE-SLIDESHOW START-->
 <section id="section2">
- <div class="slider">
-    <div class="knapp">
-        <!--Knapper for å endre bilde START-->
-        <input type="radio" name="sirkel-knapp" id="sirkel1">
-        <input type="radio" name="sirkel-knapp" id="sirkel2">
-        <input type="radio" name="sirkel-knapp" id="sirkel3">
-        <input type="radio" name="sirkel-knapp" id="sirkel4">
-        <!--Knapper for å endre bilde SLUTT-->
-        <!--Bildeslides START-->
-        <div class="slide forst">
-            <img src="Bilder/Brylllup 640 427.jpg" alt="Dekorasjonsbilde tema bryllup">
+    <div class="slider">
+        <div class="knapp">
+               <!--Knapper for å endre bilde START-->
+               <input type="radio" name="sirkel-knapp" id="sirkel1">
+               <input type="radio" name="sirkel-knapp" id="sirkel2">
+               <input type="radio" name="sirkel-knapp" id="sirkel3">
+               <input type="radio" name="sirkel-knapp" id="sirkel4">
+             
+               <!--Knapper for å endre bilde SLUTT-->
+               <!--Bildeslides START-->
+               <div class="slide forst">
+                    <img src="Bilder/bilde dekorasjon.jpg" alt="Bilde av lokalet">
+               </div>
+               <div class="slide">
+                   <img src="Bilder/bilde5.jpeg" alt="Fornøyde kunder">
+               </div>
+               <div class="slide">
+                   <img src="Bilder/Bryllup 640x400.jpg" alt="Dekorasjonsbilde tema bryllup">
+               </div>
+               <div class="slide">
+                    <img src="Bilder/Brylllup 640 427.jpg" alt="Dekorasjonsbilde tema bryllup">
+               </div>
+       
+               <div class="navigasjon-manuell">
+                   <label for="sirkel1" class="manuell-knapp"></label>
+                   <label for="sirkel2" class="manuell-knapp"></label>
+                   <label for="sirkel3" class="manuell-knapp"></label>
+                   <label for="sirkel4" class="manuell-knapp"></label>
+            </div>
         </div>
-        <div class="slide">
-            <img src="Bilder/Bryllup 640x400.jpg" alt="Dekorasjonsbilde tema bryllup">
-        </div>
-        <div class="slide">
-            <img src="Bilder/bilde dekorasjon.jpg" alt="Bilde av lokalet">
-        </div>
-        <div class="slide">
-            <img src="Bilder/bilde5.jpeg" alt="Hva er på bilde?">
-        </div>
-        <!--Bildeslides SLUTT-->
-    
     </div>
-    <!--Manuell navigasjon START-->
-    <div class="navigasjon-manuell">
-        <label for="sirkel1" class="manuell-knapp"></label>
-        <label for="sirkel2" class="manuell-knapp"></label>
-        <label for="sirkel3" class="manuell-knapp"></label>
-        <label for="sirkel4" class="manuell-knapp"></label>
-    </div>
-    <!--Manuell navigasjon SLUTT-->
-</div>
 </section>
 <!--BILDE-SLIDESHOW SLUTT-->
 
