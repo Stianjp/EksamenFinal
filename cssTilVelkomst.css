@@ -99,9 +99,9 @@ text-decoration: underline;
     height: auto;
 }
 #terning{
-padding-left: 10px;
-height:auto;
-width:25px;
+    padding-left: 10px;
+    height:auto;
+    width:25px;
 }
 
 #BildeAvKokk1{
@@ -167,6 +167,244 @@ footer{
 /*Velkomsttekst på velkomstssiden SLUTT*/
 
 /*Media innstillinger*/
+/*MEDIA 781-1130px: liten laptop*/
+@media (max-width: 1130px){
+/*Navbar*/
+    nav ul li a{
+    font-size: 15px;
+    color: white;
+    }
+    
+/*Velkomstsiide*/
+    .velkomstsidesection{
+    font-size: 12px;
+    }
+    #BildeAvKokk1{
+    width: 350px;
+    height: auto;
+    }
+    #BildeAvMonOncle{
+    height: auto;
+    width: 170px;
+    }
+    .Anmeldelser{
+    font-size: 12px;
+    }
+    #Collum6{
+    font-size: 10px;
+    }
+    
+/*Footer*/
+    .åpningstider{
+    font-size: 12px;
+    }
+
+/*Meny*/
+    
+    
+/*Reservasjon*/
+    
+/*Tilgjengelighetsside*/
+    
+/*DATA1100*/   
+}
+
+/*MEDIA 481-780px: Tablet/iPad*/
+@media (max-width: 780px){
+/*Navbar*/
+.navbar{
+    position: fixed;
+    background-color: rgba(0, 0, 0);
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition: all .5s;
+    background-color:black;
+    top: 165px;
+    left: -100%;
+    }
+    .nav-meny{
+    background-color: black;
+    font-size: 20px;
+    line-height: 10px;
+    width: 100%;
+    background-color: black;
+    font-size: 50px;
+    top: 140px;
+    height: 100%;
+    } 
+    /*Gjør at både logo og språkbytte-funksjonen forsvinner fra dropdown navbar og flytter seg øverst på navbar*/
+    .LogoToppen{
+    display: none;
+    }
+    .spraak{
+    display: none;
+    }
+    .språk1{
+    font-size: 15px;
+    display: inline;
+    color: white;
+    visibility: visible;
+    margin-top: -24px;
+    }
+    nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 10px;
+    }
+    a:hover, a.aktiv{
+    background: none;
+    color: white;
+    }
+    .checkbtn{
+    display: block;
+    padding: 30px;
+    margin-top: -80px;
+    font-size: 25px;    
+    }
+    #check:checked ~ ul{
+    left: 0;
+    }
+    #LogoMonOncle{
+    list-style: none;
+    visibility:visible;
+    align-items: center;
+    scroll-margin-block-end:unset;
+    }
+    
+/*Velkomstsiide*/
+    .velkomstsidesection{
+    margin-top: 99px;
+    }
+    .pitchen{ 
+    padding: 20%;
+    display:table-row;
+    }
+    .Anmeldelser{
+    display: flow-root;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    }
+    #BildeAvKokk1{
+    width: 250px;
+    height: auto;
+    }
+    #BildeAvMonOncle{
+    width: 200px;
+    height: auto;
+    }
+    #terning{
+        width: 18px;
+    }
+
+/*Footer*/
+    #IkonLogo{
+    height: auto;
+    width: 100px;
+    }
+    .Rad2{
+    font-size: 10px;
+    margin-left: -20%;
+    }
+    #kart{
+    width: 70%;
+    height: auto;
+    margin-left: -40%;
+    }
+    .åpningstider{
+    margin-top: 10px; 
+    }   
+/*Meny*/
+    
+    
+/*Reservasjon*/
+    
+/*Tilgjengelighetsside*/
+    
+/*DATA1100*/
+    
+}
+
+/*MEDIA 320-480px: MOBIL*/
+@media (max-width:480px){
+/*Navbar*/
+    .navbar {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    }
+    .checkbtn{
+    margin-right: 20px;
+    }
+    #LogoMonOncle{
+    width: 100px;
+    }
+
+/*Velkomstsiide*/
+    .velkomstsidesection{
+    margin-top:105px;
+    }
+    .pitchen{
+    margin-top: 80px;
+    grid-template-columns: 2fr;
+    }
+    #BildeAvKokk1{
+    width: 200px;
+    }
+    .Anmeldelser{
+    grid-template-columns: 2fr;
+    font-size: 12px;
+    }
+    #terning{
+    width: 15px;
+    }
+    #BildeAvMonOncle{
+    width: 150px;
+    }
+/*Footer*/
+    .Rad1{
+    width: 100%;
+    height: auto;
+    }
+    #kart{
+    margin-left: 0;
+    }
+    .Rad2{
+    margin: 0;
+    margin-bottom: 2%;
+    }
+    .åpningstider{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    
+
+/*Meny*/
+
+
+/*Reservasjon*/
+
+/*Tilgjengelighetsside*/
+
+/*DATA1100*/
+
+}
+
+
+
+
+
+
+
+/*
 @media (max-width: 1350px){
     #BildeAvKokk1{
     width: 500px;
@@ -239,18 +477,8 @@ footer{
     *{
         max-width: 710px;
     }
-    .checkbtn{
-        display: block;
-        padding: 30px;
-        margin-top: -80px;
-        font-size: 25px;    
-    }
-    #LogoMonOncle{
-        list-style: none;
-        visibility:visible;
-        align-items: center;
-        scroll-margin-block-end:unset;
-    }
+    
+    
     ul{
         position: fixed;
         width: 100%;
@@ -273,27 +501,14 @@ footer{
     #check:checked ~ ul{
         left: 0;
     }
-    .LogoToppen{
-        display: none;
-    }
+    
     .nav-meny{
         width: 100%;
         background-color: black;
         font-size: 50px;
     }
-    .navbar{
-        position: fixed;
-        background-color: rgba(0, 0, 0);
-        margin: 0;
-        left: 0;
-        top: 0;
-        padding: 5px;
-    }
-    /*Fjerner mulighet for å få bytte språk i listen, men får mulighet til å
-     forandre språk ved siden av fa-bars*/
-    .spraak{
-        display: none;
-    }
+  
+    
     .språk1{
         display: inline;
         color: white;
@@ -335,15 +550,6 @@ footer{
     .åpningstider{
     margin-top: 10px; 
     }
-    ul{
-    top: 150px;
-    background-color: black;
-    }
-    .nav-meny{
-    background-color: black;
-    font-size: 20px;
-    line-height: 10px;
-    }
 }
 @media (max-width:500px) {
     *{
@@ -382,6 +588,9 @@ footer{
     .Rad2{
     margin: 0;
     margin-bottom: 2%;
+    }
+    #kart{
+        margin-left: 0;
     }
 }
 
