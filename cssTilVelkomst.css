@@ -11,31 +11,32 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 /*NAVBAR START*/
-nav{
-    width: 100%;
+.navbar{
+    background-color: black;
     color: white;
-    font-size: 30px;
-    margin-top: -3px;
-    text-align: center;
-   
-}
-.nav-meny{
-    background-color: rgba(0, 0, 0, 0.514);
-    margin-top: -60px;
-    width: 100%;
-}
-nav ul li{
-    display: inline-block;
+    list-style: none;
+    width:100%;
     line-height: 30px;
-    margin: 0 5px;
+    font-size: 20px;
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+nav li{
+    background-color: black;
+    justify-content: space-evenly;
+}
+
 a.aktiv, a:hover{
     text-decoration: underline;
     color: white;
 }
 a{
     text-decoration: none;
-    color: white
+    color: white;
+    padding: 20px 5px;
 }
 .checkbtn{
     font-size: 40px;
@@ -47,15 +48,24 @@ a{
 #check{
     display: none;
 }
-.språk1{
-    display: none;
-    visibility: hidden;
-    list-style: none;
-}
 #LogoMonOncle{
-    visibility: hidden;
-    
+    visibility: visible;
+    align-items: center;
+    text-align: center;
 }
+.LogoToppen{
+    visibility: hidden;
+}
+.spraak{
+    font-size: 12px;
+    margin-top: -40px;
+    margin-right: -40px;
+}
+
+#LogoMonOncle, .spraak a{
+    border-style: none;
+}
+
 /*NAVBAR SLUTT*/
 
 /*Velkomsttekst på velkomstssiden START*/
@@ -116,6 +126,13 @@ footer{
     width: 100%;
     height: auto;    
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 2;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center
 }
 
 .IkonerMidten{
@@ -139,19 +156,13 @@ footer{
 }
 
 .åpningstider{
-    display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
     line-height: 2;
-    color: white;
-    margin-top: 100px;
-    padding: 20px;
-    
+    padding: 10px;
 }
-.Rad1{
-    margin: auto;
-}
+
 .Rad2{
     text-align: center;
     align-items: center;
@@ -163,6 +174,10 @@ footer{
 .Rad3{
     margin: auto
 }
+#kart{
+    width: 100%;
+    height: auto;
+}
 /*CSS TIL FOOTER SLUTT*/
 /*Velkomsttekst på velkomstssiden SLUTT*/
 
@@ -170,9 +185,13 @@ footer{
 /*MEDIA 781-1130px: liten laptop*/
 @media (max-width: 1130px){
 /*Navbar*/
-    nav ul li a{
+    .navbar{
     font-size: 15px;
-    color: white;
+    justify-content: space-evenly;
+    }
+    .spraak{
+    font-size: 10px;
+    margin-right: -20px;
     }
     
 /*Velkomstsiide*/
@@ -311,17 +330,16 @@ footer{
     width: 100px;
     }
     .Rad2{
-    font-size: 10px;
-    margin-left: -20%;
+    font-size: 12px;
     }
-    #kart{
-    width: 70%;
-    height: auto;
-    margin-left: -40%;
+    
+    .Rad3{
+    font-size: 12px;
     }
-    .åpningstider{
-    margin-top: 10px; 
-    }   
+    #instagram{
+    margin-top: 0px;
+    }
+
 /*Meny*/
     
     
@@ -362,6 +380,7 @@ footer{
     .Anmeldelser{
     grid-template-columns: 2fr;
     font-size: 12px;
+    margin-bottom: 10px;
     }
     #terning{
     width: 15px;
@@ -370,22 +389,18 @@ footer{
     width: 150px;
     }
 /*Footer*/
-    .Rad1{
-    width: 100%;
-    height: auto;
-    }
-    #kart{
-    margin-left: 0;
-    }
     .Rad2{
     margin: 0;
     margin-bottom: 2%;
     }
-    .åpningstider{
+    footer{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0%;
     }
-    
+    .åpningstider{
+    padding: 1px;
+    }
 
 /*Meny*/
 
@@ -395,237 +410,5 @@ footer{
 /*Tilgjengelighetsside*/
 
 /*DATA1100*/
-
-}
-
-
-
-
-
-
-
-/*
-@media (max-width: 1350px){
-    #BildeAvKokk1{
-    width: 500px;
-    height: auto;
-    }
-}
-
-@media (max-width: 1125px){
-    #BildeAvKokk1{
-    width: 400px;
-    height: auto;
-    }
-    .BildeAvKokk{
-    font-size: 15px;
-    line-height: 20px;
-    }
-}
-
-@media (max-width:1150px){
-    nav ul li a{
-    font-size: 20px;
-    }
-}
-
-@media (max-width: 900px){
-    #BildeAvKokk1{
-    width: 350px;
-    height: auto;
-    }
-    .BildeAvKokk{
-    font-size: 12px;
-    line-height: 20px;
-    }
-    #kart{
-    width: 80%;
-    height: 50%;
-    }
-    .åpningstider{
-    font-size: 12px;
-    }
-    .velkomstsidesection{
-    font-size: 12px;
-    }
-}
-
-
-@media (max-width:850px) {
-    nav ul li a{
-    font-size: 15px;
-    color: white;
-    }
-}
-
-@media (max-width: 800px){
-    #BildeAvKokk1{
-    width: 250px;
-    height: auto;
-    }
-    #BildeAvMonOncle{
-        height: auto;
-        width: 170px;
-    }
-    .Anmeldelser{
-        font-size: 12px;
-    }
-}
-
-
-@media (max-width:710px){
-    *{
-        max-width: 710px;
-    }
-    
-    
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        transition: all .5s;
-        background-color:black;
-        top: 165px;
-        left: -100%;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 10px;
-    }
-    a:hover, a.aktiv{
-        background: none;
-        color: white;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    
-    .nav-meny{
-        width: 100%;
-        background-color: black;
-        font-size: 50px;
-    }
-  
-    
-    .språk1{
-        display: inline;
-        color: white;
-        visibility: visible;
-        margin-top: -24px;
-    }
-    .navbarr{
-        padding: 50px;
-    }
-}
-@media (max-width: 600px){
-   .pitchen{ 
-    padding: 20%;
-    display:table-row;
-    }
-    .Anmeldelser{
-    display: flow-root;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
-    }
-    #BildeAvMonOncle{
-    width: 200px;
-    height: auto;
-    }
-    #IkonLogo{
-    height: auto;
-    width: 100px;
-    }
-    .Rad2{
-    font-size: 10px;
-    margin-left: -20%;
-    }
-    #kart{
-    width: 70%;
-    height: auto;
-    margin-left: -40%;
-    }
-    .åpningstider{
-    margin-top: 10px; 
-    }
-}
-@media (max-width:500px) {
-    *{
-        max-width: 500px;
-    }
-    .nav-meny{
-    font-size: 15px;
-    }
-    .språk1{
-    font-size: 15px;
-    }
-    ul{
-    top: 140px;
-    }
-    .navbar {
-        position: fixed;
-        background-color: rgba(0, 0, 0);
-        margin: 0;
-        left: 0;
-        top: 0;
-        padding:0;
-        align-items: center;
-        text-align: center;
-    }
-    .åpningstider{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    text-align: center;
-    }
-    .Rad1{
-    width: 100%;
-    height: auto;
-
-    }
-    .Rad2{
-    margin: 0;
-    margin-bottom: 2%;
-    }
-    #kart{
-        margin-left: 0;
-    }
-}
-
-@media (max-width:450px){
-    .navbar{
-        padding: 10px;
-    }
-    .checkbtn{
-        margin-right: 40px;
-    }
-    ul{
-        top: 130px;  
-    }
-    nav ul li{
-        line-height: 10px;
-    }
-    .språk1{
-        font-size: 15px;
-    }
-    .pitchen{
-        margin-top: 80px;
-        grid-template-columns: 2fr;
-    }
-    .Anmeldelser{
-        grid-template-columns: 2fr;
-        font-size: 12px;
-    }
-}
-
-@media (max-width:400px){
-    .checkbtn{
-        margin-right: 0px;
-    }
-    #LogoMonOncle{
-        margin-right: 200px;
-    }
 
 }
