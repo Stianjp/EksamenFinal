@@ -9,7 +9,6 @@ body{
     background-size: 100%;
     background-color: black;
     font-family:'Times New Roman', Times, serif;
-
 }
 /*NAVBAR START*/
 nav{
@@ -92,7 +91,7 @@ text-decoration: underline;
     color: white;
     line-height: 50px;
 }
-#Eiffeltårn{
+#BildeAvMonOncle{
     margin-top: 15px;
     border-style: solid;
     border-color: black;
@@ -181,43 +180,43 @@ footer{
     height: auto;
     }
     .BildeAvKokk{
-        font-size: 15px;
-        line-height: 20px;
+    font-size: 15px;
+    line-height: 20px;
     }
 }
 
 @media (max-width:1150px){
     nav ul li a{
-        font-size: 20px;
+    font-size: 20px;
     }
 }
 
 @media (max-width: 900px){
     #BildeAvKokk1{
-        width: 350px;
-        height: auto;
+    width: 350px;
+    height: auto;
     }
     .BildeAvKokk{
-        font-size: 12px;
-        line-height: 20px;
+    font-size: 12px;
+    line-height: 20px;
     }
     #kart{
     width: 80%;
     height: 50%;
     }
     .åpningstider{
-        font-size: 12px;
+    font-size: 12px;
     }
     .velkomstsidesection{
-        font-size: 12px;
+    font-size: 12px;
     }
 }
 
 
 @media (max-width:850px) {
     nav ul li a{
-        font-size: 15px;
-        color: white;
+    font-size: 15px;
+    color: white;
     }
 }
 
@@ -226,10 +225,20 @@ footer{
     width: 250px;
     height: auto;
     }
+    #BildeAvMonOncle{
+        height: auto;
+        width: 170px;
+    }
+    .Anmeldelser{
+        font-size: 12px;
+    }
 }
 
 
 @media (max-width:710px){
+    *{
+        max-width: 710px;
+    }
     .checkbtn{
         display: block;
         padding: 30px;
@@ -249,9 +258,8 @@ footer{
         text-align: center;
         transition: all .5s;
         background-color:black;
-        top: 172px;
+        top: 165px;
         left: -100%;
-
     }
     nav ul li{
         display: block;
@@ -270,6 +278,8 @@ footer{
     }
     .nav-meny{
         width: 100%;
+        background-color: black;
+        font-size: 50px;
     }
     .navbar{
         position: fixed;
@@ -291,39 +301,99 @@ footer{
         margin-top: -24px;
     }
     .navbarr{
-        background-color: rgba(0, 0, 0, 0.514);
         padding: 50px;
     }
 }
 @media (max-width: 600px){
-    #BildeAvKokk1{
-    position: flex;
-    display: block;
-    margin: auto;
+   .pitchen{ 
+    padding: 20%;
+    display:table-row;
+    }
+    .Anmeldelser{
+    display: flow-root;
+    line-height: 30px;
     align-items: center;
-    margin-right:25%;
-    margin-top: 10px;
+    text-align: center;
     }
-    .BildeAvKokk{
-        position: flex;
-        display: block;
-        margin: auto;
-        margin-top: 200px;
+    #BildeAvMonOncle{
+    width: 200px;
+    height: auto;
     }
-    .IkonerMidten{
-        font-size: 10px;
+    #IkonLogo{
+    height: auto;
+    width: 100px;
+    }
+    .Rad2{
+    font-size: 10px;
+    margin-left: -20%;
+    }
+    #kart{
+    width: 70%;
+    height: auto;
+    margin-left: -40%;
+    }
+    .åpningstider{
+    margin-top: 10px; 
+    }
+    ul{
+    top: 150px;
+    background-color: black;
+    }
+    .nav-meny{
+    background-color: black;
+    font-size: 20px;
+    line-height: 10px;
+    }
+}
+@media (max-width:500px) {
+    *{
+        max-width: 500px;
+    }
+    .nav-meny{
+    font-size: 15px;
+    }
+    .språk1{
+    font-size: 15px;
+    }
+    ul{
+    top: 140px;
+    }
+    .navbar {
+        position: fixed;
+        background-color: rgba(0, 0, 0);
+        margin: 0;
+        left: 0;
+        top: 0;
+        padding:0;
+        align-items: center;
+        text-align: center;
+    }
+    .åpningstider{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+    }
+    .Rad1{
+    width: 100%;
+    height: auto;
+
+    }
+    .Rad2{
+    margin: 0;
+    margin-bottom: 2%;
     }
 }
 
 @media (max-width:450px){
-    .navbarr{
+    .navbar{
         padding: 10px;
     }
     .checkbtn{
         margin-right: 40px;
     }
     ul{
-        top: 140px;  
+        top: 130px;  
     }
     nav ul li{
         line-height: 10px;
@@ -339,4 +409,14 @@ footer{
         grid-template-columns: 2fr;
         font-size: 12px;
     }
+}
+
+@media (max-width:400px){
+    .checkbtn{
+        margin-right: 0px;
+    }
+    #LogoMonOncle{
+        margin-right: 200px;
+    }
+
 }
