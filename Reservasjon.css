@@ -65,10 +65,12 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.5;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 #pitch{
-    background-color: #8c8c923a;
+    background-color: #2e2e5fb6; 
+    color: white;
 }
 
 .reserver{
@@ -79,10 +81,10 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     margin: 30px;
-    background-color: #8c8c923a;
+    background-color: #3c3c42b6;
 }
 
-form select, form input{
+form select, form input, option{
     width: 70%;
     color: black;
     margin: 10px 10px;
@@ -105,7 +107,7 @@ form select, form input{
     font-size: 20px;
     padding: 10px;
     border: 2px solid white;
-    border-radius: 20px 50px;
+    border-radius: 20px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -170,7 +172,7 @@ form select, form input{
     display:flex ;
     justify-content: center;
     align-items: center;
-    background-color: #8c8c923a;
+    background-color: #3c3c42b6;
     }
     
 .slider{
