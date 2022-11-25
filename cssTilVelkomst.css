@@ -158,14 +158,6 @@ footer{
     text-align: center;
 }
 
-.åpningstider{
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    line-height: 2;
-    padding: 10px;
-}
-
 .Rad2{
     text-align: center;
     align-items: center;

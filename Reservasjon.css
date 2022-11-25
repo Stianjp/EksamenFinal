@@ -10,50 +10,64 @@ body{
     background-size: 100%;
     background-blend-mode: multiply;
 }
-
-
 /*NAVBAR START*/
 nav{
-    width: 100%;
+    background-color: black;
     color: white;
-    font-size: 30px;
-    margin-top: -3px;
-}
-.nav-meny{
-    background-color: rgba(0, 0, 0, 0.514);
-    margin-top: -60px;
-    width: 100%;
-}
-nav ul li{
-    display: inline-block;
+    list-style: none;
+    width:100%;
     line-height: 30px;
-    margin: 0 5px;
 }
+
+nav ul li{
+    background-color: black;
+    font-size: 20px;
+    list-style: none;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;  
+    padding: 20px 5px;
+}
+
 a.aktiv, a:hover{
     text-decoration: underline;
     color: white;
 }
 a{
     text-decoration: none;
-    color: white
+    color: white;
 }
 .checkbtn{
-    font-size: 20px;
+    font-size: 40px;
     float: right;
     display: none;
     cursor: pointer;
+    color: white;
 }
 #check{
     display: none;
 }
-.språk1{
-    display: none;
-    visibility: hidden;
-    list-style: none;
-}
 #LogoMonOncle{
-    visibility: hidden;
+    visibility: visible;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
+}
+.LogoToppen{
+    visibility: hidden;
+}
+.spraak{
+    font-size: 15px;
+    float: right;
+}
+.språk1{
+/*Gir oss mulighet til å flytte på Engelsk/Norsk på en lettere måte enn å bruke margin*/
+    visibility: hidden;
 }
 /*NAVBAR SLUTT*/
 
@@ -267,11 +281,55 @@ footer{
     color: white;
     margin-top: 100px;
 }
-/*CSS TIL FOOTER SLUTT*/
-
-@media only screen and (max-width: 750px){
-    .booking{
-        grid-template-columns: 1fr;
-    }
+/*CSS TIL FOOTER START*/
+footer{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: auto;    
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 2;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center
 }
-/*Slideshow bilde på velkomstssiden SLUTT*/
+
+.IkonerMidten{
+   font-size: 15px;
+   align-items: center;
+   text-align: left;
+   grid-template-columns: 1fr 1fr;
+}
+#Ikoner{
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    text-decoration: none;
+    align-items: right;
+}
+#IkonLogo{
+    width:200px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Rad2{
+    text-align: center;
+    align-items: center;
+    display: table-column;
+    columns: 1fr 1fr;
+    margin: auto;
+    line-height:300%;
+}
+.Rad3 p{
+    margin: auto;
+    color: white;
+}
+#kart{
+    width: 100%;
+    height: auto;
+}
+/*CSS TIL FOOTER SLUTT*/
