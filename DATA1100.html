@@ -9,43 +9,49 @@
     <link rel="stylesheet" href="DATA1100.css">
     <title>DATA1100</title>
 </head>
+<body class="body1100">
+<header>
 <!---NAVBAR START -->
-<section class="navbarr">
-    <nav class="navbar">
-        <li id="LogoMonOncle"><a href="./VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-        <input type="checkbox" id="check">
+<nav class="navbar">
+    <div id="LogoMonOncle">
+        <!--For å endre fra Norsk til Engelsk på hver side-->
+        <div class="språk1"><p><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></p></div>
+        <a href="VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li><!--Når du klikker på logo, kommer du til velkomstssiden-->
+        <div class="spraak"><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></div>
+    </div>
+    <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-            <div class="språk1"><p><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></p></div></li>
-        </label>
-        <ul class="nav-meny">
-            <li class="LogoToppen"><a href="VelkomstsideFinalTest.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-            <li><a  href="VelkomstsideFinalTest.html">Velkomstside</a></li>
-            <li><a href="Meny.html">Meny</a></li>
-            <li><a href="Reservasjon.html">Reservasjon</a></li>
-            <li><a href="Tilgjengelighetsside.html">Tilgjengelighetsside</a></li>
-            <li><a class="aktiv" href="DATA1100.html">DATA1100</a></li>
-            <!--For å endre fra Norsk til Engelsk på hver side-->
-            <li><div class="spraak"><p><a href="./DATA1100EN.html">EN</a> | <a href="./DATA1100.html">NO</a></p></div></li>
-        </ul>
-    </nav>
-</section>
-</header>
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul>
+        <!--Rad 1: Velkomstside-->
+        <li><a  href="VelkomstsideFinalTest.html">Velkomstside</a></li>
+        <!--Rad 2: Meny-side-->
+        <li><a  href="Meny.html">Meny</a></li>
+        <!--Rad 3: Reservasjonsside-->
+        <li><a href="Reservasjon.html">Reservasjon</a></li>
+        <!--Rad 4: Tilgjengelighetsside-->
+        <li><a href="Tilgjengelighetsside.html">Tilgjengelighetsside</a></li>
+        <!--Rad 5: DATA1100-siden-->
+        <li><a class="aktiv" href="DATA1100.html">DATA1100</a></li>
+    </ul>
+</nav>
 <!-- NAVBAR SLUTT -->
-<body>
-    <h1 class="overskrift">Fake News</h1>
+</header>
+    <h1 class="heading1100">Fake News</h1>
 
-    <div class="flex">
-        <div class = "text">
+    <div class="main1100">
+        <div class = "main1100text">
             <p> 
-            <a class = "link" href="https://no.wikipedia.org/wiki/Falsk_nyhet" target="_blank"> Fake news</a>
+            <a class = "link1100" href="https://no.wikipedia.org/wiki/Falsk_nyhet" target="_blank"> Fake news</a>
             er et moderne verktøy som kan være med å påvirke en samling av personer i stor grad. Men hvor effektivt er egentlig dette verktøyet?
             Funker det kun på eldre personer som leser nyheter på datamaskinen sin? Tenker egentlig folk kritisk lenger eller tror dem blindt på det de leser, ser og hører?
             Dette er noen spørsmål vi tenkte å få visualisert ut til dere med en liten intervju runde med noen ulike personer som ikke hadde noen anelse om hva vi drev med.
             </p>
         </div>
 
-        <div class ="video">
+        <div class ="main1100video">
+            <!-- Youtube video med kode anbefalt fra Youtube sin share knapp -->
              <iframe id="videostr"
                 src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
             </iframe>
@@ -53,27 +59,28 @@
     </div>
 
 
-    <h2> Crew </h2>
-    <div class="flexportrett">
+    <h2 class ="heading21100"> Crew </h2>
+    <!-- Flexbox med portrett bildene av crewet som lagde videoen -->
+    <div class="crew1100">
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Stianp.png" alt="Bilde av Kameramann">
-            <p class="navn"> Stian Pettersen <br> Kameramann</p> 
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Stianp.png" alt="bilde av kameramann">
+            <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/stian.webp" alt="Bilde av reporter">
-            <p class="navn"> Ellen Arnesen <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/stian.webp" alt="bilde av reporter">
+            <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Dennis.png" alt="Bilde av reporter">
-            <p class="navn">Dennis Janssen <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Dennis.png" alt="bilde av reporter">
+            <p class="navn1100">Dennis Janssen <br> Reporter</p>
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Abdi.png" alt="Bilde av reporter">
-            <p class="navn"> Abdi Abdiwali <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Abdi.png" alt="bilde av reporter">
+            <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
         </div>
 
     </div>

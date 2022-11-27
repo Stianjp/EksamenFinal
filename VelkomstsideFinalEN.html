@@ -12,78 +12,103 @@
 <body>
 <header>
 <!---NAVBAR START -->
-    <section class="navbarr">
-        <nav class="navbar">
-            <li id="LogoMonOncle"><a href="./VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-                <div class="språk1"><p><a href="./VelkomstsideFinalEN.html">EN</a> | <a href="./VelkomstsideFinalTest.html">NO</a></p></div></li>
-            </label>
-            <ul class="nav-meny">
-                <li class="LogoToppen"><a href="VelkomstsideFinalEN.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-                <li><a class="aktiv" href="VelkomstsideFinalEN.html">Welcome page</a></li>
-                <li><a href="MenyEN.html">Menu</a></li>
-                <li><a href="ReservasjonEN.html">Reservation</a></li>
-                <li><a href="Tilgjengelighetsside.html">Accessibility</a></li>
-                <li><a href="DATA1100EN.html">DATA1100</a></li>
-                <!--For å endre fra Norsk til Engelsk på hver side-->
-                <li><div class="spraak"><p><a href="./VelkomstsideFinalEN.html">EN</a> | <a href="VelkomstsideFinalTest.html">NO</a></p></div></li>
-            </ul>
-        </nav>
-    </section>
+<nav class="navbar">
+    <div id="LogoMonOncle">
+        <!--For changes from English too Norwegian in every side-->
+        <div class="språk1"><p><a href="VelkomstsideFinalEN.html">EN</a> | <a href="VelkomstsideFinalTest.html">NO</a></p></div>
+        <a href="VelkomstsideFinalEN.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li><!--When you click on the logo, you will get to the main page-->
+        <div class="spraak"><a href="VelkomstsideFinalEN.html">EN</a> | <a href="VelkomstsideFinalTest.html">NO</a></div>
+    </div>
+    <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul>
+        <!--Row 1: Welcome page-->
+        <li><a class="aktiv" href="VelkomstsideFinalEN.html">MAIN</a></li>
+        <!--Row 2: Menu page-->
+        <li><a href="MenyEN.html">MENU</a></li>
+        <!--Row 3: Reservation page-->
+        <li><a href="ReservasjonEN.html">RESERVATION</a></li>
+        <!--Row 4: ACCESSIBILITY PAGE-->
+        <li><a href="Tilgjengelighetsside.html">ACCESSIBILITY</a></li>
+        <!--Row 5: DATA1100 page-->
+        <li><a href="DATA1100EN.html">DATA1100</a></li>
+    </ul>
+</nav>          
 </header>
-<!-- NAVBAR SLUTT -->
-    <section class="velkomstsidesection">
-        <div class="pitchen">
-            <h1>Welcome to Mon Oncle!</h1>
-            <p>In April 2022, we could finally welcome master chef Esben Holmboe Bang's latest invention here in Oslo. We are proud to be able to take you on a traditional French and classic culinary journey with exciting new twists. For groups larger than 8 people, please contact us at <a href="mailto:booking@mononcle.no">booking@mononcle.no</a></p>
-            <br>
-            <p>"The country's best French restaurant" - <a href="https://www.godt.no/anmeldelser/restaurant/i/Jxeje7/restaurantanmeldelse-av-mon-oncle-landets-beste-franske-restaurant">Godt, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"> </p> <!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
-            <p>"Fantastic lot of good food in stylish premises" - <a href="https://www.aftenposten.no/oslo/sulten/i/lVRqqk/restaurantanmeldelse-fantastisk-mye-god-mat-i-stilfullt-lokale">Aftenposten, 2022</a><img id="terning" src="Bilder/Terningkast5.png" alt="Bilde av terningkast 5"> </p> <!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning5.svg -->
-            <p>"Mon Oncle is so classic that it feels completely new" - <a href="https://www.dn.no/smak/restaurantguiden/restaurantguiden/restauranter/restaurantanmeldelse/restaurant-mon-oncle-forsteklasses-klassisk/2-1-1221416">DN, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"> </p><!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
-        </div>
-    </section>
-    <img id="BildeAvKokk1" src="Bilder/Bilde av kokk.jpg" alt="Bilde av kokk som skal fremstilles som Esben Holmboe Bang" width="600px" height="auto">
-    <div class="BildeAvKokk">
-        <p>Esben Holmboe Bang is a Danish chef, co-owner and head chef of a number of restaurants in Oslo such as<a href="https://maaemo.no/">Maaemo</a>, <a href="https://kafeteriaaugust.no/">Kafeteria August</a>, <a href="https://thevandelay.no/">the Vandelay</a> and more.</p>
+<!-- NAVBAR END -->
+<!-- WELCOME PAGE START -->
+<section class="velkomstsidesection">
+    <div class="pitchen">
+        <!--Collum 1-->
+        <h1>Welcome to Mon Oncle!</h1>
+        <!--Collum 2-->
+        <p></p>
+        <!--Collum 3-->
+        <p>In April 2022, we could finally welcome master chef Esben Holmboe Bang's latest invention here in Oslo. We are proud to be able to take you on a traditional French and classic culinary journey with exciting new twists. For groups larger than 8 people, please contact us at <a href="mailto:booking@mononcle.no">booking@mononcle.no</a>
         <br>
-        <p>Bang and his crew excelled early, receiving their first<a href="https://no.wikipedia.org/wiki/Michelinguiden">Michelin star</a> already in 2012.</p>
-        <p>Just four years later in 2016, Bang and Maeemo received three Michelin stars!</p>
+        Esben Holmboe Bang is a Danish chef, co-owner and head chef of a number of restaurants in Oslo such as <a id="Underline" href="https://maaemo.no/">Maaemo</a>, <a id="Underline" href="https://kafeteriaaugust.no/">Kafeteria August</a>, <a id="Underline" href="https://thevandelay.no/">the Vandelay</a> with more.
         <br>
-        <p><cite>"I want to open a place where you are not forced into 16-20 dishes"</cite> - Esben Holmboe Bang</p> <!--Link: hentet fra (19.11.2022)https://www.dn.no/smak/restauranter/esben-holmboe-bang/restauranter/fransk/esben-holmboe-bang-jeg-vil-apne-et-sted-der-man-ikke-er-tvangsinnlagt-til-1620-retter/2-1-1190246 -->
-    </div>    
-</body>
-<!--FOOTER-->
+        Bang and his crew excelled early, receiving their first <a id="Underline" href="https://no.wikipedia.org/wiki/Michelinguiden">Michelin Star</a> already in 2012.
+        <br>
+        Just four years later in 2016, Bang and Maeemo received three Michelin stars!</p>
+        <!--Collum 4-->
+        <p><img id="BildeAvKokk1" src="Bilder/Bilde av kokk.jpg" alt="Picture of a chef to be portrayed as Esben Holmboe Bang" width="600px" height="auto"></p>
+        <!--Collum 5-->
+        <p></p>
+        <!--Collum 6-->
+        <p id="Collum6"><cite>"I want to open a place where you are not forced into 16-20 dishes"</cite> - Esben Holmboe Bang</p><!--Link: hentet fra (19.11.2022)https://www.dn.no/smak/restauranter/esben-holmboe-bang/restauranter/fransk/esben-holmboe-bang-jeg-vil-apne-et-sted-der-man-ikke-er-tvangsinnlagt-til-1620-retter/2-1-1190246 -->
+    </div>
+</section>
+<section class="Anmeldelser">
+    <!--Collum 1-->
+    <p><img id="BildeAvMonOncle" src="Bilder/Bakgrunn velkomstsside.jpg" alt="Bilde av Mon Oncle" title="Fransk stemning med Mon Oncle"></p><!--Effekt: når man hovrer over bilde kommer det tekst opp-->
+    <!--Collum 2-->
+    <p id="Collum2An">"The country's best French restaurant" <br> - <a id="Underline" href="https://www.godt.no/anmeldelser/restaurant/i/Jxeje7/restaurantanmeldelse-av-mon-oncle-landets-beste-franske-restaurant">Godt, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"><!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
+    <br>
+    "Fantastic lot of good food in stylish premises" <br> - <a id="Underline" href="https://www.aftenposten.no/oslo/sulten/i/lVRqqk/restaurantanmeldelse-fantastisk-mye-god-mat-i-stilfullt-lokale">Aftenposten, 2022</a><img id="terning" src="Bilder/Terningkast5.png" alt="Bilde av terningkast 5"><!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning5.svg -->
+    <br>
+    "Mon Oncle is so classic that it feels completely new" <br> - <a id="Underline"  href="https://www.dn.no/smak/restaurantguiden/restaurantguiden/restauranter/restaurantanmeldelse/restaurant-mon-oncle-forsteklasses-klassisk/2-1-1221416">DN, 2022</a><img id="terning" src="Bilder/TerningKast6.png" alt="Bilde av terningkast 6"> </p><!--Link til Resturantanmeldelsen // Bilde er hentet fra (19.11.2022)https://no.m.wikipedia.org/wiki/Fil:Terning6.svg-->
+</section>
+<!--WELCOME PAGE END-->
+<!--FOOTER START-->
 <footer>
-    <div class="åpningstider">
-        <!--For å få kart i Footer-->
+<!--Rad 1-->
+    <div class="Rad1">
+        <!--Too get map in the Footer-->
         <p><iframe id="kart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9092301371957!2d10.
-        736714951086052!3d59.91705377071345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f77878ea417%3A0x5059590bb73b777f!2sMon%
-        20Oncle!5e0!3m2!1sno!2sno!4v1667210784847!5m2!1sno!2sno"width="400" height="300" style="border:0;" 
-        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> 
+            736714951086052!3d59.91705377071345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416f77878ea417%3A0x5059590bb73b777f!2sMon%
+            20Oncle!5e0!3m2!1sno!2sno!4v1667210784847!5m2!1sno!2sno" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> 
+    </div> 
+    <div class="Rad2">
         <!--Bruker fa fa for å få Instagram logo-->
-        <p class="IkonerMidten">
-        <a id="Ikoner" class="fa fa-instagram" href="https://www.instagram.com/mononcle.oslo/"><!--Instagram-link // OBS må logge inn på Instagram for å kunne se--></a> INSTAGRAM
-        </p>
-   
-        <p><strong>Address:</strong> <!--Brukes kun 1 <p> for å få dette på tre rader-->
+        <!--Rad 2.1-->
+        <p><a id="IkonLogo" href="VelkomstsideFinalTest.html"><img id="IkonLogo" src="Bilder/LOGO-mon-oncle.png" alt="Logo Mon Oncle" title="Snarvei til øverst på siden"></a><!--Snarvei til øverst på siden // Refresh--></p>   
+        <!--Rad 2.2-->
+        <a id="Ikoner" class="fa fa-instagram" href="https://www.instagram.com/mononcle.oslo/" title="Instagram"><!--Instagram-link // OBS må logge inn på Instagram for å kunne se--></a>
+    </div>
+    <!--Rad 3-->
+    <div class="Rad3">
+        <!--Rad 3.1--><p><strong>Address:</strong> <!--Brukes kun 1 <p> for å få dette på tre rader-->
         <br>
-        Universitetsgata 9
+        <!--Rad 3.2-->Universitetsgata 9
         <br>
-        0164, Oslo
+        <!--Rad 3.4-->0164, Oslo
         <br>
-        <a href="mailto:booking@mononcle.no">booking@mononcle.no</a> 
+        <!--Rad 3.5--><a href="mailto:booking@mononcle.no">booking@mononcle.no</a> 
         <br>
-        +47 238 98 631
+        <!--Rad 3.6-->+47 238 98 631
         <br>
-        Open:
+        <!--Rad 3.7-->Open:
         <br>
-        Thuesday-Saturday
+        <!--Rad 3.8-->Thuesday-Saturday
         <br>
-        5PM-11PM
+        <!--Rad 3.9-->05PM - 11PM
         </p>
     </div>
 </footer>
-
+<!--FOOTER END-->
+</body>
 </html>

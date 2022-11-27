@@ -9,42 +9,49 @@
     <link rel="stylesheet" href="DATA1100.css">
     <title>DATA1100</title>
 </head>
+<body class="body1100">
+<header>
 <!---NAVBAR START -->
-<section class="navbarr">
-    <nav class="navbar">
-        <li id="LogoMonOncle"><a href="./VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-        <input type="checkbox" id="check">
+<nav class="navbar">
+    <div id="LogoMonOncle">
+        <!--For changes from English too Norwegian in every side-->
+        <div class="språk1"><p><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></p></div>
+        <a href="VelkomstsideFinalEN.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li><!--When you click on the logo, you will get to the main page-->
+        <div class="spraak"><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></div>
+    </div>
+    <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-            <div class="språk1"><p><a href="DATA1100EN.html">EN</a> | <a href="DATA1100.html">NO</a></p></div></li>
-        </label>
-        <ul class="nav-meny">
-            <li class="LogoToppen"><a href="VelkomstsideFinalTest.html" class="logo"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li>
-            <li><a  href="VelkomstsideFinalTest.html">Velkomstside</a></li>
-            <li><a href="Meny.html">Meny</a></li>
-            <li><a href="Reservasjon.html">Reservasjon</a></li>
-            <li><a href="Tilgjengelighetsside.html">Tilgjengelighetsside</a></li>
-            <li><a class="aktiv" href="DATA1100.html">DATA1100</a></li>
-            <!--For å endre fra Norsk til Engelsk på hver side-->
-            <li><div class="spraak"><p><a href="./DATA1100EN.html">EN</a> | <a href="./DATA1100.html">NO</a></p></div></li>
-        </ul>
-    </nav>
-</section>
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul>
+        <!--Row 1: Welcome page-->
+        <li><a href="VelkomstsideFinalEN.html">MAIN</a></li>
+        <!--Row 2: Menu page-->
+        <li><a href="MenyEN.html">MENU</a></li>
+        <!--Row 3: Reservation page-->
+        <li><a href="ReservasjonEN.html">RESERVATION</a></li>
+        <!--Row 4: ACCESSIBILITY PAGE-->
+        <li><a href="Tilgjengelighetsside.html">ACCESSIBILITY</a></li>
+        <!--Row 5: DATA1100 page-->
+        <li><a class="aktiv" href="DATA1100EN.html">DATA1100</a></li>
+    </ul>
+</nav>          
 </header>
-<!-- NAVBAR SLUTT -->
-<body>
-    <h1 class="overskrift">Fake News</h1>
+<!-- NAVBAR END -->
+</header>
+    <h1 class="heading1100">Fake News</h1>
 
-    <div class="flex">
-        <div class = "text">
+    <div class="main1100">
+        <div class = "main1100text">
             <p> 
-            <a class = "link" href="https://en.wikipedia.org/wiki/Fake_news" target="_blank"> Fake news</a> is a modern tool that can help influence a group of people to a large extent. But how effective is this tool really? 
+            <a class = "link1100" href="https://en.wikipedia.org/wiki/Fake_news" target="_blank"> Fake news</a> is a modern tool that can help influence a group of people to a large extent. But how effective is this tool really? 
             Does it only work on older people who read news on their computer? Do people really think critically anymore or do they blindly believe what they read, see and hear?
             These are some of the questions we thought we would visualize for you with a small round of interviews with a few different people who had no idea what we were doing.
             </p>
         </div>
 
-        <div class ="video">
+        <div class ="main1100video">
+            <!-- Youtube video with code suggested from Youtube's share button -->
              <iframe id="videostr"
                 src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
             </iframe>
@@ -52,27 +59,29 @@
     </div>
 
 
-    <h2> Crew </h2>
-    <div class="flexportrett">
+    <h2 class ="heading21100"> Crew </h2>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Stianp.png" alt="Bilde av Kameramann">
-            <p class="navn"> Stian Pettersen <br> Kameramann</p> 
+    <!-- Flexbox with portrait pictures from the crewet that made the youtube video -->
+    <div class="crew1100">
+
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Stianp.png" alt="Fotage of Cameraman">
+            <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/stian.webp" alt="Bilde av reporter">
-            <p class="navn"> Ellen Arnesen <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/stian.webp" alt="fotage of reporter">
+            <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Dennis.png" alt="Bilde av reporter">
-            <p class="navn">Dennis Janssen <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Dennis.png" alt="fotage of reporter">
+            <p class="navn1100">Dennis Janssen <br> Reporter</p>
         </div>
 
-        <div class="reporter">
-            <img class="portrett" src="bilder/Abdi.png" alt="Bilde av reporter">
-            <p class="navn"> Abdi Abdiwali <br> Reporter</p>
+        <div class="reporter1100">
+            <img class="portrett1100" src="bilder/Abdi.png" alt="fotage of reporter">
+            <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
         </div>
 
     </div>
