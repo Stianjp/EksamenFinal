@@ -78,7 +78,6 @@ a{
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
-    
 }
 
 .heading1100{
@@ -100,7 +99,7 @@ a{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 3%;
-    max-height: fit-content;
+    max-height: fit-content; /* får tekstboksen til å automatisk justere seg på visse nettlesere. */
     margin-top: 5%;
 }
 
@@ -116,6 +115,7 @@ a{
     max-width: 600px;
 }
 
+/* linken til fake news wikipedia nettsiden START*/
 .link1100{
     color:rgb(229, 255, 0);
     font-style:italic;
@@ -125,25 +125,7 @@ a{
     text-decoration: underline;
     color: aquamarine;
 }
-
-.crew1100{
-display: flex;
-flex-wrap: wrap;
-
-}
-
-.portrett1100{
-    height: 165px;
-    width: 160px;
-    border-radius: 50%;
-    
-}
-
-.reporter1100{
-    flex: 15%;
-    text-align: center;
-    padding: 20px;
-}
+/* linken til wikipedia nettsiden SLUTT */
 
 .heading21100{
     margin-top: 100px;
@@ -151,6 +133,25 @@ flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 150%;
+    padding: 20px;
+}
+
+.crew1100{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portrett1100{
+    height: 165px;
+    width: 160px;
+    border-radius: 50%;
+    filter: grayscale(25%);
+        -webkit-filter: grayscale(25%);
+}
+
+.reporter1100{
+    flex: 15%;
+    text-align: center;
     padding: 20px;
 }
 
