@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none; 
+    box-sizing: border-box;
 }
 
 /*NAVBAR START*/
@@ -87,8 +88,6 @@ body{
 }
 
 
-
-
 .main{
     text-align: center;
     height: 500px;
@@ -134,42 +133,63 @@ order: 4;
     height: 900px;
     order: 50;
     background-color:beige;
-    color: rgb(6, 5, 5);
+    color: rgb(255, 132, 0);
     padding: 5%;
     margin: 5%;
 }
 
-.menymain h1{
-    padding: 5%;
-    
-}
 
-/*CSS TIL FOOTER START*/
 footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
-     
+    height: auto;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .IkonerMidten{
-   font-size: 20px;
+   font-size: 15px;
+   align-items: center;
+   text-align: left;
+   grid-template-columns: 1fr 1fr;
 }
 #Ikoner{
     padding: 20px;
     font-size: 30px;
-    width: 50px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
+    align-items: right;
+}
+#IkonLogo{
+    width:200px;
+    height: auto;
+    align-items: center;
+    text-align: center;
 }
 
 .åpningstider{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     line-height: 2;
     color: white;
     margin-top: 100px;
+    padding: 20px;
+    
+}
+.Rad1{
+    margin: auto;
+}
+.Rad2{
+    text-align: center;
+    align-items: center;
+    display: table-column;
+    columns: 1fr 1fr;
+    margin: auto;
+    line-height:300%;
+}
+.Rad3{
+    margin: auto
 }
 /*CSS TIL FOOTER SLUTT*/
 
@@ -185,9 +205,6 @@ footer{
     }
 }
 
-.info{
-
-}
 
 
 
