@@ -340,6 +340,8 @@ form select, form input, option{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-top: 20%;
+    width: 20%;
     background: none;
     background-color: none;
     }
@@ -419,10 +421,19 @@ form select, form input, option{
     
     
 /*Reservasjon*/
+.navigasjon-manuell{
+    margin-top: 25%;
+}
     
 /*Tilgjengelighetsside*/
     
 /*DATA1100*/   
+}
+@media (max-width: 900px) {
+    .navigasjon-manuell{
+        margin-top: 25%;
+    }
+    
 }
 
 /*MEDIA 481-780px: Tablet/iPad*/
