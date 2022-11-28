@@ -7,7 +7,7 @@
 body{
     background:  url("Bilder/EiffelltårnSTOR.jpg");
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: cover;
     background-blend-mode: multiply;
 }
 /*NAVBAR START*/
@@ -85,6 +85,8 @@ a{
 #pitch{
     background-color: rgba(0, 0, 0, 0.550);
     color: white;
+    border-style: solid;
+    border-color: black;
 }
 
 .reserver{
@@ -96,6 +98,8 @@ a{
     color: black;
     margin: 30px;
     background-color: rgba(0, 0, 0, 0.550);
+    border-style: solid;
+    border-color: black;
 }
 
 form select, form input, option{
@@ -130,7 +134,7 @@ form select, form input, option{
     justify-content: center;
   }
   .button:hover {
-    background: rgb(61, 171, 149);
+    background: blueviolet;
     text-decoration: none;
   }
   
@@ -176,7 +180,7 @@ form select, form input, option{
     color: black;
   }
   .popup .close:hover {
-    color: #06D85F;
+    color: red;
   }
   
 
@@ -187,6 +191,8 @@ form select, form input, option{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.550);
+    border-style: solid;
+    border-color: black;
     }
     
 .slider{
@@ -333,3 +339,19 @@ footer{
     height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
+
+@media (max-width: 1130px){
+
+}
+
+@media (max-width: 780px){
+
+    .booking{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width:480px){
+    
+}
