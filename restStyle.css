@@ -6,7 +6,7 @@
 body{
     background-image: url(Bilder/EiffelltårnSTOR.jpg); /*Bilde fra: Flo Dahm, hentet ut 15.11.2022. Bildelink: https://www.pexels.com/nb-no/bilde/metall-kveld-arkitektur-hoy-699466/*/
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-color: black;
     font-family:'Times New Roman', Times, serif;
 }
@@ -176,6 +176,207 @@ footer{
 /*CSS TIL FOOTER SLUTT*/
 /*Velkomsttekst på velkomstssiden SLUTT*/
 
+/*Reservasjons-side START*/
+.booking {
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    align-items:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/*Info om selve lokalet START*/
+#pitch{
+    background-color: rgba(0, 0, 0, 0.550);
+    color: white;
+    border-style: solid;
+    border-color: black;
+}
+/*Info om selve lokalet SLUTT*/
+
+/*Reservasjons-skjema START*/
+.reserver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.550);
+    border-style: solid;
+    border-color: black;
+}
+
+form select, form input, option{
+    width: 70%;
+    color: black;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Reservasjons-skjema SLUTT*/
+  
+/*Confirmation på reservasjon START*/
+  .box {
+    width: 100%;
+    border: 2px;
+    background-clip: padding-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2, p {
+    margin-top: 0;
+    color: black;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position:absolute;
+    top:-30px;
+    right: 2px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .popup .close:hover {
+    color: red;
+  }
+  /*Confirmation på Reservasjon SLUTT*/
+
+/*Slideshow START*/
+#section2{
+    height: 290px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.550);
+    border-style: solid;
+    border-color: black;
+    }
+    
+.slider{
+    width: 480px;
+    height: 290px;
+    border-radius: 40px;
+    border-style: solid;
+    overflow: hidden;
+    border-color: black;
+    }
+
+.knapp{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    }
+
+.knapp input{
+    display: none;
+    }
+
+.slide img{
+    width: 480px;
+    height: 290px;
+    }
+/*Slideshow SLUTT*/
+
+/*Slideshow navigasjon START*/
+    
+.navigasjon-manuell{
+    display: flex;
+    position: absolute;
+    align-self:flex-end;
+    width: 100%;
+    justify-content: space-evenly;
+    background: none;
+    background-color: none;
+    }
+    
+.manuell-knapp{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;   
+    }
+
+.manuell-knapp:hover{
+    background: white;
+    background-color: none;
+    }
+    
+#sirkel1:checked~.forst{
+    margin-left: 0;
+    }
+    
+#sirkel2:checked~.forst{
+    margin-left: -20%;
+    }
+    
+#sirkel3:checked~.forst{
+    margin-left: -40%;
+    }
+    
+#sirkel4:checked ~ .forst{
+    margin-left: -60%;
+    }
+/*Slideshow navigasjon SLUTT*/  
+
+/*Reservasjons-side SLUTT*/
+
 /*Media innstillinger*/
 /*MEDIA 781-1130px: liten laptop*/
 @media (max-width: 1130px){
@@ -325,6 +526,9 @@ footer{
     
     
 /*Reservasjon*/
+.booking{
+    grid-template-columns: 1fr;
+}
     
 /*Tilgjengelighetsside*/
     
