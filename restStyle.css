@@ -277,7 +277,7 @@ form select, form input, option{
     transition: all 5s ease-in-out;
   }
   
-  .popup h2, p {
+  .popup h2, .popup p {
     margin-top: 0;
     color: black;
     font-family: Tahoma, Arial, sans-serif;
