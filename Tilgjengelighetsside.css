@@ -65,7 +65,7 @@ a{
 /*NAVBAR SLUTT*/
 
 body{
-    background:  url("Bilder/hehehe.jpg");
+    background:  url();
     background-repeat: no-repeat; 
     background-size: cover;
     background-blend-mode: multiply;
@@ -73,7 +73,47 @@ body{
     height: 100vh;
     width: 100%;
 }
+/*----------------------------------------------------*/
+.SectionTilgjengelighetsside{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#Undertitler{
+    text-decoration: underline;
+}
+.VelkomstSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
 
+.data1100section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+u{
+    text-decoration: underline;
+}
+
+#BilderTilgjengelig{
+    width: 600px;
+    height: auto;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+}
 /*CSS TIL FOOTER START*/
 footer{
     background-color: rgb(31, 31, 31);
