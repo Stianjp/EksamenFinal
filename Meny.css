@@ -133,7 +133,7 @@ body{
 }
 
 .menymain{
-    height: 1750px;
+    height: auto;
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
@@ -270,6 +270,18 @@ footer{
     height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
+
+@media (max-width:850px){
+
+    .flexmeny{
+        visibility: hidden;
+        display: none;
+        content: remove;
+    }
+
+
+    
+}
 
 
 
