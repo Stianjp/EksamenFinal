@@ -69,16 +69,10 @@ a{
 /*Styling til meny*/ 
 
 body{
-   background-color: black;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center;
-    font-size: 22px;
+    background-color:  black;
 }
 
-.wrapper{
-
+.wrappermeny{
     display: flex;
     flex-flow:row wrap; 
     text-align: center;
@@ -90,26 +84,11 @@ body{
 }
 
     
-.wrapper>*{
+.wrappermeny>*{
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
-}
-
-.header{
-    height: 120px;  
-}
-
-
-
-
-body{
-    background-color: black;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center;
 }
 
 .h1meny{
@@ -138,7 +117,7 @@ body{
 }
 
 
-.main{
+.mainmeny{
     color:white;
     text-align: center;
     font-size: 18px;
@@ -286,6 +265,7 @@ footer{
 }
 /*CSS TIL FOOTER SLUTT*/
 
- 
+
+
 
 
