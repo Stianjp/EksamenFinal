@@ -347,8 +347,9 @@ form select, form input, option{
     }
     
 .manuell-knapp{
-    border: solid;
-    padding: 5px;
+    border: 2px solid;
+    background-color: black;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;   
