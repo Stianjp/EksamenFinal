@@ -78,7 +78,7 @@ a{
 }
 
 .pitchen{
-    padding: 5px;
+    padding-top: 5px;
     display: grid;
     text-align: center;
     align-items:center;
@@ -336,17 +336,19 @@ form select, form input, option{
 /*Slideshow navigasjon START*/
     
 .navigasjon-manuell{
-    display: flex;
     position: absolute;
-    align-self:flex-end;
-    justify-content:space-evenly;
-    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
     background: none;
     background-color: none;
     }
     
 .manuell-knapp{
-    border: solid;
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    background-color: black;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -527,6 +529,11 @@ form select, form input, option{
 /*Reservasjon*/
 .booking{
     grid-template-columns: 1fr;
+    padding-top: 100px;
+}
+#section2{
+    visibility: hidden;
+    display: none;
 }
     
 /*Tilgjengelighetsside*/
