@@ -79,13 +79,14 @@ body{
     color: white;
     font-size: larger;
     font-style:inherit;
-    padding: 1%;
-    margin: 3px;
+    padding: 5%;
+    
+    margin-top: -6%;
 }
 
     
 .wrappermeny>*{
-    padding: 10x;
+    padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
@@ -132,7 +133,7 @@ body{
 }
 
 .menymain{
-    height: 1750px;
+    height: auto;
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
@@ -269,6 +270,18 @@ footer{
     height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
+
+@media (max-width:850px){
+
+    .flexmeny{
+        visibility: hidden;
+        display: none;
+        content: remove;
+    }
+
+
+    
+}
 
 
 
