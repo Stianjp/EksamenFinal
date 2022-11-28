@@ -339,8 +339,9 @@ form select, form input, option{
     display: flex;
     position: absolute;
     align-self:flex-end;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     max-width: 100%;
+
     background: none;
     background-color: none;
     }
