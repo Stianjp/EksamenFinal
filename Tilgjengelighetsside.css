@@ -101,7 +101,8 @@ body{
     padding: 20px;
 }
 
-u{
+#OverskriftTilgjengelig{
+    text-align: center;
     text-decoration: underline;
 }
 
