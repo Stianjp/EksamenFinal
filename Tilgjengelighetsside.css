@@ -82,7 +82,8 @@ body{
 #Undertitler{
     text-decoration: underline;
 }
-.VelkomstSection, .data1100section, .navbarSection{ /*Mer rydde kode når man bruker "," mellom hver klasse*/
+/*Mer rydde kode når man bruker "," mellom hver klasse*/
+.VelkomstSection, .data1100section, .navbarOgfooter, .MenySection, .ReservasjonSection{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -95,22 +96,12 @@ u{
     text-decoration: underline;
 }
 
-.data1100section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 20px;
-}
-
 #OverskriftTilgjengelig{
     text-align: center;
     text-decoration: underline;
     font-size: 22px;
 }
-
+/*Denne ID er brukt på alle bilder, slik at de skal være lik*/
 #BilderTilgjengelig{
     width: 600px;
     height: auto;
