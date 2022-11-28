@@ -161,3 +161,100 @@ a{
 }
 
 
+/*Media innstillinger*/
+/*MEDIA 781-1130px: liten laptop*/
+@media (max-width: 1130px){
+    /*Navbar*/
+        .navbar{
+        font-size: 15px;
+        justify-content: space-evenly;
+        }
+        .spraak{
+        font-size: 10px;
+        margin-right: -20px;
+        }
+    /*Tilgjengelighetsside*/
+        
+    /*DATA1100*/   
+    }
+    
+    /*MEDIA 481-780px: Tablet/iPad*/
+    @media (max-width: 780px){
+    /*Navbar*/
+        .checkbtn{
+        display: block;
+        padding: 1px;
+        font-size: 20px;
+        margin-top: -45px;
+        margin-right: 50px; 
+        cursor: pointer;   
+        }
+        #check:checked ~ ul{
+        left: 0;
+        }
+        ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        transition: all .5s;
+        left: -110%;
+        display: block;
+        font-size: 20px;
+        line-height: 50px;
+        }
+        a{
+        top: 100px;
+        color: white; 
+        }
+        a:hover, a.aktiv{
+        background: none;
+        color: white; 
+        }
+        .navbar{
+        position: fixed;
+        top: 0;
+        }
+    /*Englesk/Norsk bytter plassering som nevnt tidligere */
+        .spraak{
+        visibility: hidden;
+        }
+        .språk1{
+        visibility: visible;
+        padding: 5px;
+        font-size: 12px;
+        line-height: 20px;
+        display: inline;
+        }
+        #LogoMonOncle{
+        justify-content: space-evenly;
+        }  
+    /*Tilgjengelighetsside*/
+        
+    /*DATA1100*/
+        
+    }
+    
+    /*MEDIA 320-480px: MOBIL*/
+    @media (max-width:480px){
+    /*Navbar*/
+        .navbar {
+        padding: 10px;
+        }
+        .checkbtn{
+        margin-right: 20px;
+        }
+        .språk1{
+        font-size: 9px;
+        padding: 3px;
+        }
+        .spraak{
+            display: none;
+            content: remove;
+        } 
+    /*Tilgjengelighetsside*/
+    
+    /*DATA1100*/
+    
+    }
