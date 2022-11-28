@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0 auto;
+    margin: 0;
     text-decoration: none; 
     color: white;
 }
@@ -8,7 +8,7 @@ body{
     background:  url("Bilder/EiffelltårnSTOR.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
-    
+    background-blend-mode: multiply;
 }
 /*NAVBAR START*/
 nav{
@@ -79,6 +79,7 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.5;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 #pitch{
@@ -190,6 +191,8 @@ form select, form input, option{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.550);
+    border-style: solid;
+    border-color: black;
     }
     
 .slider{
@@ -197,13 +200,26 @@ form select, form input, option{
     height: 330px;
     border-radius: 40px;
     border-style: solid;
-}
+    overflow: hidden;
+    border-color: black;
+    }
+
+.knapp{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    }
+
+.knapp input{
+    display: none;
+    }
 
 .slide img{
     width: 530px;
     height: 330px;
     }
-
+/*CSS for slide navigasjon*/
+    
 .navigasjon-manuell{
     display: flex;
     position: absolute;
@@ -242,9 +258,6 @@ form select, form input, option{
 #sirkel4:checked ~ .forst{
     margin-left: -60%;
     }
-
-/*CSS for slide navigasjon*/
-
 
 
     /*CSS TIL FOOTER START*/
@@ -335,11 +348,10 @@ footer{
 
     .booking{
         grid-template-columns: 1fr;
-        width: 100%;
-        margin: auto;
     }
+
 }
 
 @media (max-width:480px){
-
+    
 }
