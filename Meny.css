@@ -80,7 +80,8 @@ body{
     font-size: larger;
     font-style:inherit;
     padding: 5%;
-    margin: 3px;
+    
+    margin-top: -6%;
 }
 
     
@@ -132,13 +133,13 @@ body{
 }
 
 .menymain{
-    height: 1650px;
+    height: auto;
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
     padding: 5%;
-    margin: 5%;
-    font-size: 70%;
+    margin: 8%;
+    font-size: 85%;
    
     
 }
@@ -269,6 +270,18 @@ footer{
     height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
+
+@media (max-width:850px){
+
+    .flexmeny{
+        visibility: hidden;
+        display: none;
+        content: remove;
+    }
+
+
+    
+}
 
 
 
