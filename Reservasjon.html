@@ -41,6 +41,8 @@
 <!-- NAVBAR SLUTT -->
     </header>
     <div class="booking">
+
+<!--Info om lokalet-->
         <p id="pitch">
             <strong>Velkommen til Mon Oncle!</strong> 
             <br>
@@ -50,7 +52,7 @@
             <br>
             Vi ber om at det tas kontakt med oss om det er ønskelig å reservere for mer enn 10 personer.
         </p>
-
+<!--Reservasjons-skjema med input og select felt-->
         <div class="reserver">
         <h2>Booking</h2>
         <form>
@@ -59,6 +61,7 @@
                 <input type="number" placeholder="Telefonnummer">
                 <input type="text" placeholder="Mailadresse - eksempel@mail.com">
                 <input type="date" id= "dato" name= "dato" min="2022-11-01">
+<!--Mulighet til å velge tid fra åpningstid til intil to timer før stengningstid-->                
                 <select name="tid"> <option value="velgTid">Tidspunkt</option>
                     <option value="17">17:00</option>
                     <option value="1730">17:30</option>
@@ -73,22 +76,25 @@
                 <input type="number" placeholder="Antall personer">
                 <input id="" type="kommentar" placeholder="Kommentar:" >
 
+<!--Confirmation på reservasjon-->                
                 <div class="box">
                     <a class="button" href="#popup1">RESERVER BORD</a>
+                    
+<!--Overlay for å blurre bakgrunnen når bekreftelse popper opp-->                       
                     <div id="popup1" class="overlay">
                         <div class="popup">
                             <h2>Takk for at du reserverte bord hos oss!</h2>
                             <p>Ditt bord vil være reservert i 2 timer fra reservasjonstiden.</p>
                             <a class="close" href="#">&times;</a>
                         </div>
+<!--https://codepen.io/imprakash/pen/GgNMXO-->                        
                     </div>
                 </div>
             </div> 
         </div>  
         </form>
         </div>
-
-            <!--BILDE-SLIDESHOW START-->
+<!--BILDE-SLIDESHOW START-->
 <section id="section2">
     <div class="slider">
        <div class="knapp">
@@ -104,7 +110,7 @@
                <img src="Bilder/bilde dekorasjon.jpg" alt="Bilde av lokalet">
           </div>
           <div class="slide">
-              <img src="Bilder/bilde5.jpeg" alt="Fornøyde kunder">
+              <img src="Bilder/bilde5.jpeg" alt="Kunder">
           </div>
           <div class="slide">
               <img src="Bilder/Bryllup 640x400.jpg" alt="Dekorasjonsbilde tema bryllup">
@@ -113,7 +119,6 @@
                <img src="Bilder/Brylllup 640 427.jpg" alt="Dekorasjonsbilde tema bryllup">
           </div>
 
-       
         <div class="navigasjon-manuell">
             <label for="sirkel1" class="manuell-knapp"></label>
             <label for="sirkel2" class="manuell-knapp"></label>
