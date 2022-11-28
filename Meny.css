@@ -66,18 +66,21 @@ a{
 }
 /*NAVBAR SLUTT*/
 
+/*Styling til meny*/ 
+
 body{
-    background:url(Bilder/MenyBakgrunn.png);
+   background-color: black;
     background-repeat: no-repeat; 
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
+    font-size: 22px;
 }
 
 .wrapper{
 
     display: flex;
-    flex-flow:row wrap;
+    flex-flow:row wrap; 
     text-align: center;
     color: white;
     font-size: larger;
@@ -97,66 +100,160 @@ body{
 .header{
     height: 120px;
    
-
 }
 
+.h1meny{
+    color: white;
+    text-align: center;
+    margin: 2rem;
+}
 
 .main{
+    color:white;
     text-align: center;
-    height: 500px;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     line-height: 30px;
-    order: 8;
-}
-
-.main p{
-    margin-top: 12.5%;
     border: 5px solid white;
-    padding: 5%;
-    box-shadow:  20px 20px 10px grey;;
-
-}
-
-
-.aside1{
-background-image: url(Bilder/Bakgrunn1.jpg);
-background-size: 143%;
-order: 4;
-
-
-}
-
-.aside2{
-background-image: url(Bilder/pexels-photo-2403391.jpg);
-background-size: 143%;
-order: 4;
-
-
-}
-
-.aside3{
-background-image: url(Bilder/chef1.jpg);
-background-size: 143%;
-order: 4;
-
+    box-shadow:  20px 20px 10px grey;
+    max-width: 500px;
+    margin-left: 17%;
+    padding: 3%;
+    
 }
 
 .menymain{
     height: 900px;
     order: 50;
     background-color:beige;
-    color: rgb(255, 132, 0);
+    color: rgb(6, 5, 5);
     padding: 5%;
     margin: 5%;
 }
 
 
+.flexmeny{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bildemeny{
+    flex: 100%;
+    max-width: 200px;
+    max-height: 1800px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    height: 350px; 
+
+}
+
+
+
+
+
+.menymain{
+    height: 1700px;
+    order: 50;
+    background-color:beige;
+    color: rgb(6, 6, 6);
+    padding: 5%;
+    margin: 5%;
+    font-size: 16px;;
+    text-align: center;
+    
+}
+
+
+ 
+
+.overskrifterMeny{
+    background-position: center;
+    text-align: center;
+    margin: 3%;
+}
+
+.Smallbites{
+    
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    line-height: 165%;
+       
+}
+
+.Starters{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;  
+    line-height: 165%;
+}
+
+
+.MainCourse{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;
+    line-height: 165%;
+}
+
+
+.Dessert{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;
+    line-height: 165%;
+}
+
+.linjeMeny{
+    width: 100%;
+}
+
+.section-title h2{
+    text-transform: capitalize ;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 12px;
+    color: rgba(223, 136, 15, 0.907);
+ 
+}
+.section-title h2:before{
+    content:'';
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 25%;
+    text-transform: translateX(-50%);
+
+}
+
+/*Styling til meny SLUTT*/ 
+
+ 
+
+
+/*CSS TIL FOOTER START*/
 footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
     height: auto;    
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 2;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center
 }
 
 .IkonerMidten{
@@ -179,20 +276,6 @@ footer{
     text-align: center;
 }
 
-.åpningstider{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    line-height: 2;
-    color: white;
-    margin-top: 100px;
-    padding: 20px;
-    
-}
-.Rad1{
-    margin: auto;
-}
 .Rad2{
     text-align: center;
     align-items: center;
@@ -201,8 +284,13 @@ footer{
     margin: auto;
     line-height:300%;
 }
-.Rad3{
-    margin: auto
+.Rad3 p{
+    margin: auto;
+    color: white;
+}
+#kart{
+    width: 100%;
+    height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
 
@@ -212,7 +300,7 @@ footer{
     }
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 1200px){
     .aside{
         flex: 1;
     }
