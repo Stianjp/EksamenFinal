@@ -204,7 +204,7 @@ footer{
     justify-content: center;
     align-items: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: white;
     margin: 30px;
     background-color: rgba(0, 0, 0, 0.550);
     border-style: solid;
@@ -339,8 +339,8 @@ form select, form input, option{
     display: flex;
     position: absolute;
     align-self:flex-end;
-    width: 100%;
     justify-content: space-evenly;
+    max-width: 100%;
     background: none;
     background-color: none;
     }
