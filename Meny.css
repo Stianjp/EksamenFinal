@@ -95,6 +95,7 @@ body{
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
+<<<<<<< Updated upstream
 }
 
 .header{
@@ -107,6 +108,11 @@ body{
     text-align: center;
     margin: 2rem;
 }
+=======
+ 
+}
+
+>>>>>>> Stashed changes
 
 .main{
     color:white;
@@ -114,12 +120,18 @@ body{
     font-size: 18px;
     font-style: italic;
     line-height: 30px;
+<<<<<<< Updated upstream
     border: 5px solid white;
     box-shadow:  20px 20px 10px grey;
     max-width: 500px;
     margin-left: 17%;
     padding: 3%;
     
+=======
+    order: 8;
+   
+
+>>>>>>> Stashed changes
 }
 
 .menymain{
@@ -174,7 +186,15 @@ body{
     margin: 3%;
 }
 
+<<<<<<< Updated upstream
 .Smallbites{
+=======
+.menu{
+    height: 900px;
+    order: 8;
+    background-color: beige;
+    color: black;
+>>>>>>> Stashed changes
     
     font-style: italic;
     text-align: center;
@@ -184,6 +204,7 @@ body{
        
 }
 
+<<<<<<< Updated upstream
 .Starters{
     text-align: center;
     font-style: italic;
@@ -223,6 +244,36 @@ body{
     margin-bottom: 12px;
     color: rgba(223, 136, 15, 0.907);
  
+=======
+.menu h3{
+    padding: 5%;
+}
+
+.footer{
+    height: 200px;
+    background-color:rgb(2, 2, 2);
+    order: 9;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family:cursive;
+    color: white;
+    
+}
+
+.menu{
+    width: 1170px;
+   
+    
+}
+
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  
+>>>>>>> Stashed changes
 }
 .section-title h2:before{
     content:'';
@@ -234,6 +285,7 @@ body{
     left: 25%;
     text-transform: translateX(-50%);
 
+<<<<<<< Updated upstream
 }
 
 /*Styling til meny SLUTT*/ 
@@ -255,6 +307,31 @@ footer{
     align-items: center;
     text-align: center
 }
+=======
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.section-title h3{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title h3::before
+{
+    content:'';
+    position:absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00865c;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+>>>>>>> Stashed changes
 
 .IkonerMidten{
    font-size: 15px;
@@ -276,6 +353,7 @@ footer{
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .Rad2{
     text-align: center;
     align-items: center;
@@ -293,6 +371,10 @@ footer{
     height: auto;
 }
 /*CSS TIL FOOTER SLUTT*/
+=======
+}
+
+>>>>>>> Stashed changes
 
 @media all and (min-width:800px){
     .main{
