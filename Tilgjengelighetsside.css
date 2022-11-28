@@ -83,7 +83,7 @@ body{
     text-decoration: underline;
 }
 /*Mer rydde kode når man bruker "," mellom hver klasse*/
-.VelkomstSection, .data1100section, .navbarOgfooter, .MenySection, .ReservasjonSection{ 
+.TilgjengelighetsSection{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
