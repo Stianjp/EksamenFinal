@@ -69,16 +69,10 @@ a{
 /*Styling til meny*/ 
 
 body{
-   background-color: black;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center;
-    font-size: 22px;
+    background-color:  black;
 }
 
-.wrapper{
-
+.wrappermeny{
     display: flex;
     flex-flow:row wrap; 
     text-align: center;
@@ -90,26 +84,11 @@ body{
 }
 
     
-.wrapper>*{
+.wrappermeny>*{
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
-}
-
-.header{
-    height: 120px;  
-}
-
-
-
-
-body{
-    background-color: black;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center;
 }
 
 .h1meny{
@@ -138,7 +117,7 @@ body{
 }
 
 
-.main{
+.mainmeny{
     color:white;
     text-align: center;
     font-size: 18px;
@@ -147,20 +126,25 @@ body{
     border: 5px solid white;
     box-shadow:  10px 20px 10px grey;
     max-width: 450px;
-    margin-left: 7%;
+    margin-left: 15%;
     padding: 2%;
+    margin-top: 7%;
 }
 
 .menymain{
-    height: 1900px;
+    height: 1650px;
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
     padding: 5%;
     margin: 5%;
-    font-size: 60%;
+    font-size: 70%;
    
     
+}
+
+.overskrifterMeny{
+   margin-top: 2%;
 }
 
 
@@ -286,6 +270,7 @@ footer{
 }
 /*CSS TIL FOOTER SLUTT*/
 
- 
+
+
 
 

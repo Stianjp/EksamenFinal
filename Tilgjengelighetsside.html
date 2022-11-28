@@ -12,10 +12,8 @@
 <!---NAVBAR START -->
 <nav class="navbar">
     <div id="LogoMonOncle">
-        <!--For å endre fra Norsk til Engelsk på hver side-->
-        <div class="språk1"><p><a href="VelkomstsideFinalEN.html">EN</a> | <a href="VelkomstsideFinalTest.html">NO</a></p></div>
-        <a href="VelkomstsideFinalTest.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li><!--Når du klikker på logo, kommer du til velkomstssiden-->
-        <div class="spraak"><a href="VelkomstsideFinalEN.html">EN</a> | <a href="Tilgjengelighetsside.html">NO</a></div>
+        <p></p>
+        <a href="Index.html"><img src="Bilder/LOGO-mon-oncle.png" alt="Mon Oncle Logo" width="150px" height="56px"></a></li><!--Når du klikker på logo, kommer du til velkomstssiden-->
     </div>
     <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -23,7 +21,7 @@
     </label>
     <ul>
         <!--Rad 1: Velkomstside-->
-        <li><a href="VelkomstsideFinalTest.html">Velkomstside</a></li>
+        <li><a href="Index.html">Velkomstside</a></li>
         <!--Rad 2: Meny-side-->
         <li><a href="Meny.html">Meny</a></li>
         <!--Rad 3: Reservasjonsside-->
@@ -36,8 +34,88 @@
 </nav>
 <!-- NAVBAR SLUTT -->
 </header>
+<!--Tilgjengelighettside START-->
+<section class="SectionTilgjengelighetsside">
+<h1>Tilgjengelighetsside</h1>
+</section>
+<h3 id="OverskriftTilgjengelig">Velkomstssiden</h3>
+<section class="TilgjengelighetsSection">
+    <!--Kollone 1-->
+    <p><u>Ingen kontrastfeiler</u>, fordi det ofte ble brukt svart bakgrunn og hvit skrift.
+        <br><u>En "Error"</u> siden det som står på første plassering i grid er brukt visibility: hidden, for å endre plassering på "bytte mellom engelsk og norsk" når skjermen endrer størrelse. På telefonstørrelse vil denne funksjonen gå fra høyre til venstre side.
+        <br><u>2 alarmer</u> er der på grunn av det er hyperlink på Mon Oncle logo, og velkomstsside-knappen i menybaren. 
+    </p>
+    <!--Kollone 2-->
+    <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideTilgjengelighet.png" alt="Skjermdump av velkomstssiden med WAVE Evulation Tool aktivert"></p>
+    <!--Kollone 3-->
+    <p><u>Responsiv</u>: Bilder og tekst kommer under hverandre ved bruk av <i>"Display: Grid;"</i> og <i>"grid-template-columns: 2fr;" i @media</i>.</p>
+    <!--Kollone 4-->
+    <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideResponsiv.png" alt="Skjermdump av forside med 480px width for å vise hvordan den ser ut responsivt"></p>
+</section>
+
+<h3 id="OverskriftTilgjengelig"> Data1100 </h3>
+
+<section class="TilgjengelighetsSection">
+    <!--Rad 1-->
+    <p>Bruk av flexbokser, @media og wrap funksjon har gjort at siden blir universal for ulike skjermstørelser</p>
+    <!--Rad 2-->
+    <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screenshot flexbox 1100.png" alt=""></p>   
+    <!--Rad 3-->
+    <p>3</p>
+    <!--Rad 4-->
+    <p><img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/sacreenmobil flex.png" alt=""></p> 
+    <!--Rad 5-->
+    <p>5</p>
+    <!--Kollone 6-->
+    <p><img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/screenmobilcrew.png" alt=""></p> 
+    <!--Kollone 7-->
+    <p>7</p>
+    <!--Kollone 8-->
+    <p>8</p>
+    <!--Kollone 9-->
+</section>
 
 
 
+
+
+<h3 id="OverskriftTilgjengelig">Navbar og Footer</h3>
+<section class="TilgjengelighetsSection">
+ <!--Kollone 1-->
+ <p><u>Responsiv</u>: Det ble brukt <i>@meida max-width</i> på 480px (mobil), 780px (nettbrett) og 1130px (liten laptop). <br>
+    Bilde til høyre viser footer som er lik på forside, meny og reservasjonsside. Den benytter <i>display: grid;</i> og 
+    <i>grid-template-columns: 1fr;</i> for å få den under hverandre.</p>
+ <!--Kollone 2-->
+ <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/Skjermdump av footer.png" alt="Skjermdump av footer med max-witdh 480px"></p>
+ <!--Kollone 3-->
+ <p>Bilde til høyre viser navbar med max-width 780px, og da kommer fa fa-bars, som en knapp for å få opp navbar</p>
+ <!--Kollone 4-->
+ <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screen navbar.png" alt="Skjermdump av navbar på under 780px"></p>
+</section>
+
+
+<h3 id="OverskriftTilgjengelig">Reservasjonssside</h3>
+<section class="TilgjengelighetsSection">
+ <!--Kollone 1-->
+ <p>1</p>
+ <!--Kollone 2-->
+ <p>2</p>
+ <!--Kollone 3-->
+ <p>3</p>
+ <!--Kollone 4-->
+ <p>4</p>
+</section>
+
+<h3 id="OverskriftTilgjengelig">Menyside</h3>
+<section class="TilgjengelighetsSection">
+ <!--Kollone 1-->
+ <p>1</p>
+ <!--Kollone 2-->
+ <p>2</p>
+ <!--Kollone 3-->
+ <p>3</p>
+ <!--Kollone 4-->
+ <p>4</p>
+<!--Tilgjengelighettside SLUTT-->
 </body>
 </html>
