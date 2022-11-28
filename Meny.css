@@ -132,13 +132,13 @@ body{
 }
 
 .menymain{
-    height: 1650px;
+    height: 1750px;
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
     padding: 5%;
-    margin: 5%;
-    font-size: 70%;
+    margin: 8%;
+    font-size: 85%;
    
     
 }
