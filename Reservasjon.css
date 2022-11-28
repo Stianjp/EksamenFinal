@@ -82,13 +82,16 @@ a{
     
 }
 
+/*Info om selve lokalet START*/
 #pitch{
     background-color: rgba(0, 0, 0, 0.550);
     color: white;
     border-style: solid;
     border-color: black;
 }
+/*Info om selve lokalet SLUTT*/
 
+/*Reservasjons-skjema START*/
 .reserver{
     display: flex;
     flex-direction: column;
@@ -111,7 +114,9 @@ form select, form input, option{
     font-weight: 300;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*Reservasjons-skjema SLUTT*/
   
+/*Confirmation på reservasjon START*/
   .box {
     width: 100%;
     border: 2px;
@@ -134,7 +139,8 @@ form select, form input, option{
     justify-content: center;
   }
   .button:hover {
-    background: blueviolet;
+    background: white;
+    color: black;
     text-decoration: none;
   }
   
@@ -149,6 +155,7 @@ form select, form input, option{
     visibility: hidden;
     opacity: 0;
   }
+
   .overlay:target {
     visibility: visible;
     opacity: 1;
@@ -182,11 +189,11 @@ form select, form input, option{
   .popup .close:hover {
     color: red;
   }
-  
+  /*Confirmation på Reservasjon SLUTT*/
 
-/*Slideshow bilde på velkomstssiden START*/
+/*Slideshow START*/
 #section2{
-    height: 350px;
+    height: 290px;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -196,8 +203,8 @@ form select, form input, option{
     }
     
 .slider{
-    width: 530px;
-    height: 330px;
+    width: 480px;
+    height: 290px;
     border-radius: 40px;
     border-style: solid;
     overflow: hidden;
@@ -215,16 +222,18 @@ form select, form input, option{
     }
 
 .slide img{
-    width: 530px;
-    height: 330px;
+    width: 480px;
+    height: 290px;
     }
-/*CSS for slide navigasjon*/
+/*Slideshow SLUTT*/
+
+/*Slideshow navigasjon START*/
     
 .navigasjon-manuell{
     display: flex;
     position: absolute;
     align-self:flex-end;
-    width: 530px;
+    width: 100%;
     justify-content: space-evenly;
     background: none;
     background-color: none;
@@ -258,9 +267,9 @@ form select, form input, option{
 #sirkel4:checked ~ .forst{
     margin-left: -60%;
     }
+/*Slideshow navigasjon SLUTT*/
 
-
-    /*CSS TIL FOOTER START*/
+/*CSS TIL FOOTER START*/
 footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
@@ -351,7 +360,7 @@ footer{
     }
 
 }
-
 @media (max-width:480px){
+   
+    }
     
-}
