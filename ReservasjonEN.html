@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Reservasjon.css">
+    <link rel="stylesheet" href="restStyle.css">
     <!--Script brukt for å få fa-bars-->
     <script src="https://kit.fontawesome.com/c2ee6942a9.js" crossorigin="anonymous"></script> 
     <!-- Legger til ikonbiblotek-->
@@ -36,6 +36,8 @@
 <!-- NAVBAR SLUTT -->
 <body>
     <div class="booking">
+
+<!--Info om lokalet-->        
         <p id="pitch">
             <strong>Welcome to Mon Oncle!</strong> 
             <br>
@@ -45,7 +47,7 @@
             <br>
             We ask you to please contact us if you wish to reserve for more than 10 people.
         </p>
-
+<!--Reservasjons-skjema med input og select felt-->
         <div class="reserver">
         <h2>Booking</h2>
         <form>
@@ -55,6 +57,7 @@
                 <input type="text" placeholder="Mailaddress - eksempel@mail.com">
                 <input type="date" id= "dato" name= "dato" min="2022-11-01">
                 <select name="tid"> <option value="velgTid">Times</option>
+<!--Mulighet til å velge tid fra åpningstid til intil to timer før stengningstid-->                     
                     <option value="17">17:00</option>
                     <option value="1730">17:30</option>
                     <option value="18">18:00</option>
@@ -68,14 +71,17 @@
                 <input type="number" placeholder="Number of people">
                 <input id="" type="kommentar" placeholder="Comments:" >
 
+<!--Confirmation på reservasjon--> 
                 <div class="box">
                     <a class="button" href="#popup1">RESERVE TABLE</a>
+<!--Overlay for å blurre bakgrunnen når bekreftelse popper opp-->                    
                     <div id="popup1" class="overlay">
                         <div class="popup">
                             <h2>Thank you for reserving a table with us!</h2>
                             <p>Your table will be reserved for 2 hours from starting time.</p>
                             <a class="close" href="#">&times;</a>
                         </div>
+<!--https://codepen.io/imprakash/pen/GgNMXO-->                          
                     </div>
                 </div>
             </div>   
