@@ -90,6 +90,17 @@ body{
     align-items: center;
     font-size: 20px;
 }
+
+.data1100section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
 u{
     text-decoration: underline;
 }
