@@ -44,6 +44,18 @@ a{
 #check{
     display: none;
 }
+#LogoDATA1100tekst{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+#LogoDATA1100{
+    width: 50px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
 #LogoMonOncle{
     visibility: visible;
     text-align: center;
