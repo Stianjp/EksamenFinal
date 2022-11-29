@@ -58,7 +58,10 @@ a{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+}
+#BildeLogo{
+    width: 150px;
+    height: 56px;
 }
 .LogoToppen{
     visibility: hidden;
@@ -374,8 +377,122 @@ form select, form input, option{
     margin-left: -60%;
     }
 /*Slideshow navigasjon SLUTT*/  
-
 /*Reservasjons-side SLUTT*/
+
+.wrappermeny{
+    display: flex;
+    flex-flow:row wrap; 
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-style:inherit;
+    padding: 5%;
+    margin-top: -6%;
+}
+
+    
+.wrappermeny>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.h1meny{
+    color: white;
+    text-align: center;
+    margin: 3rem;
+}
+
+.flexmeny{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bildemeny{
+    flex: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 1px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-position: left top;
+    background-repeat: repeat;
+    width: 225px;
+    height: 400px; 
+
+}
+
+.menymain{
+    height: auto;
+    order: 50;
+    background-color:beige;
+    color: rgb(6, 5, 5);
+    padding: 5%;
+    margin: 8%;
+    font-size: 85%;
+}
+
+.overskrifterMeny{
+   margin-top: 2%;
+}
+
+
+.Smallbites{
+
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;  
+    line-height: 165%;
+
+       
+}
+
+.Starters{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;  
+    line-height: 165%;
+}
+
+
+.MainCourse{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;
+    line-height: 165%;
+}
+
+
+.Dessert{
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+    margin: 2%;
+    line-height: 165%;
+}
+
+#allergiIkon{
+    width: 17px;
+    height: 17px;
+}
+
+.linjeMeny{
+    width: 90%;
+    margin: 5%;
+
+}
+
+
+/*Styling til meny SLUTT*/ 
+
+
+
+
 
 /*Media innstillinger*/
 /*MEDIA 781-1130px: liten laptop*/
@@ -426,7 +543,11 @@ form select, form input, option{
     margin-top: 25%;
 }
     
-/*Tilgjengelighetsside*/
+/*Menyside*/
+.bildemeny{
+    width: 150px;
+    height: 200px;
+}
 }
 
 @media (max-width: 1000px){
@@ -539,7 +660,13 @@ form select, form input, option{
     }
 
 /*Meny*/
-    
+.bildemeny{
+    visibility: hidden;
+    display: none;
+} 
+.h1meny{
+    margin-top: 80px;
+}
     
 /*Reservasjon*/
 .booking{
@@ -613,12 +740,12 @@ form select, form input, option{
     }
 
 /*Meny*/
-
+.h1meny{
+    margin-top: 90px;
+}
+.flexmeny{
+    display: none;
+}
 
 /*Reservasjon*/
-
-/*Tilgjengelighetsside*/
-
-/*DATA1100*/
-
 }
