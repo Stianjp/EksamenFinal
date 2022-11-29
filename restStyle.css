@@ -384,6 +384,14 @@ form select, form input, option{
 
 /*Media innstillinger*/
 /*MEDIA 781-1130px: liten laptop*/
+
+/*Reservasjon */
+@media (min-width: 1350px) {
+    .navigasjon-manuell{
+        margin-top: 250px;
+    }
+    
+}
 @media (max-width: 1130px){
 /*Navbar*/
     .navbar{
@@ -424,14 +432,17 @@ form select, form input, option{
 }
     
 /*Tilgjengelighetsside*/
-    
- 
+}
+
+@media (max-width: 1000px){
+    .navigasjon-manuell{
+        margin-top: 200px;
+    }
 }
 @media (max-width: 900px) {
     .navigasjon-manuell{
         margin-top: 25%;
     }
-    
 }
 
 /*MEDIA 481-780px: Tablet/iPad*/
