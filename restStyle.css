@@ -125,6 +125,8 @@ text-decoration: underline;
 #BildeAvKokk1{
     border-style: solid;
     border-color: black;
+    width: 600px;
+    height: auto;
 }
 
 /*CSS TIL FOOTER START*/

@@ -73,6 +73,7 @@ Tilgjengelighetsside START*/
 #Undertitler{
     text-decoration: underline;
 }
+
 /*Denne klassen er brukt på alle overskrifter for å få en mer ryddig kode*/
 .TilgjengelighetsSection{ 
     display: grid;
