@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*NAVBAR START*/
 nav{
@@ -89,12 +90,12 @@ a{
 /*NAVBAR SLUTT*/
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.879);
+    background-image: url(bilder/DATA1100/avis.jpeg);
 }
 
 
 .background1100{
-    background-color: black;
     background-image: url(Bilder/DATA1100/bakgrunnDATA1100.png); /*https://www.pexels.com/photo/man-reading-burning-newspaper-3278364/ fotograf: Danya Gutan */
     background-size: cover; 
     background-position-y: 35%;
@@ -110,7 +111,6 @@ body{
 .heading1100{
     margin-top:65px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 250%;
     padding: 15px;
@@ -124,7 +124,6 @@ body{
     color: white;
     padding: 20px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 3%;
     margin-top: 2%;
     max-height: fit-content; /* får tekstboksen til å automatisk justere seg på visse nettlesere som safari. */
@@ -157,12 +156,13 @@ body{
 /* linken til wikipedia nettsiden SLUTT */
 
 .heading21100{
-    margin-top: 100px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 150%;
-    padding: 20px;
+    font-size: 200%;
+    padding-top: 150px;
+    
+    
 }
 
 .crew1100{
@@ -187,7 +187,6 @@ body{
 
 .navn1100{
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
@@ -201,10 +200,29 @@ body{
     padding: 20px;
 }
 
+.testtekst{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10%;
+    width: auto;
+    font-size: 20px;
+    margin:50px;
+    text-align: center;
+}
+
 .fakenews1100 > div >p{
-    color:aliceblue;
-    background-color: rgba(255, 0, 0, 0.339);
-    padding: 10px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10%;
+    width: auto;
+    margin:5%;
+}
+
+.fakenews1100 > div{
+    padding: 50px;
+    width: auto;
 }
 
 #newsmal{
@@ -215,6 +233,82 @@ body{
     border-color: black;
     text-align: center;
     align-items: center;
+}
+
+/*---- Fake news test ----*/
+#click{
+    display:none;
+}
+
+#click:checked ~ .popup{
+    visibility: visible;
+    opacity: 1;
+}
+
+#click2{
+    display:none;
+}
+
+#click2:checked ~ .popup2{
+    visibility: visible;
+    opacity: 1;
+}
+
+#click3{
+    display:none;
+}
+
+#click3:checked ~ .popup3{
+    visibility: visible;
+    opacity: 1;
+}
+
+.click-me{
+    padding: 10px 60px;
+    background: white;
+    border:1px solid;
+    outline:none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.click-me:hover{
+    background: rgb(209, 209, 209);
+}
+
+.popup , .popup2{
+   max-width: 400px;
+    width: auto;
+    background:rgb(106, 30, 30);
+    border-radius: 6px;
+    position: absolute;
+    left: 9%;
+    text-align: center;
+    padding: 15px;
+    visibility: hidden;
+    margin-top :40px;
+}
+
+.popup3{
+    max-width: 400px;
+    width: auto;
+    background:rgb(32, 120, 27);
+    border-radius: 6px;
+    position: absolute;
+    left: 9%;
+    text-align: center;
+    padding: 15px;
+    visibility: hidden;
+    margin-top: 40px;
+}
+
+.close-btn{
+    cursor: pointer;
+}
+
+h3{
+    font-size: 25px;
 }
 
 
@@ -232,8 +326,32 @@ body{
         }
     /*Tilgjengelighetsside*/
         
-/*DATA1100*/   
- }
+    /*DATA1100*/ 
+
+    .fakenews1100{
+        display: grid;
+        grid-template-columns: 2fr;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .fakenews1100 > div{
+      
+    }
+
+    #newsmal{
+        width: 600px;
+        height: auto;
+    
+    }
+    .popup ,.popup2 ,.popup3{
+        left: 0;
+        margin-top: -200px;
+        margin-left: 30%;
+        
+        
+    }
+}
     
     /*MEDIA 481-780px: Tablet/iPad*/
     @media (max-width: 780px){
@@ -290,9 +408,18 @@ body{
     /*Tilgjengelighetsside*/
         
     /*DATA1100*/
-        
+
+    #newsmal{
+        width: 400px;
+        height: auto;
+        margin:0;
     }
-    
+
+    .fakenews1100 > div >p{
+        width: 300px;
+        width: auto;
+    }
+}
     /*MEDIA 320-480px: MOBIL*/
     @media (max-width:480px){
     /*Navbar*/
@@ -319,5 +446,23 @@ body{
             max-height:100%;
         }
     
+        #newsmal{
+            max-width: 300px;
+            height: auto;
+            width: auto;
+            margin:0;
+        
+        }
+
+        .fakenews1100 > div >p{
+            width: 300px;
+            width: auto;
+        }
+
+        .popup ,.popup2 ,.popup3{
+            left: 0;
+            margin: 10%;
+            margin-bottom: 20px;
+        }
     
     }
