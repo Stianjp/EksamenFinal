@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Script brukt for å få fa-bars-->
+    <script src="https://kit.fontawesome.com/c2ee6942a9.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="Tilgjengelighetsside.css">
     <title>Tilgjengelighetsside</title>
 </head>
@@ -26,7 +28,7 @@
         <li><a href="Meny.html">Meny</a></li>
         <!--Rad 3: Reservasjonsside-->
         <li><a href="Reservasjon.html">Reservasjon</a></li>
-        <!--Rad 4: Tilgjengelighetsside-->
+        <!--Rad 4: Tilgjengelighetsside--><!--Tilgjengelighetssiden er kun på norsk. Derfor mangler navbar bytte mellom norsk og engelsk.-->
         <li><a class="aktiv" href="Tilgjengelighetsside.html">Tilgjengelighetsside</a></li>
         <!--Rad 5: DATA1100-siden-->
         <li><a href="DATA1100.html">DATA1100</a></li>
@@ -43,14 +45,19 @@
     <!--Kollone 1-->
     <p><u>Ingen kontrastfeiler</u>, fordi det ofte ble brukt svart bakgrunn og hvit skrift.
         <br><u>En "Error"</u> siden det som står på første plassering i grid er brukt visibility: hidden, for å endre plassering på "bytte mellom engelsk og norsk" når skjermen endrer størrelse. På telefonstørrelse vil denne funksjonen gå fra høyre til venstre side.
-        <br><u>2 alarmer</u> er der på grunn av det er hyperlink på Mon Oncle logo, og velkomstsside-knappen i menybaren. 
-    </p>
+        <br><u>2 alarmer</u> er der på grunn av det er hyperlink på Mon Oncle logo, og velkomstsside-knappen i menybaren.</p>
     <!--Kollone 2-->
-    <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideTilgjengelighet.png" alt="Skjermdump av velkomstssiden med WAVE Evulation Tool aktivert"></p>
+        <div class="boks">
+            <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideTilgjengelighet.png" alt="Skjermdump av velkomstssiden med WAVE Evulation Tool aktivert">
+            <div class="tekstboks"><u>Bilde 1</u></div>
+        </div>
     <!--Kollone 3-->
     <p><u>Responsiv</u>: Bilder og tekst kommer under hverandre ved bruk av <i>"Display: Grid;"</i> og <i>"grid-template-columns: 2fr;" i @media</i>.</p>
     <!--Kollone 4-->
-    <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideResponsiv.png" alt="Skjermdump av forside med 480px width for å vise hvordan den ser ut responsivt"></p>
+    <div class="boks">
+        <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/VelkomstssideResponsiv.png" alt="Skjermdump av forside med 480px width for å vise hvordan den ser ut responsivt">
+        <div class="tekstboks"><p>Bilde 2</p></div>
+    </div>
 </section>
 
 <h3 id="OverskriftTilgjengelig"> Data1100 </h3>
@@ -59,19 +66,31 @@
     <!--Rad 1-->
     <p> eneste Error som kommer opp via Wave har opprinnelse fra navbaren som er beskrevet øverst på siden</p>
     <!--Rad 2-->
-    <p> <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/wave1100.png" alt=""></p>   
+    <div class="boks">
+        <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/wave1100.png" alt=""></p>   
+        <div class="tekstboks"><u>Bilde 3</u></div>
+    </div>
     <!--Rad 3-->
     <p>Bruk av flexbokser, @media og wrap funksjon har gjort at siden blir universal for ulike skjermstørelser </p>
     <!--Rad 4-->
-    <p> <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screenshot flexbox 1100.png" alt=""></p> 
+    <div class="boks">
+        <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screenshot flexbox 1100.png" alt="">
+        <div class="tekstboks"><u>Bilde 4</u></div>
+    </div> 
     <!--Rad 5-->
     <p></p>
     <!--Kollone 6-->
-    <p> <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/sacreenmobil flex.png" alt=""></p> 
+    <div class="boks">
+        <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/sacreenmobil flex.png" alt="">
+        <div class="tekstboks"><u>Bilde 5</u></div>
+    </div>
     <!--Kollone 7-->
     <p></p>
     <!--Kollone 8-->
-    <p><img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/screenmobilcrew.png" alt=""></p>
+    <div class="boks">
+        <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/screenmobilcrew.png" alt="">
+        <div class="tekstboks"><u>Bilde 6</u></div>
+    </div>
     <!--Kollone 9-->
 </section>
 
@@ -86,11 +105,17 @@
     Bilde til høyre viser footer som er lik på forside, meny og reservasjonsside. Den benytter <i>display: grid;</i> og 
     <i>grid-template-columns: 1fr;</i> for å få den under hverandre.</p>
  <!--Kollone 2-->
- <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/Skjermdump av footer.png" alt="Skjermdump av footer med max-witdh 480px"></p>
+ <div class="boks">
+    <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/Skjermdump av footer.png" alt="Skjermdump av footer med max-witdh 480px">
+    <div class="tekstboks"><u>Bilde 7</u></div>
+ </div>
  <!--Kollone 3-->
  <p>Bilde til høyre viser navbar med max-width 780px, og da kommer fa fa-bars, som en knapp for å få opp navbar</p>
  <!--Kollone 4-->
- <p><img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screen navbar.png" alt="Skjermdump av navbar på under 780px"></p>
+ <div class="boks">
+    <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/screen navbar.png" alt="Skjermdump av navbar på under 780px">
+    <div class="tekstboks"><u>Bilde 8</u></div>
+ </div>
 </section>
 
 
@@ -101,8 +126,10 @@
     Vi valgte å fjerne slideshowet for denne skjermstørrelsen ettersom det ser ryddigere ut, og fordi det er 
 vanskelig å skulle navigere frem og tilbake via buttons i denne størrelsen på skjerm. </p> 
 <!--Kollone 2-->
- <p> <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/tilgjengelighetReserv.jpg"
-     alt="Skjermdump av slideshow under 780px"></p>
+<div class="boks">
+    <img id="BilderTilgjengelig" src="Bilder/Tilgjengelighetsside/tilgjengelighetReserv.jpg" alt="Skjermdump av slideshow under 780px">
+    <div class="tekstboks"><u>Bilde 9</u></div>
+ </div>
  <!--Kollone 3-->
  <p>3</p>
  <!--Kollone 4-->
@@ -114,7 +141,10 @@ vanskelig å skulle navigere frem og tilbake via buttons i denne størrelsen på
  <!--Kollone 1-->
  <p>1</p>
  <!--Kollone 2-->
- <p><img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/screen meny.png" alt=""></p>
+ <div class="boks">
+    <img id="BilderTilgjengelig" src="bilder/Tilgjengelighetsside/screen meny.png" alt="">
+    <div class="tekstboks"><u>Bilde 10</u></div>
+ </div>
  <!--Kollone 3-->
  <p>3</p>
  <!--Kollone 4-->

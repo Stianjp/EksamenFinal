@@ -73,7 +73,7 @@ a{
 #Undertitler{
     text-decoration: underline;
 }
-/*Mer rydde kode når man bruker "," mellom hver klasse*/
+/*Denne klassen er brukt på alle overskrifter for å få en mer ryddig kode*/
 .TilgjengelighetsSection{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,33 +102,120 @@ u{
     text-align: center;
     align-items: center;
 }
-
-
-/*CSS TIL FOOTER START*/
-footer{
-    background-color: rgb(31, 31, 31);
-    width: 100%;
-    height: auto;    
+.boks{
+    position: relative;
+}
+.tekstboks{
+    position: absolute;
+    bottom: 10px;
+    left: 19px;
+    font-size: 12px;
 }
 
-.IkonerMidten{
-   font-size: 20px;
+/*Media innstillinger*/
+/*MEDIA 781-1130px: liten laptop*/
+@media (max-width: 1130px){
+    /*Navbar*/
+        .navbar{
+        font-size: 15px;
+        justify-content: space-evenly;
+        }
+        
+    /*Tilgjengelighetsside*/
+    .TilgjengelighetsSection{ 
+        display: grid;
+        grid-template-columns: 2fr;
+        font-size: 18px;
+        padding: 15px;
+    }
+    #BilderTilgjengelig{
+        width: 550px;
+    }
 }
-#Ikoner{
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
+    
+    /*MEDIA 481-780px: Tablet/iPad*/
+    @media (max-width: 780px){
+    /*Navbar*/
+        .checkbtn{
+        display: block;
+        padding: 1px;
+        font-size: 20px;
+        margin-top: -45px;
+        margin-right: 50px; 
+        cursor: pointer;   
+        }
+        #check:checked ~ ul{
+        left: 0;
+        }
+        ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        transition: all .5s;
+        left: -110%;
+        display: block;
+        font-size: 20px;
+        line-height: 50px;
+        }
+        a{
+        top: 100px;
+        color: white; 
+        }
+        a:hover, a.aktiv{
+        background: none;
+        color: white; 
+        }
+        .navbar{
+        position: fixed;
+        top: 0;
+        }
 
-.åpningstider{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    align-items: center;
-    line-height: 2;
-    color: white;
-    margin-top: 100px;
+        #LogoMonOncle{
+        justify-content: space-evenly;
+        }
+        
+   /*Tilgjengelighetsside*/
+   .TilgjengelighetsSection{ 
+    font-size: 18px;
+    padding: 10px;
+    }
+    #BilderTilgjengelig{
+    width: 450px;
+    }
+    .SectionTilgjengelighetsside{
+        margin-top: 60px;
+    }
 }
-/*CSS TIL FOOTER SLUTT*/
+    
+    /*MEDIA 320-480px: MOBIL*/
+    @media (max-width:480px){
+    /*Navbar*/
+        .navbar {
+        padding: 10px;
+        }
+        .checkbtn{
+        margin-right: 20px;
+        }
+        .språk1{
+        font-size: 9px;
+        padding: 3px;
+        }
+        .spraak{
+            display: none;
+            content: remove;
+        }
+    
+    /*Tilgjengelighetsside*/
+    .TilgjengelighetsSection{ 
+        font-size: 15px;
+        }
+        #BilderTilgjengelig{
+        width: 280px;
+        }
+        .SectionTilgjengelighetsside{
+            margin-top: 90px;
+        }
+    
+    }
