@@ -102,11 +102,8 @@ u{
     text-align: center;
     align-items: center;
 }
-.boks{
-    position: relative;
-}
+
 .tekstboks{
-    position: absolute;
     bottom: 10px;
     left: 19px;
     font-size: 12px;
