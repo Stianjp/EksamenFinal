@@ -54,6 +54,8 @@ a{
     display: none;
 }
 #LogoMonOncle{
+    height: 56px;
+    width: 150px;
     visibility: visible;
     text-align: center;
     display: grid;

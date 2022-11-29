@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none; 
-    box-sizing: border-box;
+    
 }
 
 /*NAVBAR START*/
@@ -51,7 +51,11 @@ a{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+}
+
+#BildeLogo{
+    width: 150px;
+    height: 56px;
 }
 .LogoToppen{
     visibility: hidden;
@@ -101,7 +105,7 @@ body{
 .flexmeny{
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .bildemeny{
@@ -118,21 +122,6 @@ body{
 
 }
 
-
-.mainmeny{
-    color:white;
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 30px;
-    border: 5px solid white;
-    box-shadow:  10px 20px 10px grey;
-    max-width: 450px;
-    margin-left: 15%;
-    padding: 2%;
-    margin-top: 7%;
-}
-
 .menymain{
     height: auto;
     order: 50;
@@ -141,8 +130,6 @@ body{
     padding: 5%;
     margin: 8%;
     font-size: 85%;
-   
-    
 }
 
 .overskrifterMeny{
