@@ -1,3 +1,5 @@
+/*resStyle.css er for velkomstsiden og reservasjonssiden*/
+
 *{
     margin: 0;
     padding: 0;
@@ -414,9 +416,6 @@ form select, form input, option{
     .åpningstider{
     font-size: 12px;
     }
-
-/*Meny*/
-    
     
 /*Reservasjon*/
 .navigasjon-manuell{
@@ -425,7 +424,7 @@ form select, form input, option{
     
 /*Tilgjengelighetsside*/
     
-/*DATA1100*/   
+ 
 }
 @media (max-width: 900px) {
     .navigasjon-manuell{
