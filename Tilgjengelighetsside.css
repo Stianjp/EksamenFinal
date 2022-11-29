@@ -63,8 +63,8 @@ a{
     visibility: hidden;
 }
 /*NAVBAR SLUTT*/
-
-/*----------------------------------------------------*/
+/*----------------------------------------------------
+Tilgjengelighetsside START*/
 .SectionTilgjengelighetsside{
     text-align: center;
     padding-top: 10px;
@@ -84,6 +84,10 @@ a{
     padding: 20px;
 }
 u{
+    text-decoration: underline;
+}
+#Wave{
+    color: black;
     text-decoration: underline;
 }
 
