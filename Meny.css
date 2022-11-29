@@ -101,6 +101,7 @@ body{
 .flexmeny{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .bildemeny{
@@ -184,6 +185,11 @@ body{
     padding: 1%;
     margin: 2%;
     line-height: 165%;
+}
+
+#allergiIkon{
+    width: 17px;
+    height: 17px;
 }
 
 .linjeMeny{
