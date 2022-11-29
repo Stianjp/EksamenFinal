@@ -191,6 +191,7 @@ footer{
 /*Info om selve lokalet START*/
 #pitch{
     background-color: rgba(0, 0, 0, 0.550);
+    margin: 30px;
     color: white;
     border-style: solid;
     border-color: black;
@@ -538,6 +539,13 @@ form select, form input, option{
 /*Reservasjon*/
 .booking{
     grid-template-columns: 1fr;
+}
+#pitch{
+    padding-top: 40px;
+}
+#section2{
+    visibility: hidden;
+    display: none;
 }
     
 /*Tilgjengelighetsside*/
