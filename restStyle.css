@@ -391,7 +391,6 @@ form select, form input, option{
     font-size: larger;
     font-style:inherit;
     padding: 5%;
-    margin-top: -6%;
 }
 
     
@@ -405,7 +404,6 @@ form select, form input, option{
 .h1meny{
     color: white;
     text-align: center;
-    margin: 3rem;
 }
 
 .menymain{
@@ -413,51 +411,16 @@ form select, form input, option{
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
-    padding: 5%;
-    margin: 8%;
-    font-size: 85%;
+    padding: 2%;
+    margin: 7%;
+    text-align: center;
+    font-style: italic; 
+    line-height: 40px; 
 }
 
 .overskrifterMeny{
-   margin-top: 2%;
-}
-
-
-.Smallbites{
-
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;  
-    line-height: 165%;
-
-       
-}
-
-.Starters{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;  
-    line-height: 165%;
-}
-
-
-.MainCourse{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;
-    line-height: 165%;
-}
-
-
-.Dessert{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;
-    line-height: 165%;
+   font-style: normal;
+   padding: 10px;
 }
 
 #allergiIkon{
