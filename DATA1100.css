@@ -322,7 +322,7 @@ h3{
         }
         .spraak{
         font-size: 10px;
-        margin-right: -20px;
+        margin-right: ;
         }
     /*Tilgjengelighetsside*/
         
@@ -336,7 +336,7 @@ h3{
     }
 
     .fakenews1100 > div{
-      
+    max-width: 400px;
     }
 
     #newsmal{
@@ -348,8 +348,7 @@ h3{
         left: 0;
         margin-top: -200px;
         margin-left: 30%;
-        
-        
+        width: auto;
     }
 }
     
@@ -394,6 +393,7 @@ h3{
     /*Englesk/Norsk bytter plassering som nevnt tidligere */
         .spraak{
         visibility: hidden;
+
         }
         .språk1{
         visibility: visible;
@@ -451,6 +451,7 @@ h3{
             height: auto;
             width: auto;
             margin:0;
+            width: 50px;
         
         }
 
