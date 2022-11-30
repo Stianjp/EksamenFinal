@@ -408,7 +408,6 @@ form select, form input, option{
 
 .menymain{
     height: auto;
-    order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
     padding: 2%;
