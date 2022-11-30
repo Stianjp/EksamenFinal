@@ -177,7 +177,6 @@ footer{
 
 /*Reservasjons-side START*/
 .booking {
-    padding: 10px;
     display: grid;
     text-align: center;
     align-items:center;
@@ -185,11 +184,11 @@ footer{
     line-height: 2.5;
     grid-template-columns: 1fr 1fr;
 }
-
 /* Info om selve lokalet START */
 #pitch{
     background-color: rgba(0, 0, 0, 0.550);
-    margin: 30px;
+    padding: 20px;
+    margin-top: 30px;
     color: white;
     border-style: solid;
     border-color: black;
@@ -324,7 +323,7 @@ form select, form input, option{
 
 /* Slideshow navigasjon START */
 .navigasjon-manuell{
-    display: flex;
+    display:flex;
     align-items: flex-end;
     justify-content: space-between;
     margin-top: 20%;
@@ -368,6 +367,7 @@ form select, form input, option{
     font-style:inherit;
     padding: 5%;
 }
+
 .wrappermeny>*{
     padding: 10px;
     margin: 10px;
@@ -578,7 +578,7 @@ form select, form input, option{
     .allergener{
         display: grid;
     }
-    
+
     /* Reservasjon */
     .booking{
         grid-template-columns: 1fr;
@@ -654,3 +654,4 @@ form select, form input, option{
         display: none;
     }
 }
+
