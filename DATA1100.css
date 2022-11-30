@@ -352,7 +352,12 @@ footer{
     width: 300px;
     height: auto;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
+}
+#MidtstilleFooter{
+    align-items: center;
+    justify-content: center;
 }
 /*CSS TIL FOOTER SLUTT*/
 
