@@ -322,7 +322,7 @@ h3{
         }
         .spraak{
         font-size: 10px;
-        margin-right: ;
+        /*margin-right: -20px; fak deg stian*/
         }
     /*Tilgjengelighetsside*/
         
@@ -333,10 +333,17 @@ h3{
         grid-template-columns: 2fr;
         font-size: 18px;
         padding: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .fakenews1100 > div{
-    max-width: 400px;
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
     }
 
     #newsmal{
@@ -350,6 +357,13 @@ h3{
         margin-left: 30%;
         width: auto;
     }
+
+    .center{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
     
     /*MEDIA 481-780px: Tablet/iPad*/
@@ -439,7 +453,7 @@ h3{
         } 
     /*DATA1100*/
         .heading1100{
-            margin-top:100px;
+            padding-top:50px;
         }
         .main1100text{
             max-height: fit-content;
@@ -451,8 +465,6 @@ h3{
             height: auto;
             width: auto;
             margin:0;
-            width: 50px;
-        
         }
 
         .fakenews1100 > div >p{
