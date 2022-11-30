@@ -143,8 +143,8 @@ body{
     text-decoration: underline;
     color: aquamarine;
 }
-
 /* linken til wikipedia nettsiden SLUTT */
+
 .heading21100{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -313,7 +313,6 @@ footer{
 #OmOss{
     text-align: center;
 }
-
 .Rad2{
     align-items: center;
 }
@@ -342,7 +341,6 @@ footer{
         font-size: 10px;
         /*margin-right: -20px; fak deg stian*/
         }
-    /*Tilgjengelighetsside*/
         
     /*DATA1100*/ 
     .fakenews1100{
@@ -354,17 +352,14 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
     .fakenews1100 > div{
         text-align: center;
         justify-content: center;
         align-items: center;
     }
-
     #newsmal{
         width: 600px;
-        height: auto;
-    
+        height: auto;  
     }
     .popup ,.popup2 ,.popup3{
         left: 0;
@@ -372,7 +367,6 @@ footer{
         margin-left: 30%;
         width: auto;
     }
-
     .center{
         align-items: center;
         justify-content: center;
@@ -380,21 +374,21 @@ footer{
     }
 }
     
-    /*MEDIA 481-780px: Tablet/iPad*/
-    @media (max-width: 780px){
+/*MEDIA 481-780px: Tablet/iPad*/
+@media (max-width: 780px){
     /*Navbar*/
-        .checkbtn{
+    .checkbtn{
         display: block;
         padding: 1px;
         font-size: 20px;
         margin-top: -45px;
         margin-right: 50px; 
         cursor: pointer;   
-        }
-        #check:checked ~ ul{
+    }
+    #check:checked ~ ul{
         left: 0;
-        }
-        ul{
+    }
+    ul{
         position:fixed;
         width: 100%;
         height: 100vh;
@@ -405,39 +399,39 @@ footer{
         display: block;
         font-size: 20px;
         line-height: 50px;
-        }
-        a{
+    }
+    a{
         top: 100px;
         color: white; 
-        }
-        a:hover, a.aktiv{
+    }
+    a:hover, a.aktiv{
         background: none;
         color: white; 
-        }
-        .navbar{
+    }
+    .navbar{
         position: fixed;
         top: 0;
         padding-bottom: 10px;
-        }
-    /*Englesk/Norsk bytter plassering som nevnt tidligere */
-        .spraak{
+    }
+/*Englesk/Norsk bytter plassering som nevnt tidligere */
+    .spraak{
         visibility: hidden;
 
-        }
-        .språk1{
+    }
+    .språk1{
         visibility: visible;
         padding: 5px;
         font-size: 12px;
         line-height: 20px;
         display: inline;
-        }
-        #LogoMonOncle{
+    }
+    #LogoMonOncle{
         justify-content: space-evenly;
-        }  
-        #LogoDATA1100tekst{
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
+    }  
+    #LogoDATA1100tekst{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
     /*DATA1100*/
     .heading1100{
         margin-top: 80px;
@@ -447,21 +441,18 @@ footer{
         height: auto;
         margin:0;
     }
-
     .fakenews1100 > div >p{
         width: 300px;
         width: auto;
     }
-
     .popup ,.popup2 ,.popup3{
         left: 0;
         margin: 10%;
         margin-bottom: 20px;
     }
     .fakenews1100 > div{
-    padding: 20px;
+        padding: 20px;
     }
-
     footer{
         grid-template-columns: 2fr; /*Gjør at bilde kommer under teksten i footer*/
     }
@@ -469,60 +460,55 @@ footer{
         width: 250px;
     }
 }
-    /*MEDIA 320-480px: MOBIL*/
-    @media (max-width:480px){
+/*MEDIA 320-480px: MOBIL*/
+@media (max-width:480px){
     /*Navbar*/
-        .navbar {
+    .navbar {
         padding: 10px;
-        }
-        .checkbtn{
+    }
+    .checkbtn{
         margin-right: 20px;
-        }
-        .språk1{
+    }
+    .språk1{
         font-size: 9px;
         padding: 3px;
-        }
-        .spraak{
-            display: none;
-            content: remove;
-        } 
-        #LogoDATA1100tekst{
-            font-size: 17px;
-        }
+    }
+    .spraak{
+        display: none;
+        content: remove;
+    } 
+    #LogoDATA1100tekst{
+        font-size: 17px;
+    }
 
-    /*DATA1100*/
-        .heading1100{
-            padding-top:50px;
-        }
-        .main1100text{
-            max-height: fit-content;
-            max-height:100%;
-        }
-    
-        #newsmal{
-            max-width: 300px;
-            height: auto;
-            width: auto;
-            margin:0;
-        }
-
-        .fakenews1100 > div >p{
-            width: 300px;
-            width: auto;
-        }
-
-        .popup ,.popup2 ,.popup3{
-            left: 0;
-            margin: 10%;
-            margin-bottom: 20px;
-        }
-
-        .fakenews1100 > div{
-            padding: 5px;
-            margin-top: 10px;
-        }
-
-        #FooterBilde{
-            width: 200px;
-        }
+/*DATA1100*/
+     .heading1100{
+        padding-top:50px;
+    }
+    .main1100text{
+        max-height: fit-content;
+        max-height:100%;
+    }
+    #newsmal{
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin:0;
+    }
+    .fakenews1100 > div >p{
+        width: 300px;
+        width: auto;
+    }
+    .popup ,.popup2 ,.popup3{
+        left: 0;
+        margin: 10%;
+        margin-bottom: 20px;
+    }
+    .fakenews1100 > div{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #FooterBilde{
+        width: 200px;
+    }
 }

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="DATA1100.css">
     <title>DATA1100</title>
 </head>
-<body><div class="background1100">
+<body>
+<div class="background1100">
 <header>
 <!---NAVBAR START -->
 <nav class="navbar">
@@ -49,161 +50,122 @@
 </header>
 <!-- NAVBAR END -->
 </header>
-    <h1 class="heading1100">Fake News</h1>
-
-    <div class="main1100">
-        <div class = "main1100text">
-            <p> 
+<h1 class="heading1100">Fake News</h1>
+<div class="main1100">
+    <div class = "main1100text">
+        <p> 
             <a class = "link1100" href="https://en.wikipedia.org/wiki/Fake_news" target="_blank"> Fake news</a> is a modern tool that can help influence a group of people to a large extent. But how effective is this tool really? 
             Does it only work on older people who read news on their computer? Do people really think critically anymore or do they blindly believe what they read, see and hear?
             These are some of the questions we thought we would visualize for you with a small round of interviews with a few different people who had no idea what we were doing.
-            </p>
-        </div>
-
-        <div class ="main1100video">
-            <!-- Youtube video with code suggested from Youtube's share button -->
-             <iframe id="videostr"
-                src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
-            </iframe>
-        </div>
+        </p>
     </div>
-
-
-    <h2 class ="heading21100"> Crew </h2>
-
-    <!-- Flexbox with portrait pictures from the crew that made the youtube video -->
-    <div class="crew1100">
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/Stianp.png" alt="Fotage of Cameraman">
-            <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
-        </div>
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/ellen.png" alt="fotage of reporter">
-
-            <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
-        </div>
-
-        <div class="reporter1100">
-
-
-            <img class="portrett1100" src="Bilder/DATA1100/Dennis.png" alt="fotage of reporter">
-
-            <p class="navn1100">Dennis Janssen <br> Reporter</p>
-        </div>
-
-        <div class="reporter1100">
-
-            <img class="portrett1100" src="Bilder/DATA1100/Abdi.png" alt="fotage of reporter">
-
-            <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
-        </div>
-
+    <div class ="main1100video">
+        <!-- Youtube video with code suggested from Youtube's share button -->
+        <iframe id="videostr"
+            src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
+        </iframe>
     </div>
-
-</div> 
+</div>
+<h2 class ="heading21100"> Crew </h2>
+<!-- Flexbox with portrait pictures from the crew that made the youtube video -->
+<div class="crew1100">
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Stianp.png" alt="Fotage of Cameraman">
+        <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/ellen.png" alt="fotage of reporter">
+        <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Dennis.png" alt="fotage of reporter">
+        <p class="navn1100">Dennis Janssen <br> Reporter</p>
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Abdi.png" alt="fotage of reporter">
+        <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
+    </div>
+</div>
+</div> <!-- finishes the first background for the site-->
 
 <h2 class="heading21100">Fake news test</h2>
 <div class="testtekst">
-<p> 
-    To show how difficult it can actually be to distinguish between fake news and not fake news
-    based on just a screenshot, like just hearing it on the street. here you can look through the picture, go to the link if you wish
-    and see if you can guess/find out whether it is fake or true news!
-    <br> If you press the button below the text boxes, the summary will appear.
-    <br>if you click on the pictures you will get to the websites!
-
-</p>
+    <p> 
+        To show how difficult it can actually be to distinguish between fake news and not fake news
+        based on just a screenshot, like just hearing it on the street. here you can look through the picture, go to the link if you wish
+        and see if you can guess/find out whether it is fake or true news!
+        <br> If you press the button below the text boxes, the summary will appear.
+        <br>if you click on the pictures you will get to the websites!
+    </p>
 </div>
-    <div class="fakenews1100">
-
-        <div>
-
-             <p>
-                A tweet from one of the world's most influential rich people, Emmanuel Macron
-                (The President of France as of 2022). Here Macron writes about the rainforest and specifically
-                how much oxygen it produces for life on Earth.
-    
-            </p>
-
-           
-            <input type="checkbox" id="click">
-            <label for="click" class="click-me">Answear</label>
-            <div class="popup">   
+<div class="fakenews1100">
+    <div>   <!--- Row 1 in Fake news test-->
+        <p>
+            A tweet from one of the world's most influential rich people, Emmanuel Macron
+            (The President of France as of 2022). Here Macron writes about the rainforest and specifically
+            how much oxygen it produces for life on Earth.
+        </p>        
+        <input type="checkbox" id="click">  <!-- original way of using a checkbox to make buttons in css/html only -->
+        <label for="click" class="click-me">Answer</label>
+        <div class="popup">   <!-- text for the first popup-->
             <h3> Fake news!</h3>
-                 <p>
+                <p>
                     What Macron writes here regarding the rainforest contributing to 20% of
                     Earth's oxygen has been scientifically disproven. although Macron may not have known this was not true
                     he helps that such statements are gently trusted by others. 
                 </p>
-                <label for="click" class="close-btn">Close</label> 
-            </div> 
-        </div>
-
-        <div> 
-            <a href="https://twitter.com/EmmanuelMacron/status/1164617008962527232 " target="_blank">
-            <img id="newsmal" src="Bilder/DATA1100/screenEmanuelFakeNews.png" alt="skjermdump av Emmanuel Macron sin tweet om regnskogen">
-            </a>
-        </div>
-
-        <div>
-            <p> 
-                In this article published on Foxnews, it is written about how the United States
-                Bacon reservoir is at the lowest it has been in 50 years. here they have figures like: there are only 17.8 million pounds of pork belly
-                they can convert to bacon and that it is the lowest since 1957.
-    
+            <label for="click" class="close-btn">Close</label> 
+        </div> 
+    </div>
+    <div> 
+        <a href="https://twitter.com/EmmanuelMacron/status/1164617008962527232 " target="_blank"> <!-- link to the website by clicking on the picture (opens in new browser)-->
+        <img id="newsmal" src="Bilder/DATA1100/screenEmanuelFakeNews.png" alt="skjermdump av Emmanuel Macron sin tweet om regnskogen">
+        </a>
+    </div>
+    <div> <!--- Row 2 in Fake news test-->
+        <p> 
+            In this article published on Foxnews, it is written about how the United States
+            Bacon reservoir is at the lowest it has been in 50 years. here they have figures like: there are only 17.8 million pounds of pork belly
+            they can convert to bacon and that it is the lowest since 1957.
+        </p>
+        <input type="checkbox" id="click2">
+        <label for="click2" class="click-me">Answer</label>
+        <div class="popup2"> <!-- text for the second popup--> 
+            <h3> Fake news!</h3>
+            <p>
+                Amazingly, this is also fake news even though this was published by Fox news which is actually a source
+                many people blindly follow and see as believable.
             </p>
-
-            <input type="checkbox" id="click2">
-            <label for="click2" class="click-me">Answer</label>
-            <div class="popup2">   
-
-            
-                <h3> Fake news!</h3>
-                <p>
-                    Amazingly, this is also fake news even though this was published by Fox news which is actually a source
-                    many people blindly follow and see as believable.
-               </p>
-               <label for="click2" class="close-btn">Close</label> 
-            </div>
+            <label for="click2" class="close-btn">Close</label> 
         </div>
-
-        <div>
-            <a href="https://www.foxnews.com/food-drink/us-bacon-reserves-hit-50-year-low" target="_blank">
-                <img  id="newsmal" src="Bilder/DATA1100/screenFoxnews.png" alt="skjermdump av en nyhetsartikkel fra foxnews ang lite bacon">
-            </a>
-        </div>
-
-        <div>
-            <p>            
+    </div>
+    <div>
+        <a href="https://www.foxnews.com/food-drink/us-bacon-reserves-hit-50-year-low" target="_blank"> <!-- link to the website by clicking on the picture (opens in new browser)-->
+            <img  id="newsmal" src="Bilder/DATA1100/screenFoxnews.png" alt="skjermdump av en nyhetsartikkel fra foxnews ang lite bacon">
+        </a>
+    </div>
+    <div> <!--- Row 3 in Fake news test-->
+        <p>            
             in this article published by National geographic they write about how it is not possible
             for the rainforest to be able to produce 20% of the earth's oxygen. Here they write about other researchers who believe it is less than 1%
+        </p>
+        <input type="checkbox" id="click3">
+        <label for="click3" class="click-me">Answer</label>
+        <div class="popup3">  <!-- text for the third popup-->
+            <h3> true news!</h3>
+            <p>
+                the fact that the rainforest can produce less than 1% of the earth's oxygen is actually true! The article does not try to disprove that we should stop to
+                cutting in the rainforest but it only points out that it is wrong for politicians and others to use misinformation as facts
+                to reinforce a meaning.
             </p>
-
-            <input type="checkbox" id="click3">
-            <label for="click3" class="click-me">Answer</label>
-            <div class="popup3">   
-           
-                    <h3> true news!</h3>
-                        <p>
-                        the fact that the rainforest can produce less than 1% of the earth's oxygen is actually true! The article does not try to disprove that we should stop to
-                        cutting in the rainforest but it only points out that it is wrong for politicians and others to use misinformation as facts
-                        to reinforce a meaning.
-                        </p>
-                        <label for="click3" class="close-btn">Close</label> 
-            </div>
-            
-                        
-        </div>
-        
-        <div> 
-            <a href="https://www.nationalgeographic.com/environment/article/why-amazon-doesnt-produce-20-percent-worlds-oxygen" target="_blank">
-                <img id="newsmal" src="Bilder/DATA1100/screenNational.png" alt="skjermdump av national geograpich sin artikkel om reiskogen">
-            </a> 
+            <label for="click3" class="close-btn">Close</label> 
+        </div>                
+    </div>  
+    <div> 
+        <a href="https://www.nationalgeographic.com/environment/article/why-amazon-doesnt-produce-20-percent-worlds-oxygen" target="_blank"> <!-- link to the website by clicking on the picture (opens in new browser)-->
+            <img id="newsmal" src="Bilder/DATA1100/screenNational.png" alt="skjermdump av national geograpich sin artikkel om reiskogen">
+        </a> 
     </div>
-    
-
-
 </div>
 <!--FOOTER START-->
 <footer>

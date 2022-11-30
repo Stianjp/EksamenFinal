@@ -50,149 +50,124 @@
 <!-- NAVBAR SLUTT -->
 </header>
 <h1 class="heading1100">Fake News</h1>
-
-    <div class="main1100">
-        <div class = "main1100text">
-            <p> 
+<div class="main1100">
+    <div class = "main1100text">
+        <p> 
             <a class = "link1100" href="https://no.wikipedia.org/wiki/Falsk_nyhet" target="_blank"> Fake news</a>
             er et moderne verktøy som kan være med å påvirke en samling av personer i stor grad. Men hvor effektivt er egentlig dette verktøyet?
             Funker det kun på eldre personer som leser nyheter på datamaskinen sin? Tenker egentlig folk kritisk lenger eller tror dem blindt på det de leser, ser og hører?
             Dette er noen spørsmål vi tenkte å få visualisert ut til dere med en liten intervju runde med noen ulike personer som ikke hadde noen anelse om hva vi drev med.
-            </p>
-        </div>
-
-        <div class ="main1100video">
-            <!-- Youtube video med kode anbefalt fra Youtube sin share knapp -->
-             <iframe id="videostr"
-                src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
-            </iframe>
-        </div>
+        </p>
     </div>
-
-
-    <h2 class ="heading21100"> Crew </h2>
-    <!-- Flexbox med portrett bildene av crewet som lagde videoen -->
-    <div class="crew1100">
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/Stianp.png" alt="bilde av kameramann Stian Pettersen">
-            <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
-        </div>
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/ellen.png" alt="bilde av reporter Ellen Arnesen">
-            <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
-        </div>
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/Dennis.png" alt="bilde av reporter Dennis Janssen">
-            <p class="navn1100">Dennis Janssen <br> Reporter</p>
-        </div>
-
-        <div class="reporter1100">
-            <img class="portrett1100" src="Bilder/DATA1100/Abdi.png" alt="bilde av reporter Abdi Abdiwali">
-            <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
-        </div>
+    <div class ="main1100video">
+        <!-- Youtube video med kode anbefalt fra Youtube sin share knapp -->
+        <iframe id="videostr"
+            src="https://www.youtube.com/embed/xzWmhKC-Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="intervju runde">
+        </iframe>
     </div>
 </div> 
 
+<h2 class ="heading21100"> Crew </h2>
+<!-- Flexbox med portrett bildene av crewet som lagde videoen -->
+<div class="crew1100">
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Stianp.png" alt="bilde av kameramann Stian Pettersen">
+        <p class="navn1100"> Stian Pettersen <br> Kameramann</p> 
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/ellen.png" alt="bilde av reporter Ellen Arnesen">
+        <p class="navn1100"> Ellen Arnesen <br> Reporter</p>
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Dennis.png" alt="bilde av reporter Dennis Janssen">
+        <p class="navn1100">Dennis Janssen <br> Reporter</p>
+    </div>
+    <div class="reporter1100">
+        <img class="portrett1100" src="Bilder/DATA1100/Abdi.png" alt="bilde av reporter Abdi Abdiwali">
+        <p class="navn1100"> Abdi Abdiwali <br> Reporter</p>
+    </div>
+</div>
+</div> <!-- diven avslutter første del av siden sin bakgrunn-->
+
 <h2 class="heading21100">Fake news test</h2>
 <div class="testtekst">
-<p> 
-    For å vise hvor vanskelig det faktisk kan være å skille mellom fake news og ikke fake news 
-    utfra kun et skjermdump, i likhet med å bare høre det på gata. her kan du se igjennom bildet, gå inn på linken om du ønsker
-    og se om du klarer å gjette/finne ut om det er fake eller true news!
-    <br>trykker du på knappen under tekstboksene kommer fasiten. 
-    <br>trykker du på bildene kommer du til nettsidene!
-</p>
+    <p> 
+        For å vise hvor vanskelig det faktisk kan være å skille mellom fake news og ikke fake news 
+        utfra kun et skjermdump, i likhet med å bare høre det på gata. her kan du se igjennom bildet, gå inn på linken om du ønsker
+        og se om du klarer å gjette/finne ut om det er fake eller true news!
+        <br>trykker du på knappen under tekstboksene kommer fasiten. 
+        <br>trykker du på bildene kommer du til nettsidene!
+    </p>
 </div>
-    <div class="fakenews1100">
-        <div>
-
-             <p class="center">
+<div class="fakenews1100">
+    <div> <!--- Rad 1 i Fake news test-->
+        <p class="center">
             En tweet fra en av verdens mest inflytelses rike personer, Emmanuel Macron 
             (Presidenten i Frankrike pr 2022). Her skriver Macron om regnskogen og spesifikt 
             hvor mye oksygen den produserer for liv på jorda.
-            </p>
-
-           
-            <input type="checkbox" id="click">
-            <label for="click" class="click-me">Sjekk svaret her</label>
-            <div class="popup">   
+        </p>
+        <input type="checkbox" id="click"> <!-- En original måte å bruke en checkbox for å kunne lage buttons i kun css/html -->
+        <label for="click" class="click-me">Sjekk svaret her</label>
+        <div class="popup"> <!-- svartekst til første popup-->
             <h3> Fake news!</h3>
-                 <p>
-                    Det Macron skriver her angående at regnskogen kontribuerer til 20% av 
-                    jordas oksygen er vitenskapelig motbevist. selv om Macron kanskje ikke visste at dette ikke var sant 
-                     hjelper han til at sånne utsagn blir blidt stolt på av andre.
-                 </p>
-                <label for="click" class="close-btn">Lukk</label> 
-            </div> 
-        </div>
-
-        <div> 
-            <a href="https://twitter.com/EmmanuelMacron/status/1164617008962527232 " target="_blank">
+            <p>
+                Det Macron skriver her angående at regnskogen kontribuerer til 20% av 
+                jordas oksygen er vitenskapelig motbevist. selv om Macron kanskje ikke visste at dette ikke var sant 
+                hjelper han til at sånne utsagn blir blidt stolt på av andre.
+            </p>
+            <label for="click" class="close-btn">Lukk</label> 
+        </div> 
+    </div>
+    <div> 
+        <a href="https://twitter.com/EmmanuelMacron/status/1164617008962527232 " target="_blank"> <!-- link til nettsiden via bildet (åpnes i ny fane)-->
             <img id="newsmal" src="Bilder/DATA1100/screenEmanuelFakeNews.png" alt="skjermdump av Emmanuel Macron sin tweet om regnskogen">
-            </a>
-        </div>
-
-        <div>
-            <p> 
+        </a>
+    </div>
+    <div> <!--- Rad 2 i Fake news test-->
+        <p> 
             I denne artikkelen som er gitt ut på Foxnews er det skrevet om hvordan USA sitt 
             Bacon reservoir er på det laveste det har vært på 50år. her har de tall som: det kunn er 17.8 million pounds pork belly 
             de kan omgjøre til bacon og at det er laveste siden 1957.
-            </p>
-
-            <input type="checkbox" id="click2">
-            <label for="click2" class="click-me">Sjekk svaret her</label>
-            <div class="popup2">   
-
-            
-                <h3> Fake news!</h3>
-                <p>
+        </p>
+        <input type="checkbox" id="click2">  <!--  måtte classe/ID hver enkelt popup siden de har 3 forskjellige knapper til 3 forskjellige popups-->
+        <label for="click2" class="click-me">Sjekk svaret her</label>
+        <div class="popup2">   
+            <h3> Fake news!</h3> <!-- svartekst til andre popup-->
+            <p>
                 Utrolig nok er dette også fake news selv om dette ble publisert av Fox news som egentlig er en kilde 
                 mange mennesker følger blindt med på og ser på som troverdig. 
-               </p>
-               <label for="click2" class="close-btn">Lukk</label> 
-            </div>
-        </div>
-
-        <div>
-            <a href="https://www.foxnews.com/food-drink/us-bacon-reserves-hit-50-year-low" target="_blank">
-                <img  id="newsmal" src="Bilder/DATA1100/screenFoxnews.png" alt="skjermdump av en nyhetsartikkel fra foxnews ang lite bacon">
-            </a>
-        </div>
-
-        <div>
-            <p> 
-             I denne artikkelen gitt ut av National geographic skriver dem om hvordan det ikke er mulig
-            for regnskogen å kunne produsere 20% av jordas oksygen. Her skriver de om andre forskere som mener det er under 1%
             </p>
-
-            <input type="checkbox" id="click3">
-            <label for="click3" class="click-me">Sjekk svaret her</label>
-            <div class="popup3">   
-           
-                    <h3> true news!</h3>
-                        <p>
-                        Det at regnskogen kun produserer under 1% av jordas oksygen er faktisk sant! Artikkelen prøver ikke å motbevise at vi burde stoppe å 
-                        hogge i regnskogen men den bare punktere at det er feil at politikere og andre skal bruke feilinformasjon som fakta til 
-                        å forsterke en mening.
-                        </p>
-                        <label for="click3" class="close-btn">Lukk</label> 
-            </div>
-            
-                        
+            <label for="click2" class="close-btn">Lukk</label> 
         </div>
-        
-        <div> 
-            <a href="https://www.nationalgeographic.com/environment/article/why-amazon-doesnt-produce-20-percent-worlds-oxygen" target="_blank">
-                <img id="newsmal" src="Bilder/DATA1100/screenNational.png" alt="skjermdump av national geograpich sin artikkel om reiskogen">
-            </a> 
     </div>
-    
-
-
+    <div>
+        <a href="https://www.foxnews.com/food-drink/us-bacon-reserves-hit-50-year-low" target="_blank">  <!-- link til nettsiden via bildet (åpnes i ny fane)-->
+            <img  id="newsmal" src="Bilder/DATA1100/screenFoxnews.png" alt="skjermdump av en nyhetsartikkel fra foxnews ang lite bacon">
+        </a>
     </div>
+    <div>
+        <p> <!--- Rad 3 i Fake news test-->
+            I denne artikkelen gitt ut av National geographic skriver dem om hvordan det ikke er mulig
+            for regnskogen å kunne produsere 20% av jordas oksygen. Her skriver de om andre forskere som mener det er under 1%
+        </p>
+        <input type="checkbox" id="click3">
+        <label for="click3" class="click-me">Sjekk svaret her</label>
+        <div class="popup3">   
+            <h3> true news!</h3> <!-- svartekst til tredje popup-->
+            <p>
+                Det at regnskogen kun produserer under 1% av jordas oksygen er faktisk sant! Artikkelen prøver ikke å motbevise at vi burde stoppe å 
+                hogge i regnskogen men den bare punktere at det er feil at politikere og andre skal bruke feilinformasjon som fakta til 
+                å forsterke en mening.
+            </p>
+            <label for="click3" class="close-btn">Lukk</label> 
+        </div>             
+    </div>
+    <div> 
+        <a href="https://www.nationalgeographic.com/environment/article/why-amazon-doesnt-produce-20-percent-worlds-oxygen" target="_blank">  <!-- link til nettsiden via bildet (åpnes i ny fane)-->
+            <img id="newsmal" src="Bilder/DATA1100/screenNational.png" alt="skjermdump av national geograpich sin artikkel om reiskogen">
+        </a> 
+    </div>
+</div>
 
 <!--FOOTER START-->
 <footer>
