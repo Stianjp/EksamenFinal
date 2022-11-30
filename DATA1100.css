@@ -143,8 +143,8 @@ body{
     text-decoration: underline;
     color: aquamarine;
 }
-/* linken til wikipedia nettsiden SLUTT */
 
+/* linken til wikipedia nettsiden SLUTT */
 .heading21100{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -259,6 +259,7 @@ body{
     padding: 15px;
     visibility: hidden;
     margin-top :40px;
+    color: white;
 }
 .popup3{
     max-width: 400px;
@@ -271,16 +272,18 @@ body{
     padding: 15px;
     visibility: hidden;
     margin-top: 40px;
+    color: white;
+}
+.popup3>p{
+    color: white;
 }
 .close-btn{
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     padding: 1px 5px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 15px;
-    background: white;
-
 }
 h3{
     font-size: 25px;
@@ -436,6 +439,9 @@ footer{
             margin-bottom: 10px;
         }
     /*DATA1100*/
+    .heading1100{
+        margin-top: 80px;
+    }
     #newsmal{
         width: 400px;
         height: auto;
