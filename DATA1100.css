@@ -327,7 +327,6 @@ h3{
     /*Tilgjengelighetsside*/
         
     /*DATA1100*/ 
-
     .fakenews1100{
         display: grid;
         grid-template-columns: 2fr;
@@ -339,7 +338,6 @@ h3{
     }
 
     .fakenews1100 > div{
-        max-width: 400px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -403,6 +401,7 @@ h3{
         .navbar{
         position: fixed;
         top: 0;
+        padding-bottom: 10px;
         }
     /*Englesk/Norsk bytter plassering som nevnt tidligere */
         .spraak{
@@ -419,10 +418,14 @@ h3{
         #LogoMonOncle{
         justify-content: space-evenly;
         }  
+        #LogoDATA1100tekst{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
     /*Tilgjengelighetsside*/
         
     /*DATA1100*/
-
     #newsmal{
         width: 400px;
         height: auto;
@@ -451,6 +454,10 @@ h3{
             display: none;
             content: remove;
         } 
+        #LogoDATA1100tekst{
+            font-size: 17px;
+        }
+
     /*DATA1100*/
         .heading1100{
             padding-top:50px;
@@ -476,6 +483,11 @@ h3{
             left: 0;
             margin: 10%;
             margin-bottom: 20px;
+        }
+        .fakenews1100 > div{
+            padding: 5px;
+            margin-top: 10px;
+            
         }
     
     }
