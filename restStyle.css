@@ -483,6 +483,12 @@ form select, form input, option{
     height: 17px;
 }
 
+.allergener{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 .linjeMeny{
     width: 90%;
     margin: 5%;
@@ -668,6 +674,9 @@ form select, form input, option{
 } 
 .h1meny{
     margin-top: 80px;
+}
+.allergener{
+    display: grid;
 }
     
 /*Reservasjon*/
