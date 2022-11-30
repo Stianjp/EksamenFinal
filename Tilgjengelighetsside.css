@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none; 
 }
+
 /*NAVBAR START*/
 nav{
     background-color: black;
@@ -11,7 +12,6 @@ nav{
     width:100%;
     line-height: 30px;
 }
-
 nav ul li{
     background-color: black;
     font-size: 20px;
@@ -25,7 +25,6 @@ ul{
     text-align: center;  
     padding: 20px 5px;
 }
-
 a.aktiv, a:hover{
     text-decoration: underline;
     color: white;
@@ -49,7 +48,6 @@ a{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
 .LogoToppen{
     visibility: hidden;
@@ -62,9 +60,10 @@ a{
 /*Gir oss mulighet til å flytte på Engelsk/Norsk på en lettere måte enn å bruke margin*/
     visibility: hidden;
 }
-/*NAVBAR SLUTT*/
-/*----------------------------------------------------
-Tilgjengelighetsside START*/
+
+/* NAVBAR SLUTT */
+/*----------------------------------------------------*/
+/* Tilgjengelighetsside START */
 .SectionTilgjengelighetsside{
     text-align: center;
     padding-top: 10px;
@@ -73,8 +72,7 @@ Tilgjengelighetsside START*/
 #Undertitler{
     text-decoration: underline;
 }
-
-/*Denne klassen er brukt på alle overskrifter for å få en mer ryddig kode*/
+/*TilgjengelioghetSection klassen er brukt på alle overskrifter for å få en mer ryddig kode*/
 .TilgjengelighetsSection{ 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -91,7 +89,6 @@ u{
     color: black;
     text-decoration: underline;
 }
-
 #OverskriftTilgjengelig{
     text-align: center;
     text-decoration: underline;
@@ -107,23 +104,22 @@ u{
     text-align: center;
     align-items: center;
 }
-
 .tekstboks{
     bottom: 10px;
     left: 19px;
     font-size: 12px;
 }
 
-/*Media innstillinger*/
-/*MEDIA 781-1130px: liten laptop*/
+/* Media innstillinger */
+/* MEDIA 781-1130px: liten laptop */
 @media (max-width: 1130px){
-    /*Navbar*/
-        .navbar{
+    /* Navba r*/
+    .navbar{
         font-size: 15px;
         justify-content: space-evenly;
-        }
+    }
         
-    /*Tilgjengelighetsside*/
+    /* Tilgjengelighetsside */
     .TilgjengelighetsSection{ 
         display: grid;
         grid-template-columns: 2fr;
@@ -135,21 +131,21 @@ u{
     }
 }
     
-    /*MEDIA 481-780px: Tablet/iPad*/
-    @media (max-width: 780px){
-    /*Navbar*/
-        .checkbtn{
+/* MEDIA 481-780px: Tablet/iPad */
+@media (max-width: 780px){
+    /* Navbar */
+    .checkbtn{
         display: block;
         padding: 1px;
         font-size: 20px;
         margin-top: -45px;
         margin-right: 50px; 
         cursor: pointer;   
-        }
-        #check:checked ~ ul{
+    }
+    #check:checked ~ ul{
         left: 0;
-        }
-        ul{
+    }
+    ul{
         position:fixed;
         width: 100%;
         height: 100vh;
@@ -160,64 +156,62 @@ u{
         display: block;
         font-size: 20px;
         line-height: 50px;
-        }
-        a{
+    }
+    a{
         top: 100px;
         color: white; 
-        }
-        a:hover, a.aktiv{
+    }
+    a:hover, a.aktiv{
         background: none;
         color: white; 
-        }
-        .navbar{
+    }
+    .navbar{
         position: fixed;
         top: 0;
-        }
-
-        #LogoMonOncle{
+    }
+    #LogoMonOncle{
         justify-content: space-evenly;
-        }
+    }
         
-   /*Tilgjengelighetsside*/
+   /* Tilgjengelighetsside */
    .TilgjengelighetsSection{ 
-    font-size: 18px;
-    padding: 10px;
+        font-size: 18px;
+        padding: 10px;
     }
     #BilderTilgjengelig{
-    width: 450px;
+        width: 450px;
     }
     .SectionTilgjengelighetsside{
         margin-top: 60px;
     }
 }
     
-    /*MEDIA 320-480px: MOBIL*/
-    @media (max-width:480px){
-    /*Navbar*/
-        .navbar {
+    /* MEDIA 320-480px: MOBIL */
+@media (max-width:480px){
+    /* Navbar */
+    .navbar {
         padding: 10px;
-        }
-        .checkbtn{
+    }
+    .checkbtn{
         margin-right: 20px;
-        }
-        .språk1{
+    }
+    .språk1{
         font-size: 9px;
         padding: 3px;
-        }
-        .spraak{
-            display: none;
-            content: remove;
-        }
+    }
+    .spraak{
+        display: none;
+        content: remove;
+    }
     
-    /*Tilgjengelighetsside*/
+    /* Tilgjengelighetsside */
     .TilgjengelighetsSection{ 
         font-size: 15px;
-        }
-        #BilderTilgjengelig{
-        width: 280px;
-        }
-        .SectionTilgjengelighetsside{
-            margin-top: 90px;
-        }
-    
     }
+    #BilderTilgjengelig{
+        width: 280px;
+    }
+    .SectionTilgjengelighetsside{
+            margin-top: 90px;
+    }
+}
