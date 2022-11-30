@@ -1,5 +1,4 @@
-/*resStyle.css er for velkomstsiden og reservasjonssiden*/
-
+/* resStyle.css er for velkomstsiden og reservasjonssiden */
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +11,8 @@ body{
     background-color: black;
     font-family:'Times New Roman', Times, serif;
 }
-/*NAVBAR START*/
+
+/* NAVBAR START */
 nav{
     background-color: black;
     color: white;
@@ -20,7 +20,6 @@ nav{
     width:100%;
     line-height: 30px;
 }
-
 nav ul li{
     background-color: black;
     font-size: 20px;
@@ -34,7 +33,6 @@ ul{
     text-align: center;  
     padding: 20px 5px;
 }
-
 a.aktiv, a:hover{
     text-decoration: underline;
     color: white;
@@ -74,14 +72,13 @@ a{
 /*Gir oss mulighet til å flytte på Engelsk/Norsk på en lettere måte enn å bruke margin*/
     visibility: hidden;
 }
-/*NAVBAR SLUTT*/
+/* NAVBAR SLUTT */
 
-/*Velkomsttekst på velkomstssiden START*/
+/* Velkomsttekst på velkomstssiden START */
 .velkomstsidesection{
     background-color: rgba(0, 0, 0, 0.550);
     margin-top: 50px;
 }
-
 .pitchen{
     padding: 5px;
     display: grid;
@@ -121,7 +118,6 @@ text-decoration: underline;
     height:auto;
     width:25px;
 }
-
 #BildeAvKokk1{
     border-style: solid;
     border-color: black;
@@ -129,7 +125,7 @@ text-decoration: underline;
     height: auto;
 }
 
-/*CSS TIL FOOTER START*/
+/* CSS TIL FOOTER START */
 footer{
     background-color: rgb(31, 31, 31);
     width: 100%;
@@ -143,7 +139,6 @@ footer{
     align-items: center;
     text-align: center
 }
-
 .IkonerMidten{
    font-size: 15px;
    align-items: center;
@@ -162,7 +157,6 @@ footer{
     align-items: center;
     text-align: center;
 }
-
 .Rad2{
     text-align: center;
     align-items: center;
@@ -178,8 +172,8 @@ footer{
     width: 100%;
     height: auto;
 }
-/*CSS TIL FOOTER SLUTT*/
-/*Velkomsttekst på velkomstssiden SLUTT*/
+/* CSS TIL FOOTER SLUTT */
+/* Velkomsttekst på velkomstssiden SLUTT */
 
 /*Reservasjons-side START*/
 .booking {
@@ -190,8 +184,7 @@ footer{
     line-height: 2.5;
     grid-template-columns: 1fr 1fr;
 }
-
-/*Info om selve lokalet START*/
+/* Info om selve lokalet START */
 #pitch{
     background-color: rgba(0, 0, 0, 0.550);
     padding: 20px;
@@ -200,9 +193,9 @@ footer{
     border-style: solid;
     border-color: black;
 }
-/*Info om selve lokalet SLUTT*/
+/* Info om selve lokalet SLUTT */
 
-/*Reservasjons-skjema START*/
+/* Reservasjons-skjema START */
 .reserver{
     display: flex;
     flex-direction: column;
@@ -215,7 +208,6 @@ footer{
     border-style: solid;
     border-color: black;
 }
-
 form select, form input, option{
     width: 70%;
     margin: 10px 10px;
@@ -225,19 +217,18 @@ form select, form input, option{
     font-weight: 300;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/*Reservasjons-skjema SLUTT*/
+/* Reservasjons-skjema SLUTT */
   
-/*Confirmation på reservasjon START*/
-  .box {
+/* Confirmation på reservasjon START */
+.box{
     width: 100%;
     border: 2px;
     background-clip: padding-box;
     text-align: center;
     align-items: center;
     justify-content: center;
-  }
-  
-  .button {
+}
+.button{
     font-size: 20px;
     padding: 10px;
     border: 2px solid white;
@@ -248,14 +239,13 @@ form select, form input, option{
     text-align: center;
     align-items: center;
     justify-content: center;
-  }
-  .button:hover {
+}
+.button:hover{
     background: white;
     color: black;
     text-decoration: none;
-  }
-  
-  .overlay {
+}
+.overlay{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -265,14 +255,12 @@ form select, form input, option{
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-  }
-
-  .overlay:target {
+}
+.overlay:target{
     visibility: visible;
     opacity: 1;
-  }
-  
-  .popup {
+}
+.popup{
     margin: 70px auto;
     padding: 20px;
     background: white;
@@ -280,14 +268,13 @@ form select, form input, option{
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
-  }
-  
-  .popup h2, .popup p {
+}
+.popup h2, .popup p{
     margin-top: 0;
     color: black;
     font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
+}
+.popup .close{
     position:absolute;
     top:-30px;
     right: 2px;
@@ -296,13 +283,13 @@ form select, form input, option{
     font-weight: bold;
     text-decoration: none;
     color: black;
-  }
-  .popup .close:hover {
+}
+.popup .close:hover{
     color: red;
-  }
-  /*Confirmation på Reservasjon SLUTT*/
+}
+/* Confirmation på Reservasjon SLUTT */
 
-/*Slideshow START*/
+/* Slideshow START */
 #section2{
     height: 290px;
     display:flex ;
@@ -311,8 +298,7 @@ form select, form input, option{
     background-color: rgba(0, 0, 0, 0.550);
     border-style: solid;
     border-color: black;
-    }
-    
+} 
 .slider{
     width: 480px;
     height: 290px;
@@ -320,25 +306,22 @@ form select, form input, option{
     border-style: solid;
     overflow: hidden;
     border-color: black;
-    }
-
+}
 .knapp{
     width: 500%;
     height: 100%;
     display: flex;
-    }
-
+}
 .knapp input{
     display: none;
-    }
-
+}
 .slide img{
     width: 480px;
     height: 290px;
-    }
-/*Slideshow SLUTT*/
+}
+/* Slideshow SLUTT */
 
-/*Slideshow navigasjon START*/
+/* Slideshow navigasjon START */
 .navigasjon-manuell{
     display:flex;
     align-items: flex-end;
@@ -347,8 +330,7 @@ form select, form input, option{
     width: 20%;
     position: absolute;
     background: none;
-    }
-    
+}
 .manuell-knapp{
     border: 2px solid;
     background-color: black;
@@ -356,32 +338,26 @@ form select, form input, option{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;   
-    }
-
+}
 .manuell-knapp:hover{
     background: white;
-    }
-    
+}
 #sirkel1:checked~.forst{
     margin-left: 0;
-    }
-    
+}
 #sirkel2:checked~.forst{
     margin-left: -20%;
-    }
-    
+}
 #sirkel3:checked~.forst{
     margin-left: -40%;
-    }
-    
+} 
 #sirkel4:checked ~ .forst{
     margin-left: -60%;
-    }
-/*Slideshow navigasjon SLUTT*/  
-/*Reservasjons-side SLUTT*/
+}
+/* Slideshow navigasjon SLUTT */  
+/* Reservasjons-side SLUTT */
 
-/*Meny-side START*/
-
+/* Meny-side START */
 .wrappermeny{
     display: flex;
     flex-flow:row wrap; 
@@ -391,22 +367,19 @@ form select, form input, option{
     font-style:inherit;
     padding: 5%;
 }
-    
+
 .wrappermeny>*{
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
 }
-
 .h1meny{
     color: white;
     text-align: center;
 }
-
 .menymain{
     height: auto;
-    order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
     padding: 2%;
@@ -415,287 +388,270 @@ form select, form input, option{
     font-style: italic; 
     line-height: 40px; 
 }
-
 .overskrifterMeny{
    font-style: normal;
    padding: 10px;
 }
-
 #allergiIkon{
     width: 17px;
     height: 17px;
 }
-
 .allergener{
     display: flex;
     justify-content: space-evenly;
 }
-
 .linjeMeny{
     width: 90%;
     margin: 5%;
 }
+/* Styling til meny SLUTT */ 
 
-/*Styling til meny SLUTT*/ 
-
-
-/*Media innstillinger*/
-
-
-/*Reservasjon knappeposisjon på slideshow */
-@media (min-width: 1350px) {
+/* Media innstillinger */
+/* Reservasjon knappeposisjon på slideshow */
+@media (min-width: 1350px){
     .navigasjon-manuell{
         margin-top: 250px;
     }
-
-/*MEDIA 781-1130px: liten laptop*/    
-    
 }
+
+/* MEDIA 781-1130px: liten laptop */    
 @media (max-width: 1130px){
-/*Navbar*/
+    /* Navbar */
     .navbar{
-    font-size: 15px;
-    justify-content: space-evenly;
+        font-size: 15px;
+        justify-content: space-evenly;
     }
     .spraak{
-    font-size: 10px;
+        font-size: 10px;
     }
     
-/*Velkomstsiide*/
+    /* Velkomstsiide */
     .velkomstsidesection{
     font-size: 12px;
     }
     #BildeAvKokk1{
-    width: 350px;
-    height: auto;
+        width: 350px;
+        height: auto;
     }
     #BildeAvMonOncle{
-    height: auto;
-    width: 170px;
+        height: auto;
+        width: 170px;
     }
     .Anmeldelser{
-    font-size: 12px;
+        font-size: 12px;
     }
     #Collum6{
-    font-size: 10px;
+        font-size: 10px;
     }
     
-/*Footer*/
+    /* Footer */
     .åpningstider{
-    font-size: 12px;
+        font-size: 12px;
     }
     
-/*Reservasjon*/
-.navigasjon-manuell{
-    margin-top: 25%;
-}
+    /* Reservasjon */
+    .navigasjon-manuell{
+        margin-top: 25%;
+    }
     
-/*Menyside*/
-.bildemeny{
-    width: 150px;
-    height: 200px;
+    /* Menyside */
+    .bildemeny{
+        width: 150px;
+        height: 200px;
+    }
 }
-}
-
+/* MEDIA FOR Å FÅ MANUELLKNAPPENE RESPONSIV */
 @media (max-width: 1000px){
     .navigasjon-manuell{
         margin-top: 200px;
     }
 }
+
 @media (max-width: 900px) {
     .navigasjon-manuell{
         margin-top: 25%;
     }
 }
 
-/*MEDIA 481-780px: Tablet/iPad*/
+/* MEDIA 481-780px: Tablet/iPad */
 @media (max-width: 780px){
-/*Navbar*/
+    /* Navbar */
     .checkbtn{
-    display: block;
-    padding: 1px;
-    font-size: 20px;
-    margin-top: -45px;
-    margin-right: 50px; 
-    cursor: pointer;   
+        display: block;
+        padding: 1px;
+        font-size: 20px;
+        margin-top: -45px;
+        margin-right: 50px; 
+        cursor: pointer;   
     }
     #check:checked ~ ul{
-    left: 0;
+        left: 0;
     }
     ul{
-    position:fixed;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    text-align: center;
-    transition: all .5s;
-    left: -110%;
-    display: block;
-    font-size: 20px;
-    line-height: 50px;
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        transition: all .5s;
+        left: -110%;
+        display: block;
+        font-size: 20px;
+        line-height: 50px;
     }
     a{
-    top: 100px;
-    color: white; 
+        top: 100px;
+        color: white; 
     }
     a:hover, a.aktiv{
-    background: none;
-    color: white; 
+        background: none;
+        color: white; 
     }
     .navbar{
-    position: fixed;
-    top: 0;
-
+        position: fixed;
+        top: 0;
     }
-/*Englesk/Norsk bytter plassering som nevnt tidligere */
+    /* Englesk/Norsk bytter plassering som nevnt tidligere */
     .spraak{
-    visibility: hidden;
+        visibility: hidden;
     }
     .språk1{
-    visibility: visible;
-    padding: 5px;
-    font-size: 12px;
-    line-height: 20px;
-    display: inline;
+        visibility: visible;
+        padding: 5px;
+        font-size: 12px;
+        line-height: 20px;
+        display: inline;
     }
     #LogoMonOncle{
-    justify-content: space-evenly;
+        justify-content: space-evenly;
     }
     
-    
-/*Velkomstsiide*/
+    /* Velkomstsiide */
     .velkomstsidesection{
-    margin-top: 99px;
+        margin-top: 99px;
     }
     .pitchen{ 
-    padding: 20%;
-    display:table-row;
+        padding: 20%;
+        display:table-row;
     }
     .Anmeldelser{
-    display: flow-root;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
+        display: flow-root;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
     }
     #BildeAvKokk1{
-    width: 250px;
-    height: auto;
+        width: 250px;
+        height: auto;
     }
     #BildeAvMonOncle{
-    width: 200px;
-    height: auto;
+        width: 200px;
+        height: auto;
     }
     #terning{
         width: 18px;
     }
    
-
-/*Footer*/
+    /* Footer */
     #IkonLogo{
-    height: auto;
-    width: 100px;
+        height: auto;
+        width: 100px;
     }
     .Rad2{
-    font-size: 12px;
+        font-size: 12px;
     }
-    
     .Rad3{
-    font-size: 12px;
+        font-size: 12px;
     }
     #instagram{
-    margin-top: 0px;
+        margin-top: 0px;
     }
 
-/*Meny*/
-.bildemeny{
-    visibility: hidden;
-    display: none;
-} 
-.h1meny{
-    margin-top: 80px;
-}
-.allergener{
-    display: grid;
-}
-    
-/*Reservasjon*/
-.booking{
-    grid-template-columns: 1fr;
-}
-#pitch{
-    margin-top: 55px;
-}
-#section2{
-    visibility: hidden;
-    display: none;
-}
-    
-/*Tilgjengelighetsside*/
-    
-/*DATA1100*/
-    
+    /* Meny */
+    .bildemeny{
+        visibility: hidden;
+        display: none;
+    } 
+    .h1meny{
+        margin-top: 80px;
+    }
+    .allergener{
+        display: grid;
+    }
+
+    /* Reservasjon */
+    .booking{
+        grid-template-columns: 1fr;
+    }
+    #pitch{
+        padding-top: 40px;
+    }
+    #section2{
+        visibility: hidden;
+        display: none;
+    }    
 }
 
-/*MEDIA 320-480px: MOBIL*/
+/* MEDIA 320-480px: MOBIL */
 @media (max-width:480px){
-/*Navbar*/
+    /* Navbar */
     .navbar {
-    padding: 10px;
+        padding: 10px;
     }
     .checkbtn{
-    margin-right: 20px;
+        margin-right: 20px;
     }
     .språk1{
-    font-size: 9px;
-    padding: 3px;
+        font-size: 9px;
+        padding: 3px;
     }
     .spraak{
         display: none;
     }
 
-/*Velkomstsiide*/
+    /* Velkomstsiide */
     .velkomstsidesection{
-    margin-top:105px;
+        margin-top:105px;
     }
     .pitchen{
-    margin-top: 80px;
-    grid-template-columns: 2fr;
+        margin-top: 80px;
+        grid-template-columns: 2fr;
     }
     #BildeAvKokk1{
-    width: 200px;
+        width: 200px;
     }
     .Anmeldelser{
-    grid-template-columns: 2fr;
-    font-size: 12px;
-    margin-bottom: 10px;
+        grid-template-columns: 2fr;
+        font-size: 12px;
+        margin-bottom: 10px;
     }
     #terning{
-    width: 15px;
+        width: 15px;
     }
     #BildeAvMonOncle{
-    width: 150px;
+        width: 150px;
     }
-/*Footer*/
+
+    /* Footer */
     .Rad2{
-    margin: 0;
-    margin-bottom: 2%;
+        margin: 0;
+        margin-bottom: 2%;
     }
     footer{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0%;
     }
     .åpningstider{
-    padding: 1px;
+        padding: 1px;
     }
 
-/*Meny*/
-.h1meny{
-    margin-top: 90px;
-}
-.flexmeny{
-    display: none;
+    /* Meny */
+    .h1meny{
+        margin-top: 90px;
+    }
+    .flexmeny{
+        display: none;
+    }
 }
 
-/*Reservasjon*/
-}

@@ -13,7 +13,6 @@ nav{
     line-height: 30px;
     z-index: 1; /* kreves kunn på denne siden pga bildene i crewet kom over nav*/
 }
-
 nav ul li{
     background-color: black;
     font-size: 20px;
@@ -74,7 +73,6 @@ a{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
 .LogoToppen{
     visibility: hidden;
@@ -91,23 +89,19 @@ a{
 
 body{
     background-color: rgba(0, 0, 0, 0.879);
-    background-image: url(bilder/DATA1100/avis.jpeg);
+    background-image: url(Bilder/DATA1100/avisnettside.png);
 }
-
-
 .background1100{
     background-image: url(Bilder/DATA1100/bakgrunnDATA1100.png); /*https://www.pexels.com/photo/man-reading-burning-newspaper-3278364/ fotograf: Danya Gutan */
     background-size: cover; 
     background-position-y: 35%;
 }
-
 .main1100{
     margin-top: 50px;
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
 }
-
 .heading1100{
     margin-top:65px;
     color: white;
@@ -115,7 +109,6 @@ body{
     font-size: 250%;
     padding: 15px;
 }
-
 .main1100text{
     flex: 40%;
     font-size: 125%;
@@ -130,13 +123,11 @@ body{
     max-height: 250px;
     line-height: 30px;
 }
-
 .main1100video{
     flex: 50%;
     padding: 20px;
     text-align: center;
 }
-
 #videostr{
     height: 300px;
     width: 100%;
@@ -148,7 +139,6 @@ body{
     color:rgb(229, 255, 0);
     font-style:italic;
 }
-
 .link1100:hover{
     text-decoration: underline;
     color: aquamarine;
@@ -156,40 +146,31 @@ body{
 /* linken til wikipedia nettsiden SLUTT */
 
 .heading21100{
-    
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 200%;
     padding-top: 150px;
-    
-    
 }
-
 .crew1100{
     display: flex;
     flex-wrap: wrap;
 }
-
 .portrett1100{
     height: 165px;
     width: 160px;
     border-radius: 50%;
     filter: grayscale(25%);
-        -webkit-filter: grayscale(25%);
-    
+    -webkit-filter: grayscale(25%);
 }
-
 .reporter1100{
     flex: 15%;
     text-align: center;
     padding: 20px;
 }
-
 .navn1100{
     color: white;
     text-align: center;
 }
-
 .fakenews1100{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -199,7 +180,6 @@ body{
     font-size: 20px;
     padding: 20px;
 }
-
 .testtekst{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -210,7 +190,6 @@ body{
     margin:50px;
     text-align: center;
 }
-
 .fakenews1100 > div >p{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -219,12 +198,10 @@ body{
     width: auto;
     margin:5%;
 }
-
 .fakenews1100 > div{
     padding: 50px;
     width: auto;
 }
-
 #newsmal{
     width: 600px;
     height: auto;
@@ -235,34 +212,28 @@ body{
     align-items: center;
 }
 
-/*---- Fake news test ----*/
+/*---- Fake news test start ----*/
 #click{
     display:none;
 }
-
 #click:checked ~ .popup{
     visibility: visible;
     opacity: 1;
 }
-
 #click2{
     display:none;
 }
-
 #click2:checked ~ .popup2{
     visibility: visible;
     opacity: 1;
 }
-
 #click3{
     display:none;
 }
-
 #click3:checked ~ .popup3{
     visibility: visible;
     opacity: 1;
 }
-
 .click-me{
     padding: 10px 60px;
     background: white;
@@ -272,13 +243,11 @@ body{
     font-size: 20px;
     border-radius: 30px;
 }
-
 .click-me:hover{
     background: rgb(209, 209, 209);
     transition: 0.5s;
 
 }
-
 .popup , .popup2 {
    max-width: 400px;
     width: auto;
@@ -291,7 +260,6 @@ body{
     visibility: hidden;
     margin-top :40px;
 }
-
 .popup3{
     max-width: 400px;
     width: auto;
@@ -304,7 +272,6 @@ body{
     visibility: hidden;
     margin-top: 40px;
 }
-
 .close-btn{
     font-size: 20px;
     font-weight: 600;
@@ -315,15 +282,50 @@ body{
     background: white;
 
 }
-
 h3{
     font-size: 25px;
 }
-
 .popup>p,.popup2 >p,.popup3 > p{
     padding-bottom:10px;
 }
+/*---- Fake news test slutt ----*/
 
+/*CSS TIL FOOTER START*/
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;    
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.Rad1{
+    padding: 20px;
+    text-align: left;
+}
+#OmOss{
+    text-align: center;
+}
+
+.Rad2{
+    align-items: center;
+}
+#FooterBilde{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+}
+#MidtstilleFooter{
+    align-items: center;
+    justify-content: center;
+}
+/*CSS TIL FOOTER SLUTT*/
 
 /*Media innstillinger*/
 /*MEDIA 781-1130px: liten laptop*/
@@ -354,7 +356,6 @@ h3{
         text-align: center;
         justify-content: center;
         align-items: center;
-
     }
 
     #newsmal{
@@ -374,7 +375,6 @@ h3{
         justify-content: center;
         text-align: center;
     }
-
 }
     
     /*MEDIA 481-780px: Tablet/iPad*/
@@ -435,9 +435,6 @@ h3{
             font-size: 20px;
             margin-bottom: 10px;
         }
-
-    /*Tilgjengelighetsside*/
-        
     /*DATA1100*/
     #newsmal{
         width: 400px;
@@ -454,6 +451,16 @@ h3{
         left: 0;
         margin: 10%;
         margin-bottom: 20px;
+    }
+    .fakenews1100 > div{
+    padding: 20px;
+    }
+
+    footer{
+        grid-template-columns: 2fr; /*Gjør at bilde kommer under teksten i footer*/
+    }
+    #FooterBilde{
+        width: 250px;
     }
 }
     /*MEDIA 320-480px: MOBIL*/
@@ -503,10 +510,13 @@ h3{
             margin: 10%;
             margin-bottom: 20px;
         }
+
         .fakenews1100 > div{
             padding: 5px;
             margin-top: 10px;
-            
         }
-    
-    }
+
+        #FooterBilde{
+            width: 200px;
+        }
+}
