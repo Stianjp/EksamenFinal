@@ -381,6 +381,8 @@ form select, form input, option{
 /*Slideshow navigasjon SLUTT*/  
 /*Reservasjons-side SLUTT*/
 
+/*Meny-side START*/
+
 .wrappermeny{
     display: flex;
     flex-flow:row wrap; 
@@ -389,7 +391,6 @@ form select, form input, option{
     font-size: larger;
     font-style:inherit;
     padding: 5%;
-    margin-top: -6%;
 }
 
     
@@ -403,27 +404,6 @@ form select, form input, option{
 .h1meny{
     color: white;
     text-align: center;
-    margin: 3rem;
-}
-
-.flexmeny{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.bildemeny{
-    flex: 100%;
-    max-width: 400px;
-    max-height: 400px;
-    padding: 1px;
-    margin-left: 40px;
-    border-radius: 20px;
-    background-position: left top;
-    background-repeat: repeat;
-    width: 225px;
-    height: 400px; 
-
 }
 
 .menymain{
@@ -431,51 +411,16 @@ form select, form input, option{
     order: 50;
     background-color:beige;
     color: rgb(6, 5, 5);
-    padding: 5%;
-    margin: 8%;
-    font-size: 85%;
+    padding: 2%;
+    margin: 7%;
+    text-align: center;
+    font-style: italic; 
+    line-height: 40px; 
 }
 
 .overskrifterMeny{
-   margin-top: 2%;
-}
-
-
-.Smallbites{
-
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;  
-    line-height: 165%;
-
-       
-}
-
-.Starters{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;  
-    line-height: 165%;
-}
-
-
-.MainCourse{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;
-    line-height: 165%;
-}
-
-
-.Dessert{
-    text-align: center;
-    font-style: italic;
-    padding: 1%;
-    margin: 2%;
-    line-height: 165%;
+   font-style: normal;
+   padding: 10px;
 }
 
 #allergiIkon{
@@ -486,30 +431,26 @@ form select, form input, option{
 .allergener{
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .linjeMeny{
     width: 90%;
     margin: 5%;
-
 }
-
 
 /*Styling til meny SLUTT*/ 
 
 
-
-
-
 /*Media innstillinger*/
-/*MEDIA 781-1130px: liten laptop*/
 
-/*Reservasjon */
+
+/*Reservasjon knappeposisjon på slideshow */
 @media (min-width: 1350px) {
     .navigasjon-manuell{
         margin-top: 250px;
     }
+
+/*MEDIA 781-1130px: liten laptop*/    
     
 }
 @media (max-width: 1130px){
