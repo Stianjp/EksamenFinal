@@ -351,7 +351,7 @@ footer{
 #FooterBilde{
     width: 300px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 20px;
     align-items: center;
 }
