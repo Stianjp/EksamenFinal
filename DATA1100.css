@@ -126,8 +126,8 @@ body{
     text-align: center;
     margin-left: 3%;
     margin-top: 2%;
-    max-height: fit-content; /* får tekstboksen til å automatisk justere seg på visse nettlesere som safari. */
-    max-height: 225px;
+    max-height: fit-content; /* safari. */
+    max-height: 250px;
     line-height: 30px;
 }
 
@@ -275,13 +275,15 @@ body{
 
 .click-me:hover{
     background: rgb(209, 209, 209);
+    transition: 0.5s;
+
 }
 
-.popup , .popup2{
+.popup , .popup2 {
    max-width: 400px;
     width: auto;
     background:rgb(106, 30, 30);
-    border-radius: 6px;
+    border-radius: 10px;
     position: absolute;
     left: 9%;
     text-align: center;
@@ -294,7 +296,7 @@ body{
     max-width: 400px;
     width: auto;
     background:rgb(32, 120, 27);
-    border-radius: 6px;
+    border-radius: 10px;
     position: absolute;
     left: 9%;
     text-align: center;
@@ -304,11 +306,22 @@ body{
 }
 
 .close-btn{
+    font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
+    padding: 1px 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: white;
+
 }
 
 h3{
     font-size: 25px;
+}
+
+.popup>p,.popup2 >p,.popup3 > p{
+    padding-bottom:10px;
 }
 
 
@@ -435,6 +448,12 @@ h3{
     .fakenews1100 > div >p{
         width: 300px;
         width: auto;
+    }
+
+    .popup ,.popup2 ,.popup3{
+        left: 0;
+        margin: 10%;
+        margin-bottom: 20px;
     }
 }
     /*MEDIA 320-480px: MOBIL*/
