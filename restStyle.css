@@ -453,13 +453,9 @@ form select, form input, option{
     .navigasjon-manuell{
         margin-top: 25%;
     }
-    
+}    
+  
     /* Menyside */
-    .bildemeny{
-        width: 150px;
-        height: 200px;
-    }
-}
 /* MEDIA FOR Å FÅ MANUELLKNAPPENE RESPONSIV */
 @media (max-width: 1000px){
     .navigasjon-manuell{
@@ -568,10 +564,6 @@ form select, form input, option{
     }
 
     /* Meny */
-    .bildemeny{
-        visibility: hidden;
-        display: none;
-    } 
     .h1meny{
         margin-top: 80px;
     }
@@ -650,8 +642,4 @@ form select, form input, option{
     .h1meny{
         margin-top: 90px;
     }
-    .flexmeny{
-        display: none;
-    }
 }
-
