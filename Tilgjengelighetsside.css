@@ -115,7 +115,6 @@ u{
 @media (max-width: 1130px){
     /* Navba r*/
     .navbar{
-        font-size: 15px;
         justify-content: space-evenly;
     }
         
@@ -128,6 +127,9 @@ u{
     }
     #BilderTilgjengelig{
         width: 550px;
+    }
+    nav ul li{
+        font-size: 18px;
     }
 }
     

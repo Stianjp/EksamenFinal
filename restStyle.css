@@ -424,6 +424,9 @@ form select, form input, option{
     .spraak{
         font-size: 10px;
     }
+    nav ul li{
+        font-size: 18px;
+    }
     
     /* Velkomstsiide */
     .velkomstsidesection{
