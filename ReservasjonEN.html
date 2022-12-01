@@ -39,9 +39,9 @@
     </ul>
 </nav> 
 <!-- NAVBAR SLUTT -->
-    <div class="booking">
+    <div class="reservasjonBooking">
 <!--Info om lokalet-->        
-        <p id="pitch">
+        <p id="reservasjonInfo">
             <strong>Welcome to Mon Oncle!</strong> 
             <br>
             At this restaurant you can bring your friends, family or others for an unforgettable evening.
@@ -51,7 +51,7 @@
             We ask you to please contact us if you wish to reserve for more than 10 people.
         </p>
 <!--Reservasjons-skjema med input og select felt-->
-        <div class="reserver">
+        <div class="reservasjonSkjema">
             <h2>Booking</h2>
             <form>
                 <div class="form"> 
@@ -75,14 +75,14 @@
                     <input id="" type="kommentar" placeholder="Comments:" >
 
 <!--Confirmation på reservasjon--> 
-                    <div class="box">
-                        <a class="button" href="#popup1">RESERVE TABLE</a>
+                    <div class="reservasjonBox">
+                        <a class="reservasjonButton" href="#reservasjonPopup1">RESERVE TABLE</a>
 <!--Overlay for å blurre bakgrunnen når bekreftelse popper opp-->                    
-                        <div id="popup1" class="overlay">
-                            <div class="popup">
+                        <div id="reservasjonPopup1" class="reservasjonOverlay">
+                            <div class="reservasjonMelding">
                                 <h2>Thank you for reserving a table with us!</h2>
                                 <p>Your table will be reserved for 2 hours from starting time.</p>
-                                <a class="close" href="#">&times;</a>
+                                <a class="reservasjonLukk" href="#">&times;</a>
                             </div>
 <!--https://codepen.io/imprakash/pen/GgNMXO-->                          
                         </div>
@@ -92,14 +92,14 @@
         </div>
     </div>
     <!--BILDE-SLIDESHOW START-->
-<section id="section2">
-    <div class="slider">
-        <div class="knapp">
+<section class="reservasjonBildeshow">
+    <div class="reservasjonSlider">
+        <div class="reservasjonSlideshowNav">
             <!--Knapper for å endre bilde START-->
-            <input type="radio" name="sirkel-knapp" id="sirkel1">
-            <input type="radio" name="sirkel-knapp" id="sirkel2">
-            <input type="radio" name="sirkel-knapp" id="sirkel3">
-            <input type="radio" name="sirkel-knapp" id="sirkel4">
+            <input type="radio" name="sirkel-knapp" id="reservasjonSirkel1">
+            <input type="radio" name="sirkel-knapp" id="reservasjonSirkel2">
+            <input type="radio" name="sirkel-knapp" id="reservasjonSirkel3">
+            <input type="radio" name="sirkel-knapp" id="reservasjonSirkel4">
              
             <!--Knapper for å endre bilde SLUTT-->
             <!--Bildeslides START-->
@@ -121,11 +121,11 @@
             </div>
         </div>
     </div>
-    <div class="navigasjon-manuell">
-        <label for="sirkel1" class="manuell-knapp"></label>
-        <label for="sirkel2" class="manuell-knapp"></label>
-        <label for="sirkel3" class="manuell-knapp"></label>
-        <label for="sirkel4" class="manuell-knapp"></label>
+    <div class="reservasjonNvgt-manuell">
+        <label for="reservasjonSirkel1" class="reservasjonManuell-knapp"></label>
+        <label for="reservasjonSirkel2" class="reservasjonManuell-knapp"></label>
+        <label for="reservasjonSirkel3" class="reservasjonManuell-knapp"></label>
+        <label for="reservasjonSirkel4" class="reservasjonManuell-knapp"></label>
 <!--Her hadde det vært hensiktsmessig å bruke en aktiv klasse (som viser hvilket bilde man er på i slideshowet), 
 som man kunne laget med JavaScript.-->
     </div>

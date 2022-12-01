@@ -173,7 +173,7 @@ footer{
 /* Velkomsttekst på velkomstssiden SLUTT */
 
 /*Reservasjons-side START*/
-.booking {
+.reservasjonBooking{
     display: grid;
     text-align: center;
     align-items:center;
@@ -182,7 +182,7 @@ footer{
     grid-template-columns: 1fr 1fr;
 }
 /* Info om selve lokalet START */
-#pitch{
+#reservasjonInfo{
     background-color: rgba(0, 0, 0, 0.550);
     padding: 20px;
     margin-top: 30px;
@@ -193,7 +193,7 @@ footer{
 /* Info om selve lokalet SLUTT */
 
 /* Reservasjons-skjema START */
-.reserver{
+.reservasjonSkjema{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +217,7 @@ form select, form input, option{
 /* Reservasjons-skjema SLUTT */
   
 /* Confirmation på reservasjon START */
-.box{
+.reservasjonBox{
     width: 100%;
     border: 2px;
     background-clip: padding-box;
@@ -225,7 +225,7 @@ form select, form input, option{
     align-items: center;
     justify-content: center;
 }
-.button{
+.reservasjonButton{
     font-size: 20px;
     padding: 10px;
     border: 2px solid white;
@@ -237,12 +237,12 @@ form select, form input, option{
     align-items: center;
     justify-content: center;
 }
-.button:hover{
+.reservasjonButton:hover{
     background: white;
     color: black;
     text-decoration: none;
 }
-.overlay{
+.reservasjonOverlay{
     position: fixed;
     top: 0;
     bottom: 0;
@@ -253,11 +253,11 @@ form select, form input, option{
     visibility: hidden;
     opacity: 0;
 }
-.overlay:target{
+.reservasjonOverlay:target{
     visibility: visible;
     opacity: 1;
 }
-.popup{
+.reservasjonMelding{
     margin: 70px auto;
     padding: 20px;
     background: white;
@@ -266,12 +266,12 @@ form select, form input, option{
     position: relative;
     transition: all 5s ease-in-out;
 }
-.popup h2, .popup p{
+.reservasjonMelding h2, .reservasjonMelding p{
     margin-top: 0;
     color: black;
     font-family: Tahoma, Arial, sans-serif;
 }
-.popup .close{
+.reservasjonMelding .reservasjonLukk{
     position:absolute;
     top:-30px;
     right: 2px;
@@ -281,13 +281,13 @@ form select, form input, option{
     text-decoration: none;
     color: black;
 }
-.popup .close:hover{
+.reservasjonMelding .reservasjonLukk:hover{
     color: red;
 }
 /* Confirmation på Reservasjon SLUTT */
 
 /* Slideshow START */
-#section2{
+.reservasjonBildeshow{
     height: 290px;
     display:flex ;
     justify-content: center;
@@ -296,7 +296,7 @@ form select, form input, option{
     border-style: solid;
     border-color: black;
 } 
-.slider{
+.reservasjonSlider{
     width: 480px;
     height: 290px;
     border-radius: 40px;
@@ -304,12 +304,12 @@ form select, form input, option{
     overflow: hidden;
     border-color: black;
 }
-.knapp{
+.reservasjonSlideshowNav{
     width: 500%;
     height: 100%;
     display: flex;
 }
-.knapp input{
+.reservasjonSlideshowNav input{
     display: none;
 }
 .slide img{
@@ -319,7 +319,7 @@ form select, form input, option{
 /* Slideshow SLUTT */
 
 /* Slideshow navigasjon START */
-.navigasjon-manuell{
+.reservasjonNvgt-manuell{
     display:flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -328,7 +328,7 @@ form select, form input, option{
     position: absolute;
     background: none;
 }
-.manuell-knapp{
+.reservasjonManuell-knapp{
     border: 2px solid;
     background-color: black;
     padding: 5px;
@@ -336,19 +336,19 @@ form select, form input, option{
     cursor: pointer;
     transition: 1s;   
 }
-.manuell-knapp:hover{
+.reservasjonManuell-knapp:hover{
     background: white;
 }
-#sirkel1:checked~.forst{
+#reservasjonSirkel1:checked~.forst{
     margin-left: 0;
 }
-#sirkel2:checked~.forst{
+#reservasjonSirkel2:checked~.forst{
     margin-left: -20%;
 }
-#sirkel3:checked~.forst{
+#reservasjonSirkel3:checked~.forst{
     margin-left: -40%;
 } 
-#sirkel4:checked ~ .forst{
+#reservasjonSirkel4:checked ~ .forst{
     margin-left: -60%;
 }
 /* Slideshow navigasjon SLUTT */  
