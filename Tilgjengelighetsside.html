@@ -52,8 +52,19 @@
         <br>
         <p>Midt under arbeidsprossessen (ca. i oktober) valgte vi å starte pånytt siden koden hadde blitt uoversiktlig og nettsiden hadde mange bugs. Noe som kan vises med tanke på at blueprinten på bilde 1 er en del forskjellig fra vårt resultatet</p>
         <br> 
-        <p>Mot slutten av gruppeprosessen kjørte vi nettsiden gjennom <a id="Wave" href="https://wave.webaim.org" title="Wave Evulation Tool"><i>Wave</i></a> for å sjekke tilgjengelighet på siden (se bilder nedenfor). Dette hjalp oss å sjekke eksempelvis om det var konstratfeil, om vi hadde glemt alternativ tekst til bilder, etc.</p>
-        <p>Det ble også brukt <a id="Wave" href="https://validator.w3.org" title="W3C Markup Validation Service"><i>W3C´s</i></a> validator. Dette hjalp med å oppdage små feil i koden. Vi hadde flere duplikater av "id" og "class", men vi brukte dette for å få samme effekt på tekst og bilder.</p> 
+        <p>Mot slutten av gruppeprosessen kjørte vi nettsiden gjennom <a class="Wave" href="https://wave.webaim.org" title="Wave Evulation Tool"><i>Wave</i></a> for å teste koden for tilgjengelighet. Her så vi først etter konstrastfeil/mangler. Når det ikke var noen kontrastfeil så vi etter «Errors» og «Alerts».</p>
+        <p>Èn kjent «Error» har vi på navbaren, dette for at når bredden på skjermen går under 781px endrer dens plassering til venstre side av navbaren (opprinnlig høyre side). Dette ble gjort for å få bedre plass til «fa fa-bars» slik at man ikke skal trykke på feil knapp ved bruk av mindre skjermer/telefon/nettbrett.</p>
+        <br>
+        <p>Vi valgte også å ha engelske sider på alle sider (utenom tilgjengelighetssiden) for å oppnå en mer universell side, slik at flere kan forstå og lese det som står på siden.</p>
+        <br>
+        <p>Vi har også brukt mye bilder, for å visualisere fremfor å skrive. Dette kan sees spesielt på menysiden, hvor alle allergener er bilde av, i tillegg kan man hovre over for å få opp hva det er. Samt gå nederst på siden for å få en fullstendig oversikt over alle allergener og dens bilder.</p>
+        <p>For å få et universelt design ble <i>«@Media (max-width:..)»</i> brukt. Vi bestemte oss for disse størrelsene:</p>
+            <li>781-1130px: liten laptop</li>
+            <li>481-780px: Tablet/iPad</li>
+            <li>320-480px: mobiltelefon </li>
+        <p>For å få dette til på en best mulig måte brukte vi Chrome sin inspiser funksjon og endret størrelsene forløpende og testet hyppig for å få et best mulig resultat, med tanke på skriftstørrelse, bildestørrelse og plassering slik at sidene skulle bli oversiktlig og lett navigerbar. </p>
+        <br>
+        <p><a class="Wave" href="https://validator.w3.org" title="W3C Markup Validation Service"><i>W3C´s validator</i></a> ble også brukt for å oppdage feil i koden, eksempelvis at «id» var brukt fremfor «class».</p>
     </div>
     <!--Kolonne 2-->
     <div class="boks">
