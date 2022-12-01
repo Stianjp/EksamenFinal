@@ -110,7 +110,7 @@ a{
     width: 250px;
     height: auto;
 }
-#indexTerning{
+.indexTerning{
     padding-left: 10px;
     height:auto;
     width:25px;
@@ -120,6 +120,9 @@ a{
     border-color: black;
     width: 600px;
     height: auto;
+}
+.indexUnderline{
+    text-decoration: underline;
 }
 
 /* CSS TIL FOOTER START */
@@ -535,7 +538,7 @@ form select, form input, option{
     #indexBildeAvKokk{
         width: 250px;
     }
-    #indexTerning{
+    .indexTerning{
         width: 18px;
     }
    
@@ -605,7 +608,7 @@ form select, form input, option{
         font-size: 12px;
         margin-bottom: 10px;
     }
-    #indexTerning{
+    .indexTerning{
         width: 15px;
     }
     #indexBildeAvMonOncle{
