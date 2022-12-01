@@ -355,7 +355,7 @@ form select, form input, option{
 /* Reservasjons-side SLUTT */
 
 /* Meny-side START */
-.menywrapper{
+.menyWrapper{
     display: flex;
     flex-flow:row wrap; 
     text-align: center;
@@ -365,17 +365,17 @@ form select, form input, option{
     padding: 5%;
 }
 
-.menywrapper>*{
+.menyWrapper>*{
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
 }
-.menyh1{
+.menyH1{
     color: white;
     text-align: center;
 }
-.menymain{
+.menyMain{
     height: auto;
     background-color:beige;
     color: rgb(6, 5, 5);
@@ -385,7 +385,7 @@ form select, form input, option{
     font-style: italic; 
     line-height: 40px; 
 }
-.menyoverskrifter{
+.menyOverskrifter{
    font-style: normal;
    padding: 10px;
 }
@@ -397,7 +397,7 @@ form select, form input, option{
     display: flex;
     justify-content: space-evenly;
 }
-.Menylinje{
+.menyLinje{
     width: 90%;
     margin: 5%;
 }
@@ -552,7 +552,7 @@ form select, form input, option{
     }
 
     /* Meny */
-    .menyh1{
+    .menyH1{
         margin-top: 80px;
     }
     .allergener{
@@ -627,7 +627,7 @@ form select, form input, option{
     }
 
     /* Meny */
-    .menyh1{
+    .menyH1{
         margin-top: 90px;
     }
 }
