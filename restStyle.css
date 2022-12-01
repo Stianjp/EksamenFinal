@@ -52,10 +52,10 @@ a{
     display: none;
 }
 #LogoMonOncle{
-    visibility: visible;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 #BildeLogo{
     width: 150px;
@@ -419,7 +419,7 @@ form select, form input, option{
         justify-content: space-evenly;
     }
     .spraak{
-        font-size: 10px;
+        font-size: 12px;
     }
     nav ul li{
         font-size: 18px;
@@ -516,9 +516,6 @@ form select, form input, option{
         font-size: 12px;
         line-height: 20px;
         display: inline;
-    }
-    #LogoMonOncle{
-        justify-content: space-evenly;
     }
     
     /* Velkomstsiide */
