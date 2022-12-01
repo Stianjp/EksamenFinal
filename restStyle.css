@@ -406,7 +406,7 @@ form select, form input, option{
 /* Media innstillinger */
 /* Reservasjon knappeposisjon på slideshow */
 @media (min-width: 1350px){
-    .navigasjon-manuell{
+    .reservasjonNvgt-manuell{
         margin-top: 250px;
     }
 }
@@ -449,7 +449,7 @@ form select, form input, option{
     }
     
     /* Reservasjon */
-    .navigasjon-manuell{
+    .reservasjonNvgt-manuell{
         margin-top: 25%;
     }
 }    
@@ -457,13 +457,13 @@ form select, form input, option{
     /* Menyside */
 /* MEDIA FOR Å FÅ MANUELLKNAPPENE RESPONSIV */
 @media (max-width: 1000px){
-    .navigasjon-manuell{
+    .reservasjonNvgt-manuell{
         margin-top: 200px;
     }
 }
 
 @media (max-width: 900px) {
-    .navigasjon-manuell{
+    .reservasjonNvgt-manuell{
         margin-top: 25%;
     }
 }
@@ -563,13 +563,13 @@ form select, form input, option{
     }
 
     /* Reservasjon */
-    .booking{
+    .reservasjonBooking{
         grid-template-columns: 1fr;
     }
-    #pitch{
+    #reservasjonInfo{
         padding-top: 40px;
     }
-    #section2{
+    .reservasjonBildeshow{
         visibility: hidden;
         display: none;
     }    
