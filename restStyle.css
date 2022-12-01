@@ -389,7 +389,7 @@ form select, form input, option{
    font-style: normal;
    padding: 10px;
 }
-#allergiIkon{
+.allergiIkon{
     width: 17px;
     height: 17px;
 }
