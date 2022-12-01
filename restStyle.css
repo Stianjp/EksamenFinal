@@ -75,11 +75,11 @@ a{
 /* NAVBAR SLUTT */
 
 /* Velkomsttekst på velkomstssiden START */
-.velkomstsidesection{
+.indexVelkomstsidesection{
     background-color: rgba(0, 0, 0, 0.550);
     margin-top: 50px;
 }
-.pitchen{
+.indexPitchen{
     padding: 5px;
     display: grid;
     text-align: center;
@@ -91,10 +91,7 @@ a{
     border-style: solid;
     border-color: black;
 }
-#Underline{
-text-decoration: underline;
-}
-.Anmeldelser{
+.indexAnmeldelser{
     background-color: rgba(0, 0, 0, 0.550);
     margin-top: 20px;
     border-style: solid;
@@ -106,19 +103,19 @@ text-decoration: underline;
     color: white;
     line-height: 50px;
 }
-#BildeAvMonOncle{
+#indexBildeAvMonOncle{
     margin-top: 15px;
     border-style: solid;
     border-color: black;
     width: 250px;
     height: auto;
 }
-#terning{
+#indexTerning{
     padding-left: 10px;
     height:auto;
     width:25px;
 }
-#BildeAvKokk1{
+#indexBildeAvKokk{
     border-style: solid;
     border-color: black;
     width: 600px;
@@ -157,7 +154,7 @@ footer{
     align-items: center;
     text-align: center;
 }
-.Rad2{
+.FooterKolonne2{
     text-align: center;
     align-items: center;
     display: table-column;
@@ -165,10 +162,10 @@ footer{
     margin: auto;
     line-height:300%;
 }
-.Rad3{
+.FooterKolonne3{
     margin: auto
 }
-#kart{
+#FooterKart{
     width: 100%;
     height: auto;
 }
@@ -429,21 +426,20 @@ form select, form input, option{
     }
     
     /* Velkomstsiide */
-    .velkomstsidesection{
+    .indexVelkomstsidesection{
     font-size: 12px;
     }
-    #BildeAvKokk1{
+    #indexBildeAvKokk{
         width: 350px;
         height: auto;
     }
-    #BildeAvMonOncle{
-        height: auto;
-        width: 170px;
+    #indexBildeAvMonOncle{
+        width: 200px;
     }
-    .Anmeldelser{
+    .indexAnmeldelser{
         font-size: 12px;
     }
-    #Collum6{
+    #indexSitering{
         font-size: 10px;
     }
     
@@ -526,28 +522,23 @@ form select, form input, option{
     }
     
     /* Velkomstsiide */
-    .velkomstsidesection{
+    .indexVelkomstsidesection{
         margin-top: 99px;
     }
-    .pitchen{ 
+    .indexPitchen{ 
         padding: 20%;
         display:table-row;
     }
-    .Anmeldelser{
+    .indexAnmeldelser{
         display: flow-root;
         line-height: 30px;
         align-items: center;
         text-align: center;
     }
-    #BildeAvKokk1{
+    #indexBildeAvKokk{
         width: 250px;
-        height: auto;
     }
-    #BildeAvMonOncle{
-        width: 200px;
-        height: auto;
-    }
-    #terning{
+    #indexTerning{
         width: 18px;
     }
    
@@ -556,10 +547,7 @@ form select, form input, option{
         height: auto;
         width: 100px;
     }
-    .Rad2{
-        font-size: 12px;
-    }
-    .Rad3{
+    .FooterKolonne2, .FooterKolonne3{
         font-size: 12px;
     }
     #instagram{
@@ -605,30 +593,30 @@ form select, form input, option{
     }
 
     /* Velkomstsiide */
-    .velkomstsidesection{
+    .indexVelkomstsidesection{
         margin-top:105px;
     }
-    .pitchen{
+    .indexPitchen{
         margin-top: 80px;
         grid-template-columns: 2fr;
     }
-    #BildeAvKokk1{
+    #indexBildeAvKokk{
         width: 200px;
     }
-    .Anmeldelser{
+    .indexAnmeldelser{
         grid-template-columns: 2fr;
         font-size: 12px;
         margin-bottom: 10px;
     }
-    #terning{
+    #indexTerning{
         width: 15px;
     }
-    #BildeAvMonOncle{
+    #indexBildeAvMonOncle{
         width: 150px;
     }
 
     /* Footer */
-    .Rad2{
+    .FooterKolonne2{
         margin: 0;
         margin-bottom: 2%;
     }
