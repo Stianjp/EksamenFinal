@@ -85,7 +85,7 @@ a{
 u{
     text-decoration: underline;
 }
-#Wave{
+.Wave, .Wave:hover{
     color: black;
     text-decoration: underline;
 }
