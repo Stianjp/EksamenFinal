@@ -91,25 +91,25 @@ body{
     background-color: rgba(0, 0, 0, 0.879);
     background-image: url(Bilder/DATA1100/avisnettside.png);
 }
-.background1100{
+.bakgrunn{
     background-image: url(Bilder/DATA1100/bakgrunnDATA1100.png); /*https://www.pexels.com/photo/man-reading-burning-newspaper-3278364/ fotograf: Danya Gutan */
     background-size: cover; 
     background-position-y: 35%;
 }
-.main1100{
+.flex{
     margin-top: 50px;
     display:flex;
     flex-wrap: wrap;
     padding: 10px;
 }
-.heading1100{
+.heading{
     margin-top:65px;
     color: white;
     text-align: center;
     font-size: 250%;
     padding: 15px;
 }
-.main1100text{
+.flextekst{
     flex: 40%;
     font-size: 125%;
     background-color: rgba(0, 0, 0, 0.645);
@@ -123,7 +123,7 @@ body{
     max-height: 250px;
     line-height: 30px;
 }
-.main1100video{
+.flexvideo{
     flex: 50%;
     padding: 20px;
     text-align: center;
@@ -135,43 +135,43 @@ body{
 }
 
 /* linken til fake news wikipedia nettsiden START*/
-.link1100{
+.linkfn{
     color:rgb(229, 255, 0);
     font-style:italic;
 }
-.link1100:hover{
+.linkfn:hover{
     text-decoration: underline;
     color: aquamarine;
 }
 /* linken til wikipedia nettsiden SLUTT */
 
-.heading21100{
+.heading2{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 200%;
     padding-top: 150px;
 }
-.crew1100{
+.crew{
     display: flex;
     flex-wrap: wrap;
 }
-.portrett1100{
+.crew > div > img{
     height: 165px;
     width: 160px;
     border-radius: 50%;
     filter: grayscale(25%);
     -webkit-filter: grayscale(25%);
 }
-.reporter1100{
+.crew > div{
     flex: 15%;
     text-align: center;
     padding: 20px;
 }
-.navn1100{
+.crew > div > p{
     color: white;
     text-align: center;
 }
-.fakenews1100{
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -190,7 +190,7 @@ body{
     margin:50px;
     text-align: center;
 }
-.fakenews1100 > div >p{
+.grid > div >p{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 30px;
@@ -198,7 +198,7 @@ body{
     width: auto;
     margin:5%;
 }
-.fakenews1100 > div{
+.grid > div{
     padding: 50px;
     width: auto;
 }
@@ -343,7 +343,7 @@ footer{
         }
         
     /*DATA1100*/ 
-    .fakenews1100{
+    .grid{
         display: grid;
         grid-template-columns: 2fr;
         font-size: 18px;
@@ -352,7 +352,7 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .fakenews1100 > div{
+    .grid > div{
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -433,7 +433,7 @@ footer{
         margin-bottom: 10px;
     }
     /*DATA1100*/
-    .heading1100{
+    .heading{
         margin-top: 80px;
     }
     #newsmal{
@@ -441,7 +441,7 @@ footer{
         height: auto;
         margin:0;
     }
-    .fakenews1100 > div >p{
+    .grid > div >p{
         width: 300px;
         width: auto;
     }
@@ -450,7 +450,7 @@ footer{
         margin: 10%;
         margin-bottom: 20px;
     }
-    .fakenews1100 > div{
+    .grid> div{
         padding: 20px;
     }
     footer{
@@ -482,10 +482,10 @@ footer{
     }
 
 /*DATA1100*/
-     .heading1100{
+     .heading{
         padding-top:50px;
     }
-    .main1100text{
+    .flextekst{
         max-height: fit-content;
         max-height:100%;
     }
@@ -495,7 +495,7 @@ footer{
         width: auto;
         margin:0;
     }
-    .fakenews1100 > div >p{
+    .grid > div >p{
         width: 300px;
         width: auto;
     }
@@ -504,7 +504,7 @@ footer{
         margin: 10%;
         margin-bottom: 20px;
     }
-    .fakenews1100 > div{
+    .grid > div{
         padding: 5px;
         margin-top: 10px;
     }
