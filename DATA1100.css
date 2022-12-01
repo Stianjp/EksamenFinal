@@ -88,7 +88,6 @@ a{
 /*NAVBAR SLUTT*/
 
 body{
-    background-color: rgba(0, 0, 0, 0.879);
     background-image: url(Bilder/DATA1100/avisnettside.png);
 }
 .bakgrunn{
@@ -109,7 +108,7 @@ body{
     font-size: 250%;
     padding: 15px;
 }
-.flextekst{
+.flexTekst{
     flex: 40%;
     font-size: 125%;
     background-color: rgba(0, 0, 0, 0.645);
@@ -123,7 +122,7 @@ body{
     max-height: 250px;
     line-height: 30px;
 }
-.flexvideo{
+.flexVideo{
     flex: 50%;
     padding: 20px;
     text-align: center;
@@ -133,9 +132,7 @@ body{
     width: 100%;
     max-width: 600px;
 }
-
-/* linken til fake news wikipedia nettsiden START*/
-.linkfn{
+.linkfn{ 
     color:rgb(229, 255, 0);
     font-style:italic;
 }
@@ -143,8 +140,6 @@ body{
     text-decoration: underline;
     color: aquamarine;
 }
-/* linken til wikipedia nettsiden SLUTT */
-
 .heading2{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -180,7 +175,7 @@ body{
     font-size: 20px;
     padding: 20px;
 }
-.testtekst{
+.testTekst{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -277,7 +272,7 @@ body{
 .popup3>p{
     color: white;
 }
-.close-btn{
+.closebtn{
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
@@ -482,10 +477,10 @@ footer{
     }
 
 /*DATA1100*/
-     .heading{
+    .heading{
         padding-top:50px;
     }
-    .flextekst{
+    .flexTekst{
         max-height: fit-content;
         max-height:100%;
     }
