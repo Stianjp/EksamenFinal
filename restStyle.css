@@ -516,7 +516,7 @@ form select, form input, option{
     .språk1{
         visibility: visible;
         padding: 5px;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 20px;
         display: inline;
     }
@@ -590,8 +590,8 @@ form select, form input, option{
         margin-right: 20px;
     }
     .språk1{
-        font-size: 9px;
-        padding: 3px;
+        font-size: 15px;
+        padding: 5px;
     }
     .spraak{
         display: none;
