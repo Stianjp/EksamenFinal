@@ -506,4 +506,9 @@ footer{
     #FooterBilde{
         width: 200px;
     }
+
+    /* Footer */
+    .Rad1{
+        font-size: 10px;
+    }
 }
